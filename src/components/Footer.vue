@@ -1,0 +1,129 @@
+<template>
+    
+   <div>
+        <div  class="footer-content">
+
+                
+          <ul class="content-nav">
+    
+           <li>
+              <p>泓睿科技</p>
+              <!-- <span @click="jumpRouter('/program/wisdom')">人車安全智慧雲</span>
+              <span @click="jumpRouter('/program/yipo')">易泊停車誘導及預約</span>
+              <span @click="jumpRouter('/program/mirror')">電子後視鏡</span> -->
+              <span>藍牙5.2</span>
+            </li>
+            <li>
+              <p>解決方案</p>
+              <span @click="jumpRouter('/program/wisdom')">人車安全智慧雲</span>
+              <span  @click="jumpRouter('/program/yipo')">易泊停車誘導及預約</span>
+              <span @click="jumpRouter('/program/mirror')">電子後視鏡</span>
+              <span @click="jumpRouter('/program/warning')">行人過街預警</span>
+               <span @click="jumpRouter('/program/intercom')">雲對講</span>
+                <span @click="jumpRouter('/program/mobileye')">Mobileye</span>
+                 <span @click="jumpRouter('/program/integrated')">項目案例</span>
+            </li>
+            <li>
+              <p>關於泓睿</p>
+              <span @click="jumpRouter('/about')">公司介紹</span>
+            </li>
+             <li>
+              <p>加入泓睿</p>
+              <span @click="jumpRouter('/join')">駐場工程師</span>
+              <span @click="jumpRouter('/join')">大數據駐場運維</span>
+              <span @click="jumpRouter('/join')">產品經理</span>
+              <span @click="jumpRouter('/join')">Java高級工程師</span>
+              <span @click="jumpRouter('/join')">C#軟件工程師</span>
+            </li>
+            <li>
+              <p>聯繫我們</p>
+              <span>電話：<span style="font-size:25px">+853 2859 0953</span></span>
+              <span>傳真：+853 2852 8112</span>
+              <span>郵箱：contactus@inplexmacau.com</span>
+              <span>地址：澳門俾利喇街149 號 A-B地下</span>
+              <span>Address：Rua de Francisco Xavier 
+                Pereira No.149 A-B R/C,Macau</span>
+            </li>
+          </ul> 
+          
+          <div class="copyright">
+              <span>CopyRight&nbsp;&copy;&nbsp;2020&nbsp;澳門泓睿咨询科技有限公司&nbsp;All&nbsp;Rights&nbsp;Reserved.</span>
+              <span><br/>粤ICP备*********号</span>
+          </div>
+        
+        </div>
+         
+    </div>
+</template>
+<script>
+export default {
+  name: "Footer",
+  data() {
+    return {};
+  },
+  methods: {
+    jumpRouter(path){
+          this.$router.push(path);
+    }
+  }
+};
+</script>
+<style scoped>
+  
+  .footer-content {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 40px;
+    /* padding-left: 220px; */
+    display: flex;
+    justify-content: space-between;
+    background: #000096 fixed;
+    height: 345px;
+    
+  }
+    .content-nav {
+    margin: 0 auto;
+     
+      display: flex;
+      justify-content: space-between;
+    }
+      li {
+        display: flex;
+        flex-direction: column;
+        padding: 0 100px;
+      
+       
+      }
+        p {
+          font-size: 20px;
+          color: #d4edff;
+          padding: 10px 0;
+          width: 95px;
+        }
+        span {
+          color: #f7f7f7;
+          font-weight: 300;
+          padding: 3px 0;
+          font-size: 14px;
+          cursor:pointer;
+          
+        }
+
+.copyright {
+    
+      position: absolute;
+      width: 600px;
+      text-align: center;
+      margin-top:250px;
+      margin-left: 1410px;
+      
+
+ } 
+      
+  
+@media screen and (max-width: 997px) {
+   .footer-content{
+     display: none;
+   }
+}
+</style>
