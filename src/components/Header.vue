@@ -30,7 +30,7 @@
          <li></li>
          <li style="font-size:20px;">繁體</li>
          <li style="font-size:20px;">EN</li>
-         <li><img src="@/assets/img/search.png" /></li>
+         <!-- <li><img src="@/assets/img/search.png" /></li> -->
       </ul>
       
     
@@ -90,6 +90,11 @@ export default {
         {
           name: "解決方案",
           path: "/program",
+          children: []
+        },
+         {
+          name: "項目案例",
+          path: "/integrated",
           children: []
         },
         {

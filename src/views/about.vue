@@ -59,7 +59,7 @@ h3{
 
 #b{
     color: #fff;
-    font-size: 20px;
+    font-size: 23px;
     line-height: 30px;
     max-width: 780px;
     margin:-300px auto;
@@ -69,7 +69,7 @@ h3{
     position: relative;
     margin-top: 20px;
     line-height: 30px;
-    font-size: 20px;
+    font-size: 23px;
     
 }
 li{
@@ -78,71 +78,7 @@ li{
 
 
 
-/* .c {
-    width:6em;
-    white-space: nowrap;
-    border-right: 0px solid transparent;
-    animation: typing1 3.5s steps(6, end), blink-caret .75s step-end infinite;
-    overflow: hidden;
-} */
-/* 打印效果
-@keyframes typing1 {
-  from { width: 0; }
-  to { width: 6em; }
-} */
 
-/* .d {
-    width:80rem;
-    white-space: wrap;
-    border-right: 1px solid transparent;
-    animation: typing2 5.5s steps(80, end), blink-caret 8.75s step-end infinite;
-    overflow: hidden;
-}
-
-@keyframes typing2 {
-  from { width: 0; }
-  to { width: 80rem; }
-}
-
-
-.e {
-    width:80rem;
-    white-space: wrap;
-    border-right: 1px solid transparent;
-    animation: typing3 5.5s steps(80, end), blink-caret 8.75s step-end infinite;
-    overflow: hidden;
-}
-
-@keyframes typing3 {
-  from { width: 0; }
-  to { width: 80rem; }
-}
-
-.f {
-    width:80rem;
-    white-space: wrap;
-    border-right: 1px solid transparent;
-    animation: typing4 5.5s steps(80, end), blink-caret 8.75s step-end infinite;
-    overflow: hidden;
-}
-
-@keyframes typing4 {
-  from { width: 0; }
-  to { width: 80rem; }
-}
-
-.g {
-    width:80rem;
-    white-space: wrap;
-    border-right: 1px solid transparent;
-    animation: typing5 9.5s steps(80, end), blink-caret 8.75s step-end infinite;
-    overflow: hidden;
-}
-
-@keyframes typing5 {
-  from { width: 0; }
-  to { width: 80rem; }
-} */
 
 
 

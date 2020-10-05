@@ -12,16 +12,18 @@
               <span @click="jumpRouter('/program/yipo')">易泊停車誘導及預約</span>
               <span @click="jumpRouter('/program/mirror')">電子後視鏡</span> -->
               <span>藍牙5.2</span>
+              <span>Wi-Fi 6</span>
+              <span>NB-IoT網絡</span>
             </li>
             <li>
               <p>解決方案</p>
-              <span @click="jumpRouter('/program/wisdom')">人車安全智慧雲</span>
-              <span  @click="jumpRouter('/program/yipo')">易泊停車誘導及預約</span>
-              <span @click="jumpRouter('/program/mirror')">電子後視鏡</span>
-              <span @click="jumpRouter('/program/warning')">行人過街預警</span>
-               <span @click="jumpRouter('/program/intercom')">雲對講</span>
-                <span @click="jumpRouter('/program/mobileye')">Mobileye</span>
-                 <span @click="jumpRouter('/program/integrated')">項目案例</span>
+              <span @click="jumpRouter('/transit/wisdom')">人車安全智慧雲</span>
+              <span  @click="jumpRouter('/transit/yipo')">易泊停車誘導及預約</span>
+              <span @click="jumpRouter('/transit/mirror')">電子後視鏡</span>
+              <span @click="jumpRouter('/transit/warning')">行人過街預警</span>
+               <span @click="jumpRouter('/transit/intercom')">移動雲對講</span>
+                <span @click="jumpRouter('/transit/mobileye')">數字化地圖</span>
+                 <!-- <span @click="jumpRouter('/transit/integrated')">項目案例</span> -->
             </li>
             <li>
               <p>關於泓睿</p>
@@ -46,11 +48,11 @@
             </li>
           </ul> 
           
-          <div class="copyright">
+          <!-- <div class="copyright">
               <span>CopyRight&nbsp;&copy;&nbsp;2020&nbsp;澳門泓睿咨询科技有限公司&nbsp;All&nbsp;Rights&nbsp;Reserved.</span>
               <span><br/>粤ICP备*********号</span>
           </div>
-        
+         -->
         </div>
          
     </div>

@@ -9,18 +9,18 @@
     <div id="c">
       <div id="d">
         <span>職位</span>
-        <span style="left:600px">地點</span>
+        <span style="left:600px">工作地點</span>
       </div>
 
       <div id="e">
         <el-collapse v-model="activeName" accordion>
-          <el-collapse-item name="1" @mouseenter="change1">
+          <el-collapse-item name="1" @mouseenter.native="change1()">
             <template slot="title">
               <span style="font-size:20px;position:relative;left:120px;">駐場工程師</span>
               <span style="font-size:20px;position:relative;left:545px;">中國澳門</span>
             </template>
             <div
-              style="font-size:16px;line-height:18px;positioni:relative;margin-left:120px;max-width:442px;float:left"
+              style="font-size:16px;line-height:18px;positioni:relative;margin-left:120px;max-width:442px;float:left;height:400px;"
             >
               <b>能力要求</b>
 
@@ -82,14 +82,14 @@
 
             <div></div>
           </el-collapse-item>
-          <el-collapse-item name="2" @mouseenter="change2">
+          <el-collapse-item name="2" @mouseenter.native="change2()">
             <template slot="title">
               <span style="font-size:20px;position:relative;left:120px;">大數據駐場運維</span>
               <span style="font-size:20px;position:relative;left:505px;">中國澳門</span>
             </template>
 
             <div
-              style="font-size:16px;line-height:18px;positioni:relative;margin-left:120px;max-width:442px;float:left"
+              style="font-size:16px;line-height:18px;positioni:relative;margin-left:120px;max-width:442px;float:left;height:400px;"
             >
               <b>能力要求</b>
 
@@ -152,13 +152,13 @@
             <div></div>
           </el-collapse-item>
 
-          <el-collapse-item name="3" @mouseenter="change3">
+          <el-collapse-item name="3" @mouseenter.native="change3()">
             <template slot="title">
               <span style="font-size:20px;position:relative;left:120px;">產品經理</span>
               <span style="font-size:20px;position:relative;left:565px;">中國珠海</span>
             </template>
             <div
-              style="font-size:16px;line-height:18px;positioni:relative;margin-left:120px;max-width:442px;float:left"
+              style="font-size:16px;line-height:18px;positioni:relative;margin-left:120px;max-width:442px;float:left;height:400px;"
             >
               <b>能力要求</b>
 
@@ -210,13 +210,13 @@
             <div></div>
           </el-collapse-item>
 
-          <el-collapse-item name="4" @mouseenter="change4">
+          <el-collapse-item name="4" @mouseenter.native="change4()">
             <template slot="title">
               <span style="font-size:20px;position:relative;left:120px;">Java高級工程師</span>
               <span style="font-size:20px;position:relative;left:505px;">中國珠海</span>
             </template>
             <div
-              style="font-size:16px;line-height:18px;positioni:relative;margin-left:120px;max-width:442px;float:left"
+              style="font-size:16px;line-height:18px;positioni:relative;margin-left:120px;max-width:442px;float:left;height:420px;"
             >
               <b>能力要求</b>
 
@@ -273,13 +273,13 @@
             <div></div>
           </el-collapse-item>
 
-          <el-collapse-item name="5" @mouseover="change5">
+          <el-collapse-item name="5" @mouseover.native="change5()">
             <template slot="title">
               <span style="font-size:20px;position:relative;left:120px;">C＃軟件工程師</span>
               <span style="font-size:20px;position:relative;left:513px;">中國珠海</span>
             </template>
             <div
-              style="font-size:16px;line-height:18px;positioni:relative;margin-left:120px;max-width:442px;float:left"
+              style="font-size:16px;line-height:18px;positioni:relative;margin-left:120px;max-width:442px;float:left;height:420px;"
             >
               <b>能力要求</b>
 
@@ -336,21 +336,247 @@
 
             <div></div>
           </el-collapse-item>
-        </el-collapse>
 
-                  <el-dropdown style="backgroud:#fff;width:900px;">
-                     <span class="el-dropdown-link" style="backgroud:#fff;width:900px;color:#fff;">
-                        下拉菜单
-                        <i class="el-icon-arrow-down el-icon--right"></i>
-                     </span>
-                     <el-dropdown-menu slot="dropdown" style="backgroud:#fff;width:900px;">
-                        <el-dropdown-item>黄金糕fas<br/>fasfdas<br/>fasdfa<br/></el-dropdown-item>
-                        <el-dropdown-item>狮子头</el-dropdown-item>
-                        <el-dropdown-item>螺蛳粉</el-dropdown-item>
-                        <el-dropdown-item disabled>双皮奶</el-dropdown-item>
-                        <el-dropdown-item divided>蚵仔煎</el-dropdown-item>
-                     </el-dropdown-menu>
-                  </el-dropdown>
+          <el-collapse-item name="6" @mouseover.native="change6()">
+            <template slot="title">
+              <span style="font-size:20px;position:relative;left:120px;">安全工程師</span>
+              <span style="font-size:20px;position:relative;left:546px;">中國澳門</span>
+            </template>
+            <div
+              style="font-size:16px;line-height:18px;positioni:relative;margin-left:120px;max-width:442px;float:left"
+            >
+              <b>能力要求</b>
+
+              <p>1. 兩年以上工作經歷；（實際技術水平優秀者可降低要求）</p>
+              <p>2. 兩年以上信息安全技術領域的正式工作經驗，了解常見安全產品的技術原理及功能；</p>
+              <p>3. 熟悉各類主流的安全攻擊手法及其對應的防禦手段；熟練掌握各種安全工具的使用；</p>
+              <p>4. 熟練掌握Linux、Windows操作系統的操作使用、安全配置；</p>
+              <p>5. 熟悉主流數據庫、應用系統的安全檢測及加固技術；</p>
+              <p>6、熟悉常見網絡安全設備的功能；</p>
+              <p>7 良好的職業背景，無違法記錄；</p>
+            </div>
+
+            <div
+              style="max-width:439px;font-size:16px;line-height:18px;margin-left:85px;float:left;"
+            >
+              <b>職責範圍</b>
+              <p>1.客戶現場安全支持；</p>
+              <p>2. 雲平台安全基線評估；</p>
+              <p>3.客戶租戶業務安全評估；</p>
+              <p>4. 雲盾日常安全巡檢 ；</p>
+              <p>5雲盾產品接入配置；</p>
+              <p>6.雲盾產品策略優化配置、規則升級；</p>
+              <p>7.雲產品安全基線優化配置；</p>
+              <p>8.安全組策略安全檢查和優化；</p>
+              <p>9. 客戶日常交流，定期匯報；</p>
+              <p>10.日常安全咨詢，為客戶提供各類安全問題的解答；</p>
+              <p>11. 客戶業務上雲時的安全方案評估；</p>
+              <p>12. 出現安全事件時，提供現場應急響應工作；</p>
+              <p>13. 安全項目經理分派的其他工作 。</p>
+            </div>
+
+            <div style="font-size:16px;float:right;position:relative;margin-right:355px;top:10px;height:190px;">
+              <div>
+                <p>
+                  <b>工作地點</b>
+                </p>
+                <p>中國澳門</p>
+              </div>
+
+              <div>
+                <p>
+                  <b>薪資</b>
+                </p>
+                <p>面議</p>
+              </div>
+
+              <div>
+                <p>
+                  <b>如您希望應聘本職位，請投遞簡歷到郵箱:</b>
+                </p>
+                <p>
+                  <b>
+                    <a href="https://qiye.aliyun.com/alimail/auth/login">ella.lan@inplexmacau.com</a> 蘭小姐
+                  </b>
+                </p>
+              </div>
+            </div>
+
+            <div></div>
+          </el-collapse-item>
+
+          <el-collapse-item name="7" @mouseover.native="change7()">
+            <template slot="title">
+              <span style="font-size:20px;position:relative;left:120px;">弱電項目經理</span>
+              <span style="font-size:20px;position:relative;left:527px;">中國珠海</span>
+            </template>
+            <div
+              style="font-size:16px;line-height:18px;positioni:relative;margin-left:120px;max-width:442px;float:left"
+            >
+              <b>能力要求</b>
+
+              <p> 1、自動化、計算機、電子類相關專業。</p>
+              <p> 2、熟悉弱電工程項目設計，具備紮實的弱電專業知識；</p>
+              <p>3、能獨立處理日常工作，具有較強的應變能力，能妥善的處理各種突发事件；</p>
+              <p>4、具備弱電技術工程師職稱，具有國家認可的造價師資格證書及相關證書優先。</p>
+              <p> 5、從事弱電行業1年以上，對智能化弱電項目的施工、設備調試、管理有相關工作經驗；</p>
+              <p> 6、熟練使用CAD等制圖軟件，及崗位所需計算機操作系統;</p>
+              <p> 7、此崗位主要是對弱電系統設備的調試與維護。</p>
+            </div>
+
+            <div
+              style="max-width:439px;font-size:16px;line-height:18px;margin-left:85px;float:left;"
+            >
+              <b>職責範圍</b>
+              <p>1、負責項目施工工程中弱電方面的技術支持與審核；</p>
+              <p>2、擬訂工程項目弱電設計方案，審核圖紙和施工方案；</p>
+              <p>3、負責跟蹤已完工項目智能化系統設備的運維工作；</p>
+              <p>4、負責配合公司業務做好與甲方技術溝通交流等售前技術支持；</p>
+              <p>5、負責配合公司設計師、預算員等協調智能化方案的編寫及預算等工作。</p>
+            </div>
+
+            <div style="font-size:16px;float:right;position:relative;margin-right:355px;top:10px;height:190px;">
+              <div>
+                <p>
+                  <b>工作地點</b>
+                </p>
+                <p>中國珠海</p>
+              </div>
+
+              <div>
+                <p>
+                  <b>薪資</b>
+                </p>
+                <p>面議</p>
+              </div>
+
+              <div>
+                <p>
+                  <b>如您希望應聘本職位，請投遞簡歷到郵箱:</b>
+                </p>
+                <p>
+                  <b>
+                    <a href="https://qiye.aliyun.com/alimail/auth/login">ella.lan@inplexmacau.com</a> 蘭小姐
+                  </b>
+                </p>
+              </div>
+            </div>
+
+            <div></div>
+          </el-collapse-item>
+
+
+          <el-collapse-item name="8" @mouseover.native="change8()">
+            <template slot="title">
+              <span style="font-size:20px;position:relative;left:120px;">弱电现场工程师</span>
+              <span style="font-size:20px;position:relative;left:507px;">中國珠海</span>
+            </template>
+            <div
+              style="font-size:16px;line-height:18px;positioni:relative;margin-left:120px;max-width:442px;float:left"
+            >
+              <b>能力要求</b>
+
+              <p> 1、3年以上弱电智能化行业或设计工作相关经验，熟练工程施工现场的管理熟练；</p>
+              <p> 2、熟悉弱电各子系统的实施安装、调试和维护；</p>
+              <p>3、熟练使用office、CAD等软件，能完成项目过程资料和竣工验收资料；</p>
+              <p>4、有低压电工证者优先考虑。</p>
+            </div>
+
+            <div
+              style="max-width:439px;font-size:16px;line-height:18px;margin-left:85px;float:left;"
+            >
+              <b>職責範圍</b>
+              <p>1、负责弱电智能化工程项目现场管理和实施；</p>
+              
+            </div>
+
+            <div style="font-size:16px;float:right;position:relative;margin-right:355px;top:10px;height:190px;">
+              <div>
+                <p>
+                  <b>工作地點</b>
+                </p>
+                <p>中國珠海</p>
+              </div>
+
+              <div>
+                <p>
+                  <b>薪資</b>
+                </p>
+                <p>面議</p>
+              </div>
+
+              <div>
+                <p>
+                  <b>如您希望應聘本職位，請投遞簡歷到郵箱:</b>
+                </p>
+                <p>
+                  <b>
+                    <a href="https://qiye.aliyun.com/alimail/auth/login">ella.lan@inplexmacau.com</a> 蘭小姐
+                  </b>
+                </p>
+              </div>
+            </div>
+
+            <div></div>
+          </el-collapse-item>
+
+          <el-collapse-item name="9" @mouseover.native="change9()">
+            <template slot="title">
+              <span style="font-size:20px;position:relative;left:120px;">网络安全工程师</span>
+              <span style="font-size:20px;position:relative;left:507px;">中國澳門</span>
+            </template>
+            <div
+              style="font-size:16px;line-height:18px;positioni:relative;margin-left:120px;max-width:442px;float:left"
+            >
+              <b>能力要求</b>
+
+              <p> 1、能主动关注国内外最新安全攻防技术，并在自己擅长和感兴趣的领域能够进行深入的学习、研究。</p>
+              <p> 2、对攻防技术有深入研究。</p>
+              <p>3、熟悉整体信息安全架构、掌握信息安全、网络安全、系统安全相关专业知识，掌握信息系统应用安全及安全防范理论。熟悉防火墙、WAF、IDS/IPS、防病毒、身份管理、主机安全管理、安全审计、SOC、数据加密、等安全产品。</p>
+              <p>4.掌握C/Java/Go/Python等一种或几种程序语言。</p>
+            </div>
+
+            <div
+              style="max-width:439px;font-size:16px;line-height:18px;margin-left:85px;float:left;"
+            >
+              <b>職責範圍</b>
+              <p>1、负责入侵检测、生产系统安全防护和加固、安全漏洞的分析与排除</p>
+              <p>2、负责安全体系建设和实施，包括应用安全、数据安全、主机安全、网络安全等</p>
+              <p>3、熟悉整体信息安全架构、掌握信息安全、网络安全、系统安全相关专业知识，掌握信息系统应用安全及安全防范理论。熟悉防火墙、WAF、IDS/IPS、防病毒、身份管理、主机安全管理、安全审计、SOC、数据加密、等安全产品。</p>
+              <p>4、掌握C/Java/Go/Python等一种或几种程序语言。</p>
+              
+            </div>
+
+            <div style="font-size:16px;float:right;position:relative;margin-right:355px;top:10px;height:190px;">
+              <div>
+                <p>
+                  <b>工作地點</b>
+                </p>
+                <p>中國澳門</p>
+              </div>
+
+              <div>
+                <p>
+                  <b>薪資</b>
+                </p>
+                <p>面議</p>
+              </div>
+
+              <div>
+                <p>
+                  <b>如您希望應聘本職位，請投遞簡歷到郵箱:</b>
+                </p>
+                <p>
+                  <b>
+                    <a href="https://qiye.aliyun.com/alimail/auth/login">ella.lan@inplexmacau.com</a> 蘭小姐
+                  </b>
+                </p>
+              </div>
+            </div>
+
+            <div></div>
+          </el-collapse-item>
+        </el-collapse>
       </div>
     </div>
   </div>
@@ -360,7 +586,7 @@
 export default {
   data() {
     return {
-      activeName: "1",
+      activeName: "",
     };
   },
   methods: {
@@ -379,12 +605,24 @@ export default {
     change5() {
       this.activeName = "5";
     },
+    change6() {
+      this.activeName = "6";
+    },
+    change7() {
+      this.activeName = "7";
+    },
+     change8() {
+      this.activeName = "8";
+    },
+    change9() {
+      this.activeName = "9";
+    },
   },
 };
 </script>
 
 
-<style>
+<style scoped>
 * {
   padding: 0;
   margin: 0;
@@ -407,7 +645,7 @@ export default {
 
 #c {
   max-width: 1301px;
-  max-height: 980px;
+  max-height: 1080px;
   width: 1301px;
   height: 980px;
   display: fixed;
@@ -433,9 +671,9 @@ export default {
 }
 
 #e {
-  max-height: 695px;
+  max-height: 1905px;
 
-  height: 1784px;
+  height: 684px;
   opacity: 0.9;
   background-color: #fff;
   background-size: cover;

@@ -11,38 +11,44 @@ export default new Router({
     {
       path: '/program',
       component: () => import('@/views/program.vue'),
-    //   redirect: '/program/wisdom' ,
-    //   children: [
-    //     {
-    //       path: '/program/wisdom',
-    //       component: () => import('@/views/wisdom.vue')
-    //     },
-    //     {
-    //       path: '/program/yipo',
-    //       component: () => import('@/views/yipo.vue')
-    //     },
-    //     {
-    //       path: '/program/mirror',
-    //       component: () => import('@/views/mirror.vue')
-    //     },
-    //     {
-    //       path: '/program/warning',
-    //       component: () => import('@/views/warning.vue')
-    //     },
-    //     {
-    //       path: '/program/intercom',
-    //       component: () => import('@/views/intercom.vue')
-    //     },
-    //     {
-    //       path: '/program/mobileye',
-    //       component: () => import('@/views/mobileye.vue')
-    //     },
-    //     {
-    //       path: '/program/integrated',
-    //       component: () => import('@/views/integrated.vue'),
-    //     },
-    //   ]
     },
+
+    {
+      path: '/transit',
+      component: () => import('@/views/transit.vue'),
+      children: [
+        {
+          path: '/transit/wisdom',
+          component: () => import('@/views/wisdom.vue')
+        },
+        {
+          path: '/transit/yipo',
+          component: () => import('@/views/yipo.vue')
+        },
+        {
+          path: '/transit/mirror',
+          component: () => import('@/views/mirror.vue')
+        },
+        {
+          path: '/transit/warning',
+          component: () => import('@/views/warning.vue')
+        },
+        {
+          path: '/transit/intercom',
+          component: () => import('@/views/intercom.vue')
+        },
+        {
+          path: '/transit/mobileye',
+          component: () => import('@/views/mobileye.vue')
+        }
+      ]
+    },
+    {
+      path: '/integrated',
+      component: () => import('@/views/integrated.vue'),
+    },
+
+
     {
       path: '/about',
       component: () => import('@/views/about.vue'),
