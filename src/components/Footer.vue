@@ -25,6 +25,12 @@
                 <span @click="jumpRouter('/transit/mobileye')">數字化地圖</span>
                  <!-- <span @click="jumpRouter('/transit/integrated')">項目案例</span> -->
             </li>
+             <li>
+              <p>項目案例</p>
+              <span @click="jumpRouter('/integrated')">服務種類</span>
+              <span @click="jumpRouter('/integrated')">服務流程</span>
+              <span @click="jumpRouter('/integrated')">服務項目</span>
+            </li>
             <li>
               <p>關於泓睿</p>
               <span @click="jumpRouter('/about')">公司介紹</span>
@@ -36,6 +42,7 @@
               <span @click="jumpRouter('/join')">產品經理</span>
               <span @click="jumpRouter('/join')">Java高級工程師</span>
               <span @click="jumpRouter('/join')">C#軟件工程師</span>
+              <span>>>></span>
             </li>
             <li>
               <p>聯繫我們</p>

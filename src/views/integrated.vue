@@ -173,7 +173,7 @@
 				   <img src="@/assets/img/3-26.png" width="321px" height="305px" />
 				   <div style="position:relative;left:10px;top:10px;width:290px;">
 						<p style="color:#0101fe;font-size:16px;">澳門某娛樂度假村車輛APP>></p>
-						<p style="font-size:14px;color:#666666;">通過對內部車輛安裝硬體設備，可即時上傳車輛位置資訊到APP，方便員工及時瞭解車輛位</p>
+						<p style="font-size:14px;color:#666666;">通過對內部車輛安裝硬體設備，可即時上傳車輛位置資訊到APP，方便員工及時瞭解車輛位...</p>
 				   </div>
 			   </div>
 			   <div style="width:322px;height:400px;border:1px solid #cccccc">
@@ -204,7 +204,7 @@
 				   <img src="@/assets/img/3-30.png" width="321px" height="305px" />
 				   <div style="position:relative;left:10px;top:10px;width:290px;">
 						<p style="color:#0101fe;font-size:16px;">IP+人車智慧雲>></p>
-						<p style="font-size:14px;color:#666666;">通過搭載的智能設備，採用自研駕駛模型分析上傳的數據，做到提前預警事故和有效的安全</p>
+						<p style="font-size:14px;color:#666666;">通過搭載的智能設備，採用自研駕駛模型分析上傳的數據，做到提前預警事故和有效的安...</p>
 				   </div>
 			   </div>
 			   <div style="width:322px;height:400px;border:1px solid #cccccc">
@@ -230,7 +230,7 @@
 			   </div>
 		   </div>
 
-		    <div style="display:flex;width:1022px;justify-content:space-around;margin:0 auto;margin-top:25px;margin-left:590px;overflow:hidden;">
+		    <div style="display:flex;width:1372px;justify-content:space-around;margin:0 auto;margin-top:25px;overflow:hidden;margin-left:595px">
 			   <div style="width:322px;height:400px;border:1px solid #cccccc">
 				   <img src="@/assets/img/3-34.png" width="321px" height="305px" />
 				   <div style="position:relative;left:10px;top:10px;width:290px;">
@@ -251,6 +251,14 @@
 						<p style="color:#0101fe;font-size:16px;">三級分銷平臺>></p>
 						<p style="font-size:14px;color:#666666;">通過線上平臺，對每位客戶進行即時追蹤，提升客戶用戶購買、售後體驗。</p>
 				   </div>
+			   </div>
+			   <div style="width:322px;height:400px;">
+				    <img src="@/assets/img/3-37.png" />
+					<p style="color:#000096;font-size:25px;position:absolute;margin-top:-400px;">敬请关注>></p>
+					<p style="color:#000096;font-size:25px;position:absolute;margin-top:-330px;margin-left:190px;">敬请关注>></p>
+					<p style="color:#000096;font-size:25px;position:absolute;margin-top:-230px;">敬请关注>></p>
+					<p style="color:#000096;font-size:25px;position:absolute;margin-top:-130px;margin-left:190px;">敬请关注>></p>
+					<p style="color:#000096;font-size:25px;position:absolute;margin-top:-30px;">敬请关注>></p>
 			   </div>
 			   
 		   </div>

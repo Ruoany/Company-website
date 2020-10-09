@@ -468,7 +468,7 @@
 
           <el-collapse-item name="8" @mouseover.native="change8()">
             <template slot="title">
-              <span style="font-size:20px;position:relative;left:120px;">弱电现场工程师</span>
+              <span style="font-size:20px;position:relative;left:120px;">弱電現場工程師</span>
               <span style="font-size:20px;position:relative;left:507px;">中國珠海</span>
             </template>
             <div
@@ -476,17 +476,17 @@
             >
               <b>能力要求</b>
 
-              <p> 1、3年以上弱电智能化行业或设计工作相关经验，熟练工程施工现场的管理熟练；</p>
-              <p> 2、熟悉弱电各子系统的实施安装、调试和维护；</p>
-              <p>3、熟练使用office、CAD等软件，能完成项目过程资料和竣工验收资料；</p>
-              <p>4、有低压电工证者优先考虑。</p>
+              <p> 1、3年以上弱電智能化行業或設計工作相關經驗，熟練工程施工現場的管理熟練；</p>
+              <p> 2、熟悉弱電各子系統的實施安裝、調試和維護；</p>
+              <p>3、熟練使用office、CAD等軟件，能完成項目過程資料和竣工驗收資料；</p>
+              <p>4、有低壓電工證者優先考慮。</p>
             </div>
 
             <div
               style="max-width:439px;font-size:16px;line-height:18px;margin-left:85px;float:left;"
             >
               <b>職責範圍</b>
-              <p>1、负责弱电智能化工程项目现场管理和实施；</p>
+              <p>1、負責弱電智能化工程項目現場管理和實施；</p>
               
             </div>
 
@@ -522,7 +522,7 @@
 
           <el-collapse-item name="9" @mouseover.native="change9()">
             <template slot="title">
-              <span style="font-size:20px;position:relative;left:120px;">网络安全工程师</span>
+              <span style="font-size:20px;position:relative;left:120px;">網絡安全工程師</span>
               <span style="font-size:20px;position:relative;left:507px;">中國澳門</span>
             </template>
             <div
@@ -530,20 +530,20 @@
             >
               <b>能力要求</b>
 
-              <p> 1、能主动关注国内外最新安全攻防技术，并在自己擅长和感兴趣的领域能够进行深入的学习、研究。</p>
-              <p> 2、对攻防技术有深入研究。</p>
-              <p>3、熟悉整体信息安全架构、掌握信息安全、网络安全、系统安全相关专业知识，掌握信息系统应用安全及安全防范理论。熟悉防火墙、WAF、IDS/IPS、防病毒、身份管理、主机安全管理、安全审计、SOC、数据加密、等安全产品。</p>
-              <p>4.掌握C/Java/Go/Python等一种或几种程序语言。</p>
+              <p> 1、能主動關注國內外最新安全攻防技術，並在自己擅長和感興趣的領域能夠進行深入的學習、研究。</p>
+              <p> 2、對攻防技術有深入研究。</p>
+              <p>3、熟悉整體信息安全架構、掌握信息安全、網絡安全、系統安全相關專業知識，掌握信息系統應用安全及安全防範理論。熟悉防火牆、WAF、IDS/IPS、防病毒、身份管理、主機安全管理、安全審計、SOC、數據加密、等安全產品。</p>
+              <p>4.掌握C/Java/Go/Python等一種或幾種程序語言。</p>
             </div>
 
             <div
               style="max-width:439px;font-size:16px;line-height:18px;margin-left:85px;float:left;"
             >
               <b>職責範圍</b>
-              <p>1、负责入侵检测、生产系统安全防护和加固、安全漏洞的分析与排除</p>
-              <p>2、负责安全体系建设和实施，包括应用安全、数据安全、主机安全、网络安全等</p>
-              <p>3、熟悉整体信息安全架构、掌握信息安全、网络安全、系统安全相关专业知识，掌握信息系统应用安全及安全防范理论。熟悉防火墙、WAF、IDS/IPS、防病毒、身份管理、主机安全管理、安全审计、SOC、数据加密、等安全产品。</p>
-              <p>4、掌握C/Java/Go/Python等一种或几种程序语言。</p>
+              <p>1、負責入侵檢測、生產系統安全防護和加固、安全漏洞的分析與排除</p>
+              <p>2、負責安全體系建設和實施，包括應用安全、數據安全、主機安全、網絡安全等</p>
+              <p>3、熟悉整體信息安全架構、掌握信息安全、網絡安全、系統安全相關專業知識，掌握信息系統應用安全及安全防範理論。熟悉防火牆、WAF、IDS/IPS、防病毒、身份管理、主機安全管理、安全審計、SOC、數據加密、等安全產品。</p>
+              <p>4、掌握C/Java/Go/Python等一種或幾種程序語言。</p>
               
             </div>
 

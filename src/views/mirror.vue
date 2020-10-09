@@ -30,10 +30,10 @@
             style="font-size:30px;position:relative;top:55px;margin:0 auto;text-align:center;top:0px;"
           >一、全景電子後視鏡實現的功能</p>
           <ul style="font-size:20px;position:relative;margin-top:20px;width:980px;">
-            <li>1.視野無盲區:在原物理後視鏡基礎上，消除車頭A柱盲區，車身左右視野更加開闊。</li>
-            <li>2.夜晚看得見:星光級攝像頭具有寬動態及防眩光夜視功能，最低可視光照度0.1LUX,即使在夜間也能看見人和物體。</li>
-            <li>3.雨天看得清:攝像頭具有防凝結功能，即使在雨天，顯示幕上影像依然清晰。</li>
-            <li>4.光感功能 顯示柔和不刺眼:融盛電子後視鏡伴有人性化光感設計，螢幕顯示亮度融入周圍環境，不刺激駕駛員視覺。</li>
+            <li>1. 視野無盲區:在原物理後視鏡基礎上，消除車頭A柱盲區，車身左右視野更加開闊。</li>
+            <li>2. 夜晚看得見:星光級攝像頭具有寬動態及防眩光夜視功能，最低可視光照度0.1LUX,即使在夜間也能看見人和物體。</li>
+            <li>3. 雨天看得清:攝像頭具有防凝結功能，即使在雨天，顯示幕上影像依然清晰。</li>
+            <li>4. 光感功能 顯示柔和不刺眼:融盛電子後視鏡伴有人性化光感設計，螢幕顯示亮度融入周圍環境，不刺激駕駛員視覺。</li>
           </ul>
 
           <img
@@ -375,8 +375,8 @@ overflow-y:hidden;
   background-color: #fff;
   border-radius: 90.5px;
   position: relative;
-  left: 25px;
-  top: 24px;
+  left: 22px;
+  top: 22px;
   border: 2px solid #053085;
   background: #053085;
   color: #fff;
@@ -422,8 +422,8 @@ overflow-y:hidden;
   background-color: #fff;
   border-radius: 90.5px;
   position: relative;
-  left: 25px;
-  top: 24px;
+  left: 22px;
+  top: 22px;
   border: 2px solid #053085;
 }
 
@@ -464,8 +464,8 @@ overflow-y:hidden;
   background-color: #fff;
   border-radius: 90.5px;
   position: relative;
-  left: 25px;
-  top: 24px;
+  left: 22px;
+  top: 22px;
   border: 2px solid #053085;
 }
 
@@ -506,8 +506,8 @@ overflow-y:hidden;
   background-color: #fff;
   border-radius: 90.5px;
   position: relative;
-  left: 25px;
-  top: 24px;
+  left: 22px;
+  top: 22px;
   border: 2px solid #053085;
 }
 

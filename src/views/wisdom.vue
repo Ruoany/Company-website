@@ -39,12 +39,12 @@
 
       <img
         src="@/assets/img/2-8.png"
-        style="position:relative;margin:10px auto;margin-bottom:110px;"
+        style="position:relative;margin:10px auto;margin-bottom:30px;"
       />
 
-      <div style="width:952px;height:390px;position:relative;margin:0 auto;">
-        <p style="font-size:40px;text-align:center;position:relative;margin:-60px auto;">三、人車安全智慧雲方案</p>
-        <ol style="position:relative;margin-left:30px;font-size:18px;margin-top:90px;">
+      <div style="width:952px;height:410px;position:relative;margin:0 auto;">
+        <p style="font-size:40px;text-align:center;position:relative;margin:-60px auto;margin-top:20px;">三、人車安全智慧雲方案</p>
+        <ol style="position:relative;margin-left:30px;font-size:18px;margin-top:80px;">
           <li>1.平臺的技術靈活、專業、高效、準確。</li>
           <li>2.平臺自主研發，能夠提供全方面的定制化開發，具有技術支持完備，回應及時，技術能力充足等優勢；</li>
           <li>3.平臺採用分散式運算架構，方便公司集中監管層面大量資料獲取、傳輸高效的要求，又能夠適應不同下屬車隊靈活使用的要求。</li>
@@ -56,12 +56,12 @@
         <p style="font-size:18px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;實現“一平臺操作、一張圖展示、一張表統計，一標準覆蓋”。</p>
       </div>
 
-      <div style="position:relative;margin-top:-120px;">
+      <div style="position:relative;margin-top:-90px;">
         <div style="width:952px;display:flex;justify-content:space-around;margin:120px auto;">
-          <img src="@/assets/img/2-9.png" />
           <img src="@/assets/img/2-10.png" />
-          <img src="@/assets/img/2-11.png" />
           <img src="@/assets/img/2-12.png" />
+          <img src="@/assets/img/2-11.png" />
+          <img src="@/assets/img/2-9.png" />
         </div>
 
         <div
@@ -85,16 +85,16 @@
           style="font-size:18px;width:952px;display:flex;justify-content:space-around;margin:100px auto;"
         >
           <p
-            style="width:182px;"
+            style="width:220px;"
           >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;通過同一個平臺既向政府部門提供監管服務，又能夠滿足企業日常生產經營所需的功能需求，通過功能模組的不同配置，服務不同的角色物件。</p>
           <p
-            style="width:182px;"
+            style="width:220px;"
           >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;利用電子地圖和資料視覺化技術，通過一個DataV資料大屏動態展示整個平臺的企業/車輛/駕駛員即時運行情況，對安全運行及違規運行情況進行即時預警，對違規行為干預處置結果進行即時回饋。</p>
           <p
-            style="width:182px;"
+            style="width:220px;"
           >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;利用大資料分析及AI演算法模型，對於車輛運行情況、運輸效率、安全及違規駕駛行為等各項維度形成一張資料包表，為政府監管部門和企業管理者決策提供資料服務。</p>
           <p
-            style="width:182px;"
+            style="width:220px;"
           >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;相同的設備安裝標準、相同的行車安全考核標準、相同的作業規範考核標準，採用紅黃綠碼管理。</p>
         </div>
       </div>

@@ -137,15 +137,15 @@
      
        <img  src="@/assets/img/1-10.png" width="1441px" height="761px" style="position:relative;margin:0 auto;margin-top:-800px;margin-bottom:100px;"/>
       
-         <div style="font-size:100px;color:#000096;position:absolute;margin-top:-850px;margin-left:610px;">⌜</div>
+         <div style="font-size:100px;color:#000096;position:absolute;margin-top:-850px;margin-lefft:610px;">⌜</div>
           <div style="font-size:40px;color:#000096;position:absolute;margin-top:-780px;margin-left:640px;">NB-loT网络</div>
            <div style="font-size:100px;color:#000096;position:absolute;margin-top:-805px;margin-left:830px;">⌟</div>
 
            <div>
-              <img src="@/assets/img/1-15.png" style="position:absolute;margin-top:-540px;margin-left:640px;" />
-              <div style="float:right;font-size:25px;position:absolute;margin-left:980px;margin-top:-670px;line-height:45px;color:#000096;">
-                <p style="width:954px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NB-IoT基於移動通信的蜂窩網絡技術，是專門為物聯網設計的射頻技術、是物聯網基礎網絡的重要分支與構成部分， 具有廣覆蓋、大連接、低功耗、低成本的優勢。</p>
-                <p style="width:954px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NB-IoT克服了傳統物聯網科技碎片化、局部應用、難以規模應用的缺點，又解決了傳統科技用於物聯網功耗大、成本高、覆蓋效能不夠的問題，逐漸成為物聯網主流科技。定位服務是物聯網諸多業務的基礎需求，定位需求無處不在，基於位置信息衍生出範圍覆蓋（8號臺風期間可設置覆蓋範圍，可為澳門市民提高出行安全，保障生命及財產安全）、智慧停車（車主出行可提前預約車位，根據APP可導航到內部停車場路線規劃，同時在復雜的停車場車主能夠精準找車並規劃+路線）等。</p>
+              <img src="@/assets/img/1-15.png" style="position:absolute;margin-top:-540px;margin-left:640px;animation-iteration-count: infinite;animation-duration: 4s;" class="animate__animated animate__shakeY"/>
+              <div style="float:right;font-size:30px;position:absolute;margin-left:980px;margin-top:-670px;line-height:45px;color:#000096;">
+                <p style="width:954px;" id="ba">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NB-IoT基於移動通信的蜂窩網絡技術，是專門為物聯網設計的射頻技術、是物聯網基礎網絡的重要分支與構成部分， 具有廣覆蓋、大連接、低功耗、低成本的優勢。</p>
+                <p style="width:954px;" id="bb">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NB-IoT克服了傳統物聯網科技碎片化、局部應用、難以規模應用的缺點，又解決了傳統科技用於物聯網功耗大、成本高、覆蓋效能不夠的問題，逐漸成為物聯網主流科技。定位服務是物聯網諸多業務的基礎需求，定位需求無處不在，基於位置信息衍生出範圍覆蓋（8號臺風期間可設置覆蓋範圍，可為澳門市民提高出行安全，保障生命及財產安全）、智慧停車（車主出行可提前預約車位，根據APP可導航到內部停車場路線規劃，同時在復雜的停車場車主能夠精準找車並規劃+路線）等。</p>
               </div>
            </div>
       
@@ -206,7 +206,7 @@ export default {
 	isAutoPlay: true, // 是否自动播放
 	playInterval: 3000, // 自动播放时间
 	curDisplay: 3, // 当前显示页
-	fullPage: false // 是否全屏展示
+	fullPage: true // 是否全屏展示
   });
 });
 
@@ -219,6 +219,12 @@ export default {
 <style scoped>
 @import '../assets/css/shutter.css';
 
+@keyframes Axis1 {
+  0% {   opacity: 0;} 
+
+  100%{  opacity: 1;}
+
+}
 
 #a{
    background:url(../assets/img/footer.png) no-repeat center ;
@@ -258,7 +264,7 @@ export default {
 }
 
 #h{
-  position:relative;margin-top:85px;margin-left:-2px;
+  position:relative;margin-top:81px;margin-left:-2px;
 }
 
 
@@ -279,7 +285,7 @@ export default {
   font-size:18px;color:#000096;text-align:left;;width:251px;margin:0 auto;position:relative;margin-top:5px;line-height:30px;
 }
 #l{
-  position:relative;margin-top:145px;margin-left:-2px;
+  position:relative;margin-top:142px;margin-left:-1px;
 }
 
 
@@ -301,7 +307,7 @@ export default {
   font-size:18px;color:#000096;text-align:left;;width:251px;margin:0 auto;position:relative;margin-top:5px;line-height:30px;
 }
 #p{
-  position:relative;margin-top:-32px;margin-left:215px;
+  position:relative;margin-top:-36px;margin-left:215px;
 }
 
 
@@ -323,6 +329,25 @@ export default {
 }
 #t{
   position:relative;margin-top:22px;margin-left:215px;
+}
+
+#ba{
+      animation-name:  Axis1 ; 
+ animation-duration: 3s; 
+ animation-timing-function: ease-out; 
+ animation-iteration-count: 1;
+
+ animation-fill-mode:forwards;
+}
+#bb{
+      animation-name:  Axis1; 
+ animation-duration: 3s; 
+ animation-timing-function: ease-out; 
+ animation-iteration-count: 1;
+
+ animation-fill-mode:forwards;
+ animation-delay: 3s;
+ opacity: 0;
 }
 
 </style>
