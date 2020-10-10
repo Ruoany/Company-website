@@ -17,7 +17,7 @@
           <el-collapse-item name="1" @mouseenter.native="change1()">
             <template slot="title">
               <span style="font-size:20px;position:relative;left:120px;">駐場工程師</span>
-              <span style="font-size:20px;position:relative;left:545px;">中國澳門</span>
+              <span style="font-size:20px;position:relative;left:550px;">中國澳門</span>
             </template>
             <div
               style="font-size:16px;line-height:18px;positioni:relative;margin-left:120px;max-width:442px;float:left;height:400px;"
@@ -85,7 +85,7 @@
           <el-collapse-item name="2" @mouseenter.native="change2()">
             <template slot="title">
               <span style="font-size:20px;position:relative;left:120px;">大數據駐場運維</span>
-              <span style="font-size:20px;position:relative;left:505px;">中國澳門</span>
+              <span style="font-size:20px;position:relative;left:510px;">中國澳門</span>
             </template>
 
             <div
@@ -155,7 +155,7 @@
           <el-collapse-item name="3" @mouseenter.native="change3()">
             <template slot="title">
               <span style="font-size:20px;position:relative;left:120px;">產品經理</span>
-              <span style="font-size:20px;position:relative;left:565px;">中國珠海</span>
+              <span style="font-size:20px;position:relative;left:570px;">中國珠海</span>
             </template>
             <div
               style="font-size:16px;line-height:18px;positioni:relative;margin-left:120px;max-width:442px;float:left;height:400px;"
@@ -213,7 +213,7 @@
           <el-collapse-item name="4" @mouseenter.native="change4()">
             <template slot="title">
               <span style="font-size:20px;position:relative;left:120px;">Java高級工程師</span>
-              <span style="font-size:20px;position:relative;left:505px;">中國珠海</span>
+              <span style="font-size:20px;position:relative;left:513px;">中國珠海</span>
             </template>
             <div
               style="font-size:16px;line-height:18px;positioni:relative;margin-left:120px;max-width:442px;float:left;height:420px;"
@@ -276,7 +276,7 @@
           <el-collapse-item name="5" @mouseover.native="change5()">
             <template slot="title">
               <span style="font-size:20px;position:relative;left:120px;">C＃軟件工程師</span>
-              <span style="font-size:20px;position:relative;left:513px;">中國珠海</span>
+              <span style="font-size:20px;position:relative;left:516px;">中國珠海</span>
             </template>
             <div
               style="font-size:16px;line-height:18px;positioni:relative;margin-left:120px;max-width:442px;float:left;height:420px;"
@@ -340,7 +340,7 @@
           <el-collapse-item name="6" @mouseover.native="change6()">
             <template slot="title">
               <span style="font-size:20px;position:relative;left:120px;">安全工程師</span>
-              <span style="font-size:20px;position:relative;left:546px;">中國澳門</span>
+              <span style="font-size:20px;position:relative;left:549px;">中國澳門</span>
             </template>
             <div
               style="font-size:16px;line-height:18px;positioni:relative;margin-left:120px;max-width:442px;float:left"
@@ -408,7 +408,7 @@
           <el-collapse-item name="7" @mouseover.native="change7()">
             <template slot="title">
               <span style="font-size:20px;position:relative;left:120px;">弱電項目經理</span>
-              <span style="font-size:20px;position:relative;left:527px;">中國珠海</span>
+              <span style="font-size:20px;position:relative;left:530px;">中國珠海</span>
             </template>
             <div
               style="font-size:16px;line-height:18px;positioni:relative;margin-left:120px;max-width:442px;float:left"
@@ -469,7 +469,7 @@
           <el-collapse-item name="8" @mouseover.native="change8()">
             <template slot="title">
               <span style="font-size:20px;position:relative;left:120px;">弱電現場工程師</span>
-              <span style="font-size:20px;position:relative;left:507px;">中國珠海</span>
+              <span style="font-size:20px;position:relative;left:510px;">中國珠海</span>
             </template>
             <div
               style="font-size:16px;line-height:18px;positioni:relative;margin-left:120px;max-width:442px;float:left"
@@ -523,7 +523,7 @@
           <el-collapse-item name="9" @mouseover.native="change9()">
             <template slot="title">
               <span style="font-size:20px;position:relative;left:120px;">網絡安全工程師</span>
-              <span style="font-size:20px;position:relative;left:507px;">中國澳門</span>
+              <span style="font-size:20px;position:relative;left:510px;">中國澳門</span>
             </template>
             <div
               style="font-size:16px;line-height:18px;positioni:relative;margin-left:120px;max-width:442px;float:left"
