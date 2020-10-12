@@ -43,7 +43,7 @@
       />
 
       <div style="width:952px;height:410px;position:relative;margin:0 auto;">
-        <p style="font-size:40px;text-align:center;position:relative;margin:-60px auto;margin-top:20px;">三、人車安全智慧雲方案</p>
+        <p style="font-size:40px;text-align:center;position:relative;margin:-60px auto;margin-top:20px;">三、人車安全智慧雲方案特點</p>
         <ol style="position:relative;margin-left:30px;font-size:18px;margin-top:80px;">
           <li>1.平臺的技術靈活、專業、高效、準確。</li>
           <li>2.平臺自主研發，能夠提供全方面的定制化開發，具有技術支持完備，回應及時，技術能力充足等優勢；</li>
@@ -111,8 +111,9 @@ export default {
   methods: {
     jumpRouter(path){
           this.$router.push(path);
-    }
-  }
+    },
+  },
+  
     
 }
 </script>

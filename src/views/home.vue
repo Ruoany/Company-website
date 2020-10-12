@@ -27,7 +27,7 @@
                     <p style="font-size:28px;color:#fff;width:600px;">藍牙5.2的三大特性</p>
                     <img src="@/assets/img/1-3.png" style="position:absolute;margin-left:530px;top:-30px;" />
                     </div>
-                    <p style="color:#fff;font-size:20px;width:439px;line-height:32px;position:relative;top:140px;margin-left:100px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;它的设计是为了增强定位服务，以前只有基于信号强度的技术已经与接收信号强度指示(RSSI)一起使用。主要場景包括室內導航、室內定位（精準到釐米級）、颱風範圍定位等。主要用於商場、地形複雜的停車場、會展中心等地方，可快速進行室內導航及室內定位。</p>
+                    <p style="color:#fff;font-size:20px;width:439px;line-height:32px;position:relative;top:140px;margin-left:100px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;它的設計是為了增強定位服務，以前只有基於信號強度的技術已經與接收信號強度指示(RSSI)一起使用。主要場景包括室內導航、室內定位（精準到釐米級）、颱風範圍定位等。主要用於商場、地形複雜的停車場、會展中心等地方，可快速進行室內導航及室內定位。</p>
                 </div>
 
               <div>
@@ -137,8 +137,8 @@
      
        <img  src="@/assets/img/1-10.png" width="1441px" height="761px" style="position:relative;margin:0 auto;margin-top:-800px;margin-bottom:100px;"/>
       
-         <div style="font-size:100px;color:#000096;position:absolute;margin-top:-850px;margin-lefft:610px;">⌜</div>
-          <div style="font-size:40px;color:#000096;position:absolute;margin-top:-780px;margin-left:640px;">NB-loT网络</div>
+         <div style="font-size:100px;color:#000096;position:absolute;margin-top:-850px;margin-left:590px;">⌜</div>
+          <div style="font-size:40px;color:#000096;position:absolute;margin-top:-780px;margin-left:640px;"><b>NB-loT网络</b></div>
            <div style="font-size:100px;color:#000096;position:absolute;margin-top:-805px;margin-left:830px;">⌟</div>
 
            <div>
@@ -210,7 +210,12 @@ export default {
   });
 });
 
-	}
+  },
+  created:{
+    create() {
+      this.$routerrouter.go(0)
+    }
+  }
   
 }
 </script>

@@ -1,7 +1,7 @@
 <template>
 
 
-<div id="c" style="height:1900px;">
+<div id="c" style="height:2000px;">
 
     <div id="a" @click="jumpRouter('/program')">
       

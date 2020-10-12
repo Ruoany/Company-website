@@ -192,7 +192,7 @@
           </div>
 
 
-            <p style="font-size:30px;margin:300px auto;position:relative;width:300px;">融合雷达预警实例</p>
+            <p style="font-size:30px;margin:300px auto;position:relative;width:300px;">四、融合雷達預警實例</p>
 
 
 
@@ -204,7 +204,7 @@
                     <p style="font-size:24px;color:#ff0000">0~0.8m红色盲区警示(行人)</p>
                      <p style="font-size:24px;color:#ffa500">0.8~1.2m橙色盲区警示(行人)</p>
                       <p style="font-size:24px;color:#008000">1.2~1.5m绿色接近警示(行人)</p>
-                       <p style="font-size:24px;color:#ffff00">0.8~1.2m黄色警示(侧方障碍物)</p>
+                       <p style="font-size:24px;color:#efef00">0.8~1.2m黄色警示(侧方障碍物)</p>
 
                   </div>
                    <div style="font-size:18px;width:400px;margin-top:110px;">多传感器融合，图像、色彩、声音提醒，

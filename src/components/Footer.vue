@@ -11,37 +11,37 @@
               <!-- <span @click="jumpRouter('/program/wisdom')">人車安全智慧雲</span>
               <span @click="jumpRouter('/program/yipo')">易泊停車誘導及預約</span>
               <span @click="jumpRouter('/program/mirror')">電子後視鏡</span> -->
-              <span>藍牙5.2</span>
-              <span>Wi-Fi 6</span>
-              <span>NB-IoT網絡</span>
+                <router-link to="/" @click.native="refresh"><span @click="save(0)">藍牙5.2</span></router-link>
+              <span @click="jumpRouter('/',1)">Wi-Fi 6</span>
+              <span @click="jumpRouter('/',1)">NB-IoT網絡</span>
             </li>
             <li>
               <p>解決方案</p>
-              <span @click="jumpRouter('/transit/wisdom')">人車安全智慧雲</span>
-              <span  @click="jumpRouter('/transit/yipo')">易泊停車誘導及預約</span>
-              <span @click="jumpRouter('/transit/mirror')">電子後視鏡</span>
-              <span @click="jumpRouter('/transit/warning')">行人過街預警</span>
-               <span @click="jumpRouter('/transit/intercom')">移動雲對講</span>
-                <span @click="jumpRouter('/transit/mobileye')">數字化地圖</span>
+              <span @click="jumpRouter('/transit/wisdom',1)" >人車安全智慧雲</span>
+              <span  @click="jumpRouter('/transit/yipo',1)">易泊停車誘導及預約</span>
+              <span @click="jumpRouter('/transit/mirror',1)">電子後視鏡</span>
+              <span @click="jumpRouter('/transit/warning',1)">行人過街預警</span>
+               <span @click="jumpRouter('/transit/intercom',1)">移動雲對講</span>
+                <span @click="jumpRouter('/transit/mobileye',1)">數字化地圖</span>
                  <!-- <span @click="jumpRouter('/transit/integrated')">項目案例</span> -->
             </li>
              <li>
               <p>項目案例</p>
-              <span @click="jumpRouter('/integrated')">服務種類</span>
-              <span @click="jumpRouter('/integrated')">服務流程</span>
-              <span @click="jumpRouter('/integrated')">服務項目</span>
+              <span @click="jumpRouter('/integrated',2)" >服務種類</span>
+              <span @click="jumpRouter('/integrated',2)">服務流程</span>
+              <span @click="jumpRouter('/integrated',2)">服務項目</span>
             </li>
             <li>
               <p>關於泓睿</p>
-              <span @click="jumpRouter('/about')">公司介紹</span>
+              <span @click="jumpRouter('/about',3)">公司介紹</span>
             </li>
              <li>
               <p>加入泓睿</p>
-              <span @click="jumpRouter('/join')">駐場工程師</span>
-              <span @click="jumpRouter('/join')">大數據駐場運維</span>
-              <span @click="jumpRouter('/join')">產品經理</span>
-              <span @click="jumpRouter('/join')">Java高級工程師</span>
-              <span @click="jumpRouter('/join')">C#軟件工程師</span>
+              <span @click="jumpRouter('/join',4)">駐場工程師</span>
+              <span @click="jumpRouter('/join',4)">大數據駐場運維</span>
+              <span @click="jumpRouter('/join',4)">產品經理</span>
+              <span @click="jumpRouter('/join',4)">Java高級工程師</span>
+              <span @click="jumpRouter('/join',4)">C#軟件工程師</span>
               <span>>>></span>
             </li>
             <li>
@@ -71,10 +71,18 @@ export default {
     return {};
   },
   methods: {
-    jumpRouter(path){
+    jumpRouter(path,index){
           this.$router.push(path);
+          sessionStorage.clear();
+          sessionStorage.setItem('navIndex',index);
+          
+    },
+    save(index) {
+      sessionStorage.clear();
+      sessionStorage.setItem('navIndex',index)
     }
-  }
+  },
+
 };
 </script>
 <style scoped>

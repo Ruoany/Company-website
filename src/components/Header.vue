@@ -114,7 +114,10 @@ export default {
   methods: {
     navClick(index, name) {
       this.navIndex = index;
+      sessionStorage.clear();
       sessionStorage.setItem('navIndex',index)
+      
+      
       this.menuName = name;
     },
     menuClick() {
@@ -127,9 +130,9 @@ export default {
     jumpHome () {
       this.$router.push("/");
     },
-    
-  }
+  },
 }
+
 </script>
 <style scoped>
 *{

@@ -29,21 +29,21 @@
               <img src="@/assets/img/2-2-2-1.png" style="width:823px;margin:0 auto;margin-top:20px;" />
 
             
-            <div style="width:960px;height:284px;margin:0 auto;margin-top:8px;margin-left:760px;">
-                <div style="width:960px;height:60px;display:flex;">
-                  <div style="width:320px;height:60px;border:4px solid #000096;" id="aa">
+            <div style="width:1410px;height:314px;margin:0 auto;margin-top:8px;margin-left:520px;">
+                <div style="width:1410px;height:60px;display:flex;">
+                  <div style="width:550px;height:60px;border:4px solid #000096;" id="aa">
                      <p style="font-size:20px;color:#000096;width:200px;margin:15px auto;"><b>（三）系统功能</b></p>
                   </div>
-                  <div style="width:320px;height:60px;border:4px solid #000096;border-left:none;" id="ab">
-                    <p style="font-size:20px;color:#000096;width:215px;margin:15px auto;"><b>（四）易泊方案提供 5 S</b></p>
+                  <div style="width:550px;height:60px;border:4px solid #000096;border-left:none;" id="ab">
+                    <p style="font-size:20px;color:#000096;width:215px;margin:15px auto;"><b>（四）易泊方案提供5S</b></p>
                   </div>
-                  <div style="width:320px;height:60px;border:4px solid #000096;border-left:none;" id="ac">
+                  <div style="width:550px;height:60px;border:4px solid #000096;border-left:none;" id="ac">
                     <p style="font-size:20px;color:#000096;width:200px;margin:15px auto;"><b>（五）易泊停車的優勢</b></p>
                   </div>
                 </div>
-                <div style="height:224px;display:flex;">
-                    <div style="width:320px;height:224px;border:4px solid #000096;border-top:none;">
-                     <ol style="width:196px;margin:0 auto;margin-top:33px;font-size:16px;line-height:25px;">
+                <div style="height:254px;display:flex;">
+                    <div style="width:470px;height:254px;border:4px solid #000096;border-top:none;">
+                     <ol style="width:201px;margin:0 auto;margin-top:33px;font-size:16px;line-height:30px;">
                        <li>1.車位狀況顯示功能</li>
                        <li>2.車位尋找導航功能</li>
                        <li>3.特殊車位服務功能</li>
@@ -52,17 +52,17 @@
                        <li>6.巨觀/微觀的停車畫面協助</li>
                      </ol>
                   </div>
-                  <div style="width:320px;height:224px;border:4px solid #000096;border-top:none;border-left:none;">
-                    <ol style="width:310px;margin:0 auto;font-size:16px;line-height:25px;margin-top:33px;">
-                      <li>1.Speed：快速建置方法，一夜之間完成室內<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;外停車場改裝，安装；</li>
+                  <div style="width:470px;height:254px;border:4px solid #000096;border-top:none;border-left:none;">
+                    <ol style="width:475px;margin:0 auto;font-size:16px;line-height:35px;margin-top:33px;">
+                      <li>1.Speed：快速建置方法，一夜之間完成室內外停車場改裝，安装；</li>
                       <li>2.Smart：環保且智能的硬體設備；</li>
-                      <li>3.Service：提供智能設備以及系統的完全方<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;案；</li>
+                      <li>3.Service：提供智能設備以及系統的完全方案；</li>
                       <li>4.Small：最小建置及維護成本；</li>
                       <li>5.Superior：多層次的智能停車商圈服務。</li>
                     </ol>
                   </div>
-                  <div style="width:320px;height:224px;border:4px solid #000096;border-top:none;border-left:none;">
-                     <ol style="width:125px;font-size:16px;margin:0 auto;line-height:25px;margin-top:47px;">                  
+                  <div style="width:470px;height:254px;border:4px solid #000096;border-top:none;border-left:none;">
+                     <ol style="width:130px;font-size:16px;margin:0 auto;line-height:30px;margin-top:47px;">                  
                        <li>1.精準車位訊息；</li>
                        <li>2.使用預約機制；</li>
                        <li>3.全程車位導航；</li>

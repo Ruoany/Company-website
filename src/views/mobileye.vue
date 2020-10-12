@@ -4,13 +4,13 @@
       <p style="color:#fff;font-size:40px;text-align:center;position:relative;top:236px;">數字化地圖</p>
       <p
         style="color:#fff;font-size:20px;text-align:center;position:relative;top:266px;"
-      >借助AI驱动的道路勘测技术加快维护操作</p>
+      >借助AI驅動的道路勘測技術加快維護操作</p>
     </div> 
             
   <div class="a" >
     <el-button type="primary" plain style="width:100px;height:40px;position:relative;margin-left:2360px;font-size:20px;margin-top:20px;" @click="jumpRouter('/program')">點擊返回</el-button>
-         <p style="position:relative;width:364px;font-size:40px;margin:0 auto;margin-top:100px;color:#fff;">Mobileye 数据服务 </p>
-         <p style="position:relative;width:378px;font-size:16px;margin:0 auto;margin-top:20px;color:#fff;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;借助AI驱动的道路勘测技术加快维护操作</p>
+         <p style="position:relative;width:364px;font-size:40px;margin:0 auto;margin-top:100px;color:#fff;">Mobileye 數據服務 </p>
+         <p style="position:relative;width:378px;font-size:16px;margin:0 auto;margin-top:20px;color:#fff;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;借助AI驅動的道路勘測技術加快維護操作</p>
   
         
             <ol style="display:flex;width:1200px;margin:0 auto;position:relative;margin-top:56px;justify-content:space-around;">
@@ -28,19 +28,19 @@
             <ol style="display:flex;width:1280px;margin:0 auto;position:relative;margin-top:40px;justify-content:space-around;text-align:center;color:#fff">
               
                <li  style="position:relative;margin-left:-20px;">
-                   <p style="font-size:24px">道路资产调查</p>
-                   <p style="font-size:18px;margin-top:38px;">进行有效的资产管理和维护计划</p>
+                   <p style="font-size:24px">道路資產調查</p>
+                   <p style="font-size:18px;margin-top:38px;">進行有效的資產管理和維護計劃</p>
                </li>
                
 
                <li style="position:relative;margin-left:-80px;">
-                   <p style="font-size:24px">路面状况评估</p>
-                   <p style="font-size:18px;margin-top:38px;">用于数据驱动的道路维护</p>
+                   <p style="font-size:24px">路面狀況評估</p>
+                   <p style="font-size:18px;margin-top:38px;">用於數據驅動的道路維護</p>
                </li>
 
                <li style="position:relative;margin-left:-60px;">
-                   <p style="font-size:24px">动态交通图</p>
-                   <p style="font-size:18px;margin-top:38px;">用于基于证据的城市规划</p>
+                   <p style="font-size:24px">動態交通圖</p>
+                   <p style="font-size:18px;margin-top:38px;">用於基於證據的城市規劃</p>
                </li>
             </ol>
 
@@ -52,10 +52,10 @@
           
              <div style=" border-radius: 150px;width: 300px;height: 300px;border: 2px solid #053085;background:#053085;position:relative;margin-top:-2390px;margin-left:720px;" @click="isShow1 && start1()">
                 <div style="color:#fff;position:relative;margin-left:0px;margin-top:90px;text-align:center;line-height:39px;">
-                 <p style="font-size:28px">公共工程部门</p>
-                 <p style="font-size:24px">公用事业公司</p>
-                 <p style="font-size:24px">和运输当局</p>
-                 <p style="font-size:24px">可以</p>
+                 <p style="font-size:30px"><b>公共工程部門</b></p>
+                 <p style="font-size:20px">公用事業公司</p>
+                 <p style="font-size:20px">和運輸當局</p>
+                 <p style="font-size:20px">可以</p>
                 </div>
             </div>
            
@@ -75,15 +75,15 @@
          
               <div style=" border-radius: 150px;width: 300px;height: 300px;border: 2px solid #053085;background:#053085;position:relative;margin-top:-350px;margin-left:1620px;" @click="isShow2 && start2()">
                 <div style="color:#fff;position:relative;margin-left:0px;margin-top:80px;text-align:center;line-height:39px;">
-                 <p style="font-size:28px">交通部门</p>
-                 <p style="font-size:24px">道路运营商和</p>
-                 <p style="font-size:24px">道路维护专家</p>
-                 <p style="font-size:24px">可以</p>
+                 <p style="font-size:30px"><b>交通部門</b></p>
+                 <p style="font-size:20px">道路運營商和</p>
+                 <p style="font-size:20px">道路維護專家</p>
+                 <p style="font-size:20px">可以</p>
                 </div>
             </div>
           
         
-            <div style="width:950px;display:flex;position:relative;margin-top:-120px;margin-left:700px;">
+            <div style="width:950px;display:flex;justify-content:space-around;position:relative;margin-top:-120px;margin-left:700px;">
               <img src="@/assets/img/2-6-10.png" id="k" />
               <img src="@/assets/img/2-6-11.png" id="l"/>
               <img src="@/assets/img/2-6-12.png" id="m"/>
@@ -95,11 +95,11 @@
              <img  src="@/assets/img/2-6-23.png" id="w"/>
              
         
-            <div style=" border-radius: 150px;width: 300px;height: 300px;border: 2px solid #053085;background:#053085;position:relative;margin-top:-10px;margin-left:580px;" @click="isShow3 && start3()">
+            <div style=" border-radius: 150px;width: 300px;height: 300px;border: 2px solid #053085;background:#053085;position:relative;margin-top:20px;margin-left:580px;" @click="isShow3 && start3()">
                 <div style="color:#fff;position:relative;margin-left:0px;margin-top:80px;text-align:center;line-height:39px;">
-                 <p style="font-size:28px">地方政府</p>
-                 <p style="font-size:24px">交通运输和</p>
-                 <p style="font-size:24px">城市规划人员可以</p>
+                 <p style="font-size:30px"><b>地方政府</b></p>
+                 <p style="font-size:20px">交通運輸和</p>
+                 <p style="font-size:20px">城市規劃人員可以</p>
                 </div>
             </div>
 
@@ -108,9 +108,9 @@
 
            <div style=" border-radius: 150px;width: 300px;height: 300px;border: 2px solid #053085;background:#053085;position:relative;margin-top:-170px;margin-left:1640px;"  @click="isShow4 && start4()">
                 <div style="color:#fff;position:relative;margin-left:0px;margin-top:80px;text-align:center;line-height:39px;">
-                 <p style="font-size:28px">动态GIS数据</p>
-                 <p style="font-size:24px">可实现高效且</p>
-                 <p style="font-size:24px">可持续的运营</p>
+                 <p style="font-size:30px"><b>動態GIS數據</b></p>
+                 <p style="font-size:20px">可實現高效且</p>
+                 <p style="font-size:20px">可持續的運營</p>
                  
                 </div>
             </div>
@@ -498,7 +498,7 @@ position:relative;margin-left:1100px;top:-270px;opacity:0;
 
 
 #o{
-   position:relative;margin-top:-160px;margin-left: 890px;opacity: 0;
+   position:relative;margin-top:-140px;margin-left: 890px;opacity: 0;
 
 animation-name:  show ; 
  animation-duration: 3s; 
@@ -509,7 +509,7 @@ animation-name:  show ;
 }
 
 #p{
-   position:relative;margin-top:-132px;margin-left: 1235px;opacity: 0;
+   position:relative;margin-top:-65px;margin-left: 1275px;opacity: 0;
 
 animation-name:  show ; 
  animation-duration: 3s; 
@@ -521,7 +521,7 @@ animation-name:  show ;
 }
 
 #q{
-   position:relative;margin-top:-135px;margin-left: 890px;opacity: 0;
+   position:relative;margin-top:-65px;margin-left: 890px;opacity: 0;
 
 animation-name:  show ; 
  animation-duration: 3s; 
@@ -533,7 +533,7 @@ animation-name:  show ;
 }
 
 #u{
-  position: relative;margin-top: 160px;margin-left: 700px;opacity: 0;
+  position: relative;margin-top: 210px;margin-left: 700px;opacity: 0;
 
    animation-name:  show ; 
  animation-duration: 3s; 
@@ -544,7 +544,7 @@ animation-name:  show ;
 }
 
 #v{
-  position: relative;margin-left: 1140px;margin-top:-215px;opacity: 0;
+  position: relative;margin-left: 1140px;margin-top:-165px;opacity: 0;
 
   animation-name:  show ; 
  animation-duration: 3s; 
@@ -556,7 +556,7 @@ animation-name:  show ;
 }
 
 #w{
-   position: relative;margin-left: 1140px;margin-top:-38px;opacity: 0;
+   position: relative;margin-left: 1140px;margin-top:0px;opacity: 0;
 
    animation-name:  show ; 
  animation-duration: 3s; 

@@ -20,7 +20,7 @@
               <span style="font-size:20px;position:relative;left:550px;">中國澳門</span>
             </template>
             <div
-              style="font-size:16px;line-height:18px;positioni:relative;margin-left:120px;max-width:442px;float:left;height:400px;"
+              style="font-size:16px;line-height:25px;positioni:relative;margin-left:120px;max-width:442px;float:left;height:560px;"
             >
               <b>能力要求</b>
 
@@ -41,7 +41,7 @@
             </div>
 
             <div
-              style="max-width:439px;font-size:16px;line-height:18px;margin-left:85px;float:left;"
+              style="max-width:439px;font-size:16px;line-height:25px;margin-left:95px;float:left;"
             >
               <b>職責範圍</b>
               <p>1、負責用戶專有雲集群的維護、管理、故障排除等日常工作，確保系統的正常穩定運行；</p>
@@ -53,7 +53,7 @@
               <p>7、要24小時排班。</p>
             </div>
 
-            <div style="font-size:16px;float:right;position:relative;margin-right:355px;top:10px;">
+            <div style="font-size:16px;float:right;position:relative;margin-right:355px;top:40px;">
               <div>
                 <p>
                   <b>工作地點</b>
@@ -89,7 +89,7 @@
             </template>
 
             <div
-              style="font-size:16px;line-height:18px;positioni:relative;margin-left:120px;max-width:442px;float:left;height:400px;"
+              style="font-size:16px;line-height:25px;positioni:relative;margin-left:120px;max-width:442px;float:left;height:570px;"
             >
               <b>能力要求</b>
 
@@ -110,7 +110,7 @@
             </div>
 
             <div
-              style="max-width:439px;font-size:16px;line-height:18px;margin-left:85px;float:left;"
+              style="max-width:439px;font-size:16px;line-height:25px;margin-left:95px;float:left;"
             >
               <b>職責範圍</b>
               <p>1、負責用戶專有雲集群的維護、管理、故障排除等日常工作，確保系統的正常穩定運行；</p>
@@ -122,7 +122,7 @@
               <p>7、要24小時排班。</p>
             </div>
 
-            <div style="font-size:16px;float:right;position:relative;margin-right:355px;top:10px;">
+            <div style="font-size:16px;float:right;position:relative;margin-right:355px;top:40px;">
               <div>
                 <p>
                   <b>工作地點</b>
@@ -158,7 +158,7 @@
               <span style="font-size:20px;position:relative;left:570px;">中國珠海</span>
             </template>
             <div
-              style="font-size:16px;line-height:18px;positioni:relative;margin-left:120px;max-width:442px;float:left;height:400px;"
+              style="font-size:16px;line-height:25px;positioni:relative;margin-left:120px;max-width:442px;float:left;height:470px;"
             >
               <b>能力要求</b>
 
@@ -169,7 +169,7 @@
             </div>
 
             <div
-              style="max-width:439px;font-size:16px;line-height:18px;margin-left:85px;float:left;"
+              style="max-width:439px;font-size:16px;line-height:25px;margin-left:95px;float:left;"
             >
               <b>職責範圍（最好開發轉產品）</b>
               <p>1. 設計公司互聯網產品（車輛安全平臺），對接第三方車輛安全硬件設備等；</p>
@@ -216,7 +216,7 @@
               <span style="font-size:20px;position:relative;left:513px;">中國珠海</span>
             </template>
             <div
-              style="font-size:16px;line-height:18px;positioni:relative;margin-left:120px;max-width:442px;float:left;height:420px;"
+              style="font-size:16px;line-height:25px;positioni:relative;margin-left:120px;max-width:442px;float:left;height:570px;"
             >
               <b>能力要求</b>
 
@@ -234,7 +234,7 @@
             </div>
 
             <div
-              style="max-width:439px;font-size:16px;line-height:18px;margin-left:85px;float:left;"
+              style="max-width:439px;font-size:16px;line-height:25px;margin-left:95px;float:left;"
             >
               <b>職責範圍</b>
               <p>1、審核系統需求、拆分和設計功能模塊、實現系統核心業務功能。</p>
@@ -243,7 +243,7 @@
               <p>4、審核小組代碼質量和性能調優。</p>
             </div>
 
-            <div style="font-size:16px;float:right;position:relative;margin-right:355px;top:10px;">
+            <div style="font-size:16px;float:right;position:relative;margin-right:355px;top:40px;">
               <div>
                 <p>
                   <b>工作地點</b>
@@ -279,7 +279,7 @@
               <span style="font-size:20px;position:relative;left:516px;">中國珠海</span>
             </template>
             <div
-              style="font-size:16px;line-height:18px;positioni:relative;margin-left:120px;max-width:442px;float:left;height:420px;"
+              style="font-size:16px;line-height:25px;positioni:relative;margin-left:120px;max-width:442px;float:left;height:520px;"
             >
               <b>能力要求</b>
 
@@ -296,7 +296,7 @@
             </div>
 
             <div
-              style="max-width:439px;font-size:16px;line-height:18px;margin-left:85px;float:left;"
+              style="max-width:439px;font-size:16px;line-height:25px;margin-left:95px;float:left;"
             >
               <b>職責範圍</b>
               <p>1、根據業務要求開發並實現產品功能；</p>
@@ -307,7 +307,7 @@
               <p>6、系統日常技術支援和系統維護；</p>
             </div>
 
-            <div style="font-size:16px;float:right;position:relative;margin-right:355px;top:10px;">
+            <div style="font-size:16px;float:right;position:relative;margin-right:355px;top:40px;">
               <div>
                 <p>
                   <b>工作地點</b>
@@ -343,7 +343,7 @@
               <span style="font-size:20px;position:relative;left:549px;">中國澳門</span>
             </template>
             <div
-              style="font-size:16px;line-height:18px;positioni:relative;margin-left:120px;max-width:442px;float:left"
+              style="font-size:16px;line-height:25px;positioni:relative;margin-left:120px;max-width:442px;float:left;height:570px;"
             >
               <b>能力要求</b>
 
@@ -357,7 +357,7 @@
             </div>
 
             <div
-              style="max-width:439px;font-size:16px;line-height:18px;margin-left:85px;float:left;"
+              style="max-width:439px;font-size:16px;line-height:25px;margin-left:95px;float:left;"
             >
               <b>職責範圍</b>
               <p>1.客戶現場安全支持；</p>
@@ -375,7 +375,7 @@
               <p>13. 安全項目經理分派的其他工作 。</p>
             </div>
 
-            <div style="font-size:16px;float:right;position:relative;margin-right:355px;top:10px;height:190px;">
+            <div style="font-size:16px;float:right;position:relative;margin-right:355px;top:40px;height:190px;">
               <div>
                 <p>
                   <b>工作地點</b>
@@ -411,7 +411,7 @@
               <span style="font-size:20px;position:relative;left:530px;">中國珠海</span>
             </template>
             <div
-              style="font-size:16px;line-height:18px;positioni:relative;margin-left:120px;max-width:442px;float:left"
+              style="font-size:16px;line-height:25px;positioni:relative;margin-left:120px;max-width:442px;float:left;height:430px;"
             >
               <b>能力要求</b>
 
@@ -425,7 +425,7 @@
             </div>
 
             <div
-              style="max-width:439px;font-size:16px;line-height:18px;margin-left:85px;float:left;"
+              style="max-width:439px;font-size:16px;line-height:25px;margin-left:95px;float:left;"
             >
               <b>職責範圍</b>
               <p>1、負責項目施工工程中弱電方面的技術支持與審核；</p>
@@ -435,7 +435,7 @@
               <p>5、負責配合公司設計師、預算員等協調智能化方案的編寫及預算等工作。</p>
             </div>
 
-            <div style="font-size:16px;float:right;position:relative;margin-right:355px;top:10px;height:190px;">
+            <div style="font-size:16px;float:right;position:relative;margin-right:355px;top:40px;height:190px;">
               <div>
                 <p>
                   <b>工作地點</b>
@@ -472,7 +472,7 @@
               <span style="font-size:20px;position:relative;left:510px;">中國珠海</span>
             </template>
             <div
-              style="font-size:16px;line-height:18px;positioni:relative;margin-left:120px;max-width:442px;float:left"
+              style="font-size:16px;line-height:25px;positioni:relative;margin-left:120px;max-width:442px;float:left;height:290px;"
             >
               <b>能力要求</b>
 
@@ -483,14 +483,14 @@
             </div>
 
             <div
-              style="max-width:439px;font-size:16px;line-height:18px;margin-left:85px;float:left;"
+              style="max-width:439px;font-size:16px;line-height:25px;margin-left:95px;float:left;"
             >
               <b>職責範圍</b>
               <p>1、負責弱電智能化工程項目現場管理和實施；</p>
               
             </div>
 
-            <div style="font-size:16px;float:right;position:relative;margin-right:355px;top:10px;height:190px;">
+            <div style="font-size:16px;float:right;position:relative;margin-right:355px;top:40px;height:190px;">
               <div>
                 <p>
                   <b>工作地點</b>
@@ -526,7 +526,7 @@
               <span style="font-size:20px;position:relative;left:510px;">中國澳門</span>
             </template>
             <div
-              style="font-size:16px;line-height:18px;positioni:relative;margin-left:120px;max-width:442px;float:left"
+              style="font-size:16px;line-height:25px;positioni:relative;margin-left:120px;max-width:442px;float:left;height:470px;"
             >
               <b>能力要求</b>
 
@@ -537,7 +537,7 @@
             </div>
 
             <div
-              style="max-width:439px;font-size:16px;line-height:18px;margin-left:85px;float:left;"
+              style="max-width:439px;font-size:16px;line-height:25px;margin-left:95px;float:left;"
             >
               <b>職責範圍</b>
               <p>1、負責入侵檢測、生產系統安全防護和加固、安全漏洞的分析與排除</p>
@@ -547,7 +547,7 @@
               
             </div>
 
-            <div style="font-size:16px;float:right;position:relative;margin-right:355px;top:10px;height:190px;">
+            <div style="font-size:16px;float:right;position:relative;margin-right:355px;top:40px;height:190px;">
               <div>
                 <p>
                   <b>工作地點</b>
@@ -630,7 +630,7 @@ export default {
 #a {
   background: url(../assets/img/4-1.png) no-repeat center fixed;
   width: 100%;
-  height: 1305px;
+  height: 1405px;
   background-size: cover;
   overflow: hidden;
 }
@@ -645,9 +645,9 @@ export default {
 
 #c {
   max-width: 1301px;
-  max-height: 1080px;
+  max-height: 1280px;
   width: 1301px;
-  height: 980px;
+  height: 1280px;
   display: fixed;
   margin: 0 auto;
   background-size: cover;

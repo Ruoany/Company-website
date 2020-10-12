@@ -6,6 +6,7 @@ export default new Router({
   // mode: 'history',
   routes: [{
       path: '/',
+      
       component: () => import('@/views/home.vue')
     },
     {
@@ -59,5 +60,8 @@ export default new Router({
     },
     
 
-  ]
+  ],
+  scrollBehavior (to, from, savedPosition){
+    return { x:0, y:0}
+  }
 })
