@@ -33,19 +33,19 @@
               <div>
                 <div>
                   <div @click="isShow1 = true" style="width:300px;height:200px;background:#000096;position:relative;margin-left:800px;margin-top:-460px;box-shadow: #ccc 5px 5px 5px;">
-                    <p style="color:#fff;font-size:20px;line-height:42px;text-align:center;padding-top:30px;"><span style="font-size:30px">壹</span><br />
+                    <p style="color:#fff;font-size:20px;line-height:42px;text-align:center;padding-top:30px;"><span style="font-size:30px">一</span><br />
                       增強型ATT協議<br />
                       EnhancedAttributeProtocol
                       </p>
                   </div>
                   <div @click="isShow2 = true" style="width:300px;height:200px;background:#000096;position:relative;margin-left:1120px;margin-top:-200px;box-shadow: #ccc  5px 5px 5px;">
-                    <p style="color:#fff;font-size:20px;line-height:42px;text-align:center;padding-top:30px;"><span style="font-size:30px">貳</span><br />
+                    <p style="color:#fff;font-size:20px;line-height:42px;text-align:center;padding-top:30px;"><span style="font-size:30px">二</span><br />
                      LE功耗控制<br />
                      LEPowerControl
                       </p>
                   </div>
                   <div @click="isShow3 = true" style="width:300px;height:200px;background:#000096;position:relative;margin-left:1440px;margin-top:-200px;box-shadow: #ccc 5px  5px 5px;">
-                     <p style="color:#fff;font-size:20px;line-height:42px;text-align:center;padding-top:30px;"><span style="font-size:30px">叁</span><br />
+                     <p style="color:#fff;font-size:20px;line-height:42px;text-align:center;padding-top:30px;"><span style="font-size:30px">三</span><br />
                      LE同步信道<br />
                       LEIsochronousChannels
                       </p>
@@ -211,9 +211,10 @@ export default {
 });
 
   },
-  created:{
-    create() {
-      this.$routerrouter.go(0)
+ activated :{
+    create(){
+       location.reload();
+
     }
   }
   

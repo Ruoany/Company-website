@@ -11,7 +11,7 @@
               <!-- <span @click="jumpRouter('/program/wisdom')">人車安全智慧雲</span>
               <span @click="jumpRouter('/program/yipo')">易泊停車誘導及預約</span>
               <span @click="jumpRouter('/program/mirror')">電子後視鏡</span> -->
-                <router-link to="/" @click.native="refresh"><span @click="save(0)">藍牙5.2</span></router-link>
+                <router-link to="/" :key="$route.fullPath"><span @click="save(0)">藍牙5.2</span></router-link>
               <span @click="jumpRouter('/',1)">Wi-Fi 6</span>
               <span @click="jumpRouter('/',1)">NB-IoT網絡</span>
             </li>
@@ -79,9 +79,14 @@ export default {
     },
     save(index) {
       sessionStorage.clear();
-      sessionStorage.setItem('navIndex',index)
+      sessionStorage.setItem('navIndex',index);
     }
   },
+  activated :{
+    create(){
+     location.reload();
+    }
+  }
 
 };
 </script>

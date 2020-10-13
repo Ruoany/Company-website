@@ -17,7 +17,7 @@
         <li
           v-for="(item,index) in navList"
           :key="index"
-          :class="index==navIndex?'active':''"
+          :class="navIndex == index ?'active':''"
           @click="navClick(index,item.name)"
           
         >
@@ -131,6 +131,11 @@ export default {
       this.$router.push("/");
     },
   },
+  activated :{
+    create(){
+       location.reload();
+    }
+  }
 }
 
 </script>
@@ -143,12 +148,17 @@ export default {
 /* 顶部 */
 #header {
   background: #000000;
+  
 }
 
 /* 导航栏 */
 #header .header-nav {
+  background: #000000;
   height: 100px;
   width: 100%;
+  position: fixed;
+  z-index: 2;
+  opacity: 0.8;
 }
 /* 导航栏logo */
 #header .header-nav .header-nav-logo {
@@ -158,11 +168,11 @@ export default {
 }
 /* 导航栏logo图片 */
 #header .header-nav .header-nav-logo img {
-  width: 58px;
-  height: 47px;
+  width: 90px;
+  height: 70px;
   position: relative;
-  top: 24px;
-  left: 46px;
+  top: 18px;
+  left: 35px;
   right: 0;
   bottom: 0;
 }

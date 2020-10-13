@@ -628,7 +628,7 @@ export default {
   margin: 0;
 }
 #a {
-  background: url(../assets/img/4-1.png) no-repeat center fixed;
+  background: url(../assets/img/4-1.png) no-repeat center ;
   width: 100%;
   height: 1405px;
   background-size: cover;

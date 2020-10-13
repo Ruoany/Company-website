@@ -50,7 +50,7 @@
 
         
           
-             <div style=" border-radius: 150px;width: 300px;height: 300px;border: 2px solid #053085;background:#053085;position:relative;margin-top:-2390px;margin-left:720px;" @click="isShow1 && start1()">
+             <div style=" border-radius: 150px;width: 300px;height: 300px;border: 2px solid #053085;background:#053085;position:relative;margin-top:-2390px;margin-left:720px;" @mouseenter="isShow1 && start1()">
                 <div style="color:#fff;position:relative;margin-left:0px;margin-top:90px;text-align:center;line-height:39px;">
                  <p style="font-size:30px"><b>公共工程部門</b></p>
                  <p style="font-size:20px">公用事業公司</p>
@@ -73,7 +73,7 @@
 
 
          
-              <div style=" border-radius: 150px;width: 300px;height: 300px;border: 2px solid #053085;background:#053085;position:relative;margin-top:-350px;margin-left:1620px;" @click="isShow2 && start2()">
+              <div style=" border-radius: 150px;width: 300px;height: 300px;border: 2px solid #053085;background:#053085;position:relative;margin-top:-180px;margin-left:1620px;" @mouseenter="isShow2 && start2()">
                 <div style="color:#fff;position:relative;margin-left:0px;margin-top:80px;text-align:center;line-height:39px;">
                  <p style="font-size:30px"><b>交通部門</b></p>
                  <p style="font-size:20px">道路運營商和</p>
@@ -95,7 +95,7 @@
              <img  src="@/assets/img/2-6-23.png" id="w"/>
              
         
-            <div style=" border-radius: 150px;width: 300px;height: 300px;border: 2px solid #053085;background:#053085;position:relative;margin-top:20px;margin-left:580px;" @click="isShow3 && start3()">
+            <div style=" border-radius: 150px;width: 300px;height: 300px;border: 2px solid #053085;background:#053085;position:relative;margin-top:20px;margin-left:580px;" @mouseenter="isShow3 && start3()">
                 <div style="color:#fff;position:relative;margin-left:0px;margin-top:80px;text-align:center;line-height:39px;">
                  <p style="font-size:30px"><b>地方政府</b></p>
                  <p style="font-size:20px">交通運輸和</p>
@@ -106,7 +106,7 @@
 
             
 
-           <div style=" border-radius: 150px;width: 300px;height: 300px;border: 2px solid #053085;background:#053085;position:relative;margin-top:-170px;margin-left:1640px;"  @click="isShow4 && start4()">
+           <div style=" border-radius: 150px;width: 300px;height: 300px;border: 2px solid #053085;background:#053085;position:relative;margin-top:-170px;margin-left:1640px;"  @mouseenter="isShow4 && start4()">
                 <div style="color:#fff;position:relative;margin-left:0px;margin-top:80px;text-align:center;line-height:39px;">
                  <p style="font-size:30px"><b>動態GIS數據</b></p>
                  <p style="font-size:20px">可實現高效且</p>
@@ -122,17 +122,17 @@
               <img src="@/assets/img/2-6-16.png" id="q" />
            
 
-            <img src="@/assets/img/2-6-17.png" style="position:relative;margin-top:285px;margin-left:540px;" />
+            <img src="@/assets/img/2-6-17.png" style="position:relative;margin-top:345px;margin-left:550px;" />
 
 
 
 
         
             
-            <img src="@/assets/img/car.png" style="position:absolute;margin-top:-2440px;margin-left:1020px;visibility:hidden;" id="g" />
+            <img src="@/assets/img/car1.png" style="position:absolute;margin-top:-2440px;margin-left:1020px;visibility:hidden;" id="g" />
              <img src="@/assets/img/car.png" style="position:absolute;margin-top:-1970px;margin-left:1540px;visibility:hidden;" id="r" />
 
-              <img src="@/assets/img/car.png" style="position:absolute;margin-top:-1075px;margin-left:994px;visibility:hidden;" id="s"  />
+              <img src="@/assets/img/car1.png" style="position:absolute;margin-top:-1075px;margin-left:994px;visibility:hidden;" id="s"  />
 
               <img src="@/assets/img/car2.png" style="position:absolute;margin-top:-945px;margin-left:1844px;visibility:hidden;" id="t" />
 
@@ -208,7 +208,8 @@ export default {
       document.getElementById("r").style="animation-play-state: running;",
       document.getElementById("k").style="animation-play-state: running;",
       document.getElementById("l").style="animation-play-state: running;",
-      document.getElementById("m").style="animation-play-state: running;"
+      document.getElementById("m").style="animation-play-state: running;",
+      document.getElementById("g").style="visibility:hidden;";
       this.isShow3 = true;
     },
      start3() {
@@ -216,6 +217,7 @@ export default {
       document.getElementById("u").style="animation-play-state: running;",
       document.getElementById("v").style="animation-play-state: running;",
       document.getElementById("w").style="animation-play-state: running;"
+      document.getElementById("r").style="visibility:hidden;";
       this.isShow4 = true;
     },
 
@@ -224,6 +226,7 @@ export default {
       document.getElementById("o").style="animation-play-state: running;",
       document.getElementById("p").style="animation-play-state: running;",
       document.getElementById("q").style="animation-play-state: running;"
+      document.getElementById("s").style="visibility:hidden;";
     },
     
   },
@@ -244,15 +247,15 @@ overflow-y:hidden;
 
 
 @keyframes Axis1 {
-  0% { transform: translateX(1040px) translateY(-2400px); opacity: 1;} 
+  0% { transform: translateX(1040px) translateY(-2365px); opacity: 1;} 
 
-  40%{ transform: translateX(1700px)  translateY(-2400px) ;opacity: 1;}
+  25%{ transform: translateX(1700px)  translateY(-2365px) ;opacity: 1;}
 
-  60% { transform: translateX(1810px)  translateY(-2340px) rotate(50deg);opacity: 1; } 
+  50% { transform: translateX(1790px)  translateY(-2330px) rotate(50deg);opacity: 1; } 
 
-  80% { transform: translateX(1875px)  translateY(-2210px) rotate(90deg); opacity: 1;} 
+  75% { transform: translateX(1875px)  translateY(-2210px) rotate(90deg); opacity: 1;} 
 
-  100% { transform: translateX(1840px)  translateY(-2080px) rotate(125deg) ;opacity: 0;} 
+  100% { transform: translateX(1850px)  translateY(-2060px) rotate(115deg) ;opacity: 1;} 
   
 
 }
@@ -270,35 +273,35 @@ overflow-y:hidden;
 
 
 @keyframes Axis2 {
-  0% { transform: translateX(1540px) translateY(-2020px); opacity: 1;} 
+  0% { transform: translateX(1540px) translateY(-1980px); opacity: 1;} 
 
-  /* 5%{ transform: translateX(1200px)  translateY(-2020px) ;opacity: 1;} */
+  7%{ transform: translateX(720px)  translateY(-1980px) ;opacity: 1;}
 
-  10%{ transform: translateX(720px)  translateY(-2020px) ;opacity: 1;}
+  14% { transform: translateX(620px)  translateY(-1950px) rotate(-45deg);opacity: 1; } 
 
-  20% { transform: translateX(590px)  translateY(-1960px) rotate(-55deg);opacity: 1; } 
+  21% { transform: translateX(540px)  translateY(-1850px) rotate(-80deg); opacity: 1;} 
 
-  30% { transform: translateX(530px)  translateY(-1850px) rotate(-80deg); opacity: 1;} 
+  28% { transform: translateX(530px)  translateY(-1720px) rotate(-110deg) ;opacity: 1;} 
 
-  40% { transform: translateX(550px)  translateY(-1720px) rotate(-120deg) ;opacity: 1;} 
+  35% { transform: translateX(570px)  translateY(-1650px) rotate(-120deg) ;opacity: 1;} 
 
-  50% { transform: translateX(690px)  translateY(-1590px) rotate(-180deg) ;opacity: 1;} 
+  42% { transform: translateX(670px)  translateY(-1560px) rotate(-180deg) ;opacity: 1;} 
 
-  55% { transform: translateX(1000px)  translateY(-1590px) rotate(-180deg) ;opacity: 1;}
+  49% { transform: translateX(1000px)  translateY(-1550px) rotate(-180deg) ;opacity: 1;}
 
-  60% { transform: translateX(1670px)  translateY(-1590px) rotate(-180deg) ;opacity: 1;} 
+  56% { transform: translateX(1670px)  translateY(-1550px) rotate(-180deg) ;opacity: 1;} 
 
-  70% { transform: translateX(1770px)  translateY(-1540px) rotate(-130deg) ;opacity: 1;} 
+  63% { transform: translateX(1750px)  translateY(-1520px) rotate(-150deg) ;opacity: 1;} 
 
-  75% { transform: translateX(1830px)  translateY(-1450px) rotate(-100deg) ;opacity: 1;} 
+  70% { transform: translateX(1830px)  translateY(-1440px) rotate(-100deg) ;opacity: 1;} 
 
-  80% { transform: translateX(1830px)  translateY(-1350px) rotate(-60deg) ;opacity: 1;} 
+  77% { transform: translateX(1830px)  translateY(-1350px) rotate(-80deg) ;opacity: 1;} 
 
-  85% { transform: translateX(1750px)  translateY(-1250px) rotate(-30deg) ;opacity: 1;} 
+  84% { transform: translateX(1750px)  translateY(-1210px) rotate(-30deg) ;opacity: 1;} 
 
-  90% { transform: translateX(1700px)  translateY(-1230px) rotate(-10deg) ;opacity: 1;} 
+  91% { transform: translateX(1700px)  translateY(-1190px) rotate(-10deg) ;opacity: 1;} 
 
-  100% { transform: translateX(890px)  translateY(-1220px) ;opacity: 0;} 
+  100% { transform: translateX(890px)  translateY(-1190px) ;opacity: 1;} 
   
 
 }
@@ -306,47 +309,47 @@ overflow-y:hidden;
 
 
 @keyframes Axis3 {
-  0% { transform: translateX(1000px) translateY(-1070px); opacity: 1;} 
+  0% { transform: translateX(850px) translateY(-1035px); opacity: 1;} 
 
-  100%{ transform: translateX(1540px)  translateY(-1070px) ;opacity: 0;}
+  100%{ transform: translateX(1540px)  translateY(-1035px) ;opacity: 1;}
 
 }
 
 
 @keyframes Axis4 {
-  0% { transform: translateX(1850px) translateY(-950px); opacity: 1;} 
+  0% { transform: translateX(1850px) translateY(-890px); opacity: 1;} 
 
-  10%{ transform: translateX(1850px)  translateY(-890px) ;opacity: 1;}
+  6.5%{ transform: translateX(1850px)  translateY(-820px) rotate(20deg) ;opacity: 1;}
 
-  20% { transform: translateX(1830px)  translateY(-830px) rotate(45deg);opacity: 1; } 
+  13% { transform: translateX(1820px)  translateY(-780px) rotate(35deg);opacity: 1; } 
 
-  30% { transform: translateX(1730px)  translateY(-790px) rotate(90deg); opacity: 1;} 
+  19.5% { transform: translateX(1730px)  translateY(-750px) rotate(90deg); opacity: 1;} 
 
-  35% { transform: translateX(1000px)  translateY(-790px) rotate(90deg); opacity: 1;} 
+  26% { transform: translateX(740px)  translateY(-750px) rotate(90deg); opacity: 1;} 
 
-  40% { transform: translateX(740px)  translateY(-790px) rotate(90deg) ;opacity: 1;} 
+  32.5% { transform: translateX(680px)  translateY(-740px) rotate(80deg) ;opacity: 1;} 
 
-  50% { transform: translateX(640px)  translateY(-750px) rotate(45deg);opacity: 1;} 
+  39% { transform: translateX(630px)  translateY(-710px) rotate(30deg);opacity: 1;} 
 
-  60% { transform: translateX(620px)  translateY(-700px) rotate(0deg) ;opacity: 1;} 
+  45.5% { transform: translateX(620px)  translateY(-680px) rotate(10deg) ;opacity: 1;} 
 
-  70% { transform: translateX(630px)  translateY(-620px) rotate(-30deg) ;opacity: 1;} 
+  52% { transform: translateX(620px)  translateY(-620px) rotate(-10deg) ;opacity: 1;} 
 
-  80% { transform: translateX(690px)  translateY(-580px) rotate(-90deg) ;opacity: 1;} 
+  58.5% { transform: translateX(690px)  translateY(-540px) rotate(-90deg) ;opacity: 1;} 
 
-  82% { transform: translateX(1000px)  translateY(-580px) rotate(-90deg) ;opacity: 1;} 
+  65% { transform: translateX(1700px)  translateY(-540px) rotate(-90deg) ;opacity: 1;} 
 
-  85% { transform: translateX(1690px)  translateY(-580px) rotate(-90deg) ;opacity: 1;} 
+  71.5% { transform: translateX(1770px)  translateY(-530px) rotate(-50deg) ;opacity: 1;} 
 
-  90% { transform: translateX(1790px)  translateY(-550px) rotate(-45deg) ;opacity: 1;} 
+  78% { transform: translateX(1810px)  translateY(-480px) rotate(-30deg) ;opacity: 1;} 
 
-  95% { transform: translateX(1820px)  translateY(-500px) rotate(-10deg) ;opacity: 1;} 
+  84.5% { transform: translateX(1830px)  translateY(-450px) rotate(0deg) ;opacity: 1;} 
 
-  96% { transform: translateX(1830px)  translateY(-440px) rotate(20deg);opacity: 1;}
+  91% { transform: translateX(1830px)  translateY(-400px) rotate(20deg);opacity: 1;}
 
-  97% { transform: translateX(1810px)  translateY(-390px) rotate(45deg);opacity: 1;}
+  97.5% { transform: translateX(1800px)  translateY(-350px) rotate(45deg);opacity: 1;}
 
-  100% { transform: translateX(1700px)  translateY(-345px) rotate(90deg);opacity: 0;}
+  100% { transform: translateX(1700px)  translateY(-300px) rotate(90deg);opacity: 1;}
   
 
 }
@@ -381,7 +384,7 @@ overflow-y:hidden;
 #g{
  
  animation-name:  Axis1 ; 
- animation-duration: 10s; 
+ animation-duration: 4s; 
  animation-timing-function: ease-out; 
  animation-iteration-count: 1;
  animation-play-state: paused; 
@@ -421,7 +424,7 @@ overflow-y:hidden;
 
 #h{
 
-position:relative;margin-left:1010px;top:-120px;opacity:0;
+position:relative;margin-left:1050px;top:-120px;opacity:0;
 
    animation-name:  show ; 
  animation-duration: 3s; 
@@ -433,7 +436,7 @@ position:relative;margin-left:1010px;top:-120px;opacity:0;
 
 #i{
 
-  position:relative;margin-left:1050px;top:-195px;opacity:0;
+  position:relative;margin-left:1100px;top:-120px;opacity:0;
   
    animation-name:  show ; 
  animation-duration: 3s; 
@@ -445,7 +448,7 @@ position:relative;margin-left:1010px;top:-120px;opacity:0;
 }
 
 #j{
-position:relative;margin-left:1100px;top:-270px;opacity:0;
+position:relative;margin-left:1150px;top:-125px;opacity:0;
 
    animation-name:  show ; 
  animation-duration: 3s; 
@@ -498,7 +501,7 @@ position:relative;margin-left:1100px;top:-270px;opacity:0;
 
 
 #o{
-   position:relative;margin-top:-140px;margin-left: 890px;opacity: 0;
+   position:relative;margin-top:-145px;margin-left: 890px;opacity: 0;
 
 animation-name:  show ; 
  animation-duration: 3s; 
@@ -509,7 +512,7 @@ animation-name:  show ;
 }
 
 #p{
-   position:relative;margin-top:-65px;margin-left: 1275px;opacity: 0;
+   position:relative;margin-top:-70px;margin-left: 1265px;opacity: 0;
 
 animation-name:  show ; 
  animation-duration: 3s; 
@@ -533,7 +536,7 @@ animation-name:  show ;
 }
 
 #u{
-  position: relative;margin-top: 210px;margin-left: 700px;opacity: 0;
+  position: relative;margin-top: 220px;margin-left: 700px;opacity: 0;
 
    animation-name:  show ; 
  animation-duration: 3s; 
@@ -544,7 +547,7 @@ animation-name:  show ;
 }
 
 #v{
-  position: relative;margin-left: 1140px;margin-top:-165px;opacity: 0;
+  position: relative;margin-left: 1140px;margin-top:-170px;opacity: 0;
 
   animation-name:  show ; 
  animation-duration: 3s; 

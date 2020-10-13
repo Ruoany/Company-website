@@ -42,7 +42,7 @@ export default {
 
 
 #a{
-   background: url(../assets/img/about.png) no-repeat center fixed;
+   background: url(../assets/img/about.png) no-repeat center;
      width:100%;
     height:1305px;
     background-size:cover;
