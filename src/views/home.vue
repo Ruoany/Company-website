@@ -170,6 +170,8 @@ export default {
       path3: require("@/assets/img/1-8.png"),
       path4: require("@/assets/img/1-11.png"),
 
+     
+
 		}
   },
   methods:{
@@ -197,8 +199,16 @@ export default {
       change8() {
          this.path4 =  require("@/assets/img/1-11.png")
      },
+
+
+     initDate() {   
+         window.location.reload();
+
+     }
+      
   },
 	mounted() {
+
 	      $(function () {
   $('.shutter').shutter({
 	shutterW: 100+'%', // 容器宽度
@@ -209,14 +219,12 @@ export default {
 	fullPage: true // 是否全屏展示
   });
 });
-
+    
   },
- activated :{
-    create(){
-       location.reload();
 
-    }
-  }
+   beforeCreate() {
+     this.initDate();
+   }
   
 }
 </script>

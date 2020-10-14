@@ -78,7 +78,7 @@ export default {
   name: "Header",
   data() {
     return {
-      navIndex: sessionStorage.getItem('navIndex') ? sessionStorage.getItem('navIndex') : 0,
+      navIndex: sessionStorage.getItem("navIndex") ? sessionStorage.getItem("navIndex") :0 ,
       menuName: "首页",
       menuClass: "glyphicon glyphicon-menu-down",
       navList: [
@@ -119,7 +119,7 @@ export default {
       
       
       this.menuName = name;
-    },
+    }, 
     menuClick() {
       if (this.menuClass == "glyphicon glyphicon-menu-down") {
         this.menuClass = "glyphicon glyphicon-menu-up";
@@ -131,11 +131,6 @@ export default {
       this.$router.push("/");
     },
   },
-  activated :{
-    create(){
-       location.reload();
-    }
-  }
 }
 
 </script>
@@ -148,7 +143,6 @@ export default {
 /* 顶部 */
 #header {
   background: #000000;
-  
 }
 
 /* 导航栏 */
@@ -158,7 +152,7 @@ export default {
   width: 100%;
   position: fixed;
   z-index: 2;
-  opacity: 0.8;
+  margin-top: -100px;
 }
 /* 导航栏logo */
 #header .header-nav .header-nav-logo {

@@ -14,7 +14,7 @@
 
       <div id="e">
         <el-collapse v-model="activeName" accordion>
-          <el-collapse-item name="1" @mouseenter.native="change1()">
+          <el-collapse-item name="1" @mouseenter.native="change1()" @mouseleave.native="change10()">
             <template slot="title">
               <span style="font-size:20px;position:relative;left:120px;">駐場工程師</span>
               <span style="font-size:20px;position:relative;left:550px;">中國澳門</span>
@@ -82,7 +82,7 @@
 
             <div></div>
           </el-collapse-item>
-          <el-collapse-item name="2" @mouseenter.native="change2()">
+          <el-collapse-item name="2" @mouseenter.native="change2()" @mouseleave.native="change11()">
             <template slot="title">
               <span style="font-size:20px;position:relative;left:120px;">大數據駐場運維</span>
               <span style="font-size:20px;position:relative;left:510px;">中國澳門</span>
@@ -152,7 +152,7 @@
             <div></div>
           </el-collapse-item>
 
-          <el-collapse-item name="3" @mouseenter.native="change3()">
+          <el-collapse-item name="3" @mouseenter.native="change3()" @mouseleave.native="change12()">
             <template slot="title">
               <span style="font-size:20px;position:relative;left:120px;">產品經理</span>
               <span style="font-size:20px;position:relative;left:570px;">中國珠海</span>
@@ -210,7 +210,7 @@
             <div></div>
           </el-collapse-item>
 
-          <el-collapse-item name="4" @mouseenter.native="change4()">
+          <el-collapse-item name="4" @mouseenter.native="change4()" @mouseleave.native="change13()">
             <template slot="title">
               <span style="font-size:20px;position:relative;left:120px;">Java高級工程師</span>
               <span style="font-size:20px;position:relative;left:513px;">中國珠海</span>
@@ -273,7 +273,7 @@
             <div></div>
           </el-collapse-item>
 
-          <el-collapse-item name="5" @mouseover.native="change5()">
+          <el-collapse-item name="5" @mouseover.native="change5()" @mouseleave.native="change14()">
             <template slot="title">
               <span style="font-size:20px;position:relative;left:120px;">C＃軟件工程師</span>
               <span style="font-size:20px;position:relative;left:516px;">中國珠海</span>
@@ -337,7 +337,7 @@
             <div></div>
           </el-collapse-item>
 
-          <el-collapse-item name="6" @mouseover.native="change6()">
+          <el-collapse-item name="6" @mouseover.native="change6()" @mouseleave.native="change15()">
             <template slot="title">
               <span style="font-size:20px;position:relative;left:120px;">安全工程師</span>
               <span style="font-size:20px;position:relative;left:549px;">中國澳門</span>
@@ -405,7 +405,7 @@
             <div></div>
           </el-collapse-item>
 
-          <el-collapse-item name="7" @mouseover.native="change7()">
+          <el-collapse-item name="7" @mouseover.native="change7()" @mouseleave.native="change16()">
             <template slot="title">
               <span style="font-size:20px;position:relative;left:120px;">弱電項目經理</span>
               <span style="font-size:20px;position:relative;left:530px;">中國珠海</span>
@@ -466,7 +466,7 @@
           </el-collapse-item>
 
 
-          <el-collapse-item name="8" @mouseover.native="change8()">
+          <el-collapse-item name="8" @mouseover.native="change8()" @mouseleave.native="change17()">
             <template slot="title">
               <span style="font-size:20px;position:relative;left:120px;">弱電現場工程師</span>
               <span style="font-size:20px;position:relative;left:510px;">中國珠海</span>
@@ -520,7 +520,7 @@
             <div></div>
           </el-collapse-item>
 
-          <el-collapse-item name="9" @mouseover.native="change9()">
+          <el-collapse-item name="9" @mouseover.native="change9()" @mouseleave.native="change18()">
             <template slot="title">
               <span style="font-size:20px;position:relative;left:120px;">網絡安全工程師</span>
               <span style="font-size:20px;position:relative;left:510px;">中國澳門</span>
@@ -617,7 +617,42 @@ export default {
     change9() {
       this.activeName = "9";
     },
+    change10() {
+      this.activeName = "0"
+    },
+    change11() {
+      this.activeName = "0"
+    },
+    change12() {
+      this.activeName = "0"
+    },
+    change13() {
+      this.activeName = "0"
+    },
+    change14() {
+      this.activeName = "0"
+    },
+    change15() {
+      this.activeName = "0"
+    },
+    change16() {
+      this.activeName = "0"
+    },
+    change17() {
+      this.activeName = "0"
+    },
+    change18() {
+      this.activeName = "0"
+    },
+
+       initDate() {   
+         this.$router.go(0)    
+   }
   },
+
+  beforeDestroy() {
+     this.initDate();
+  }
 };
 </script>
 
@@ -628,11 +663,13 @@ export default {
   margin: 0;
 }
 #a {
-  background: url(../assets/img/4-1.png) no-repeat center ;
+  background: url(../assets/img/4-1.png) no-repeat  ;
   width: 100%;
   height: 1405px;
   background-size: cover;
   overflow: hidden;
+  margin-top: -2px;
+  
 }
 
 #b p {
@@ -640,7 +677,7 @@ export default {
   color: #fff;
 
   text-align: center;
-  margin-top: 159px;
+  margin-top: 259px;
 }
 
 #c {

@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Header></Header>
+    <Header style="padding-top:100px"></Header>
     <router-view />
     <Footer></Footer>
     <GoTop></GoTop>

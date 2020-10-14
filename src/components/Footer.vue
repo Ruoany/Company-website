@@ -7,17 +7,17 @@
           <ul class="content-nav">
     
            <li>
-              <p>泓睿科技</p>
+              <p @click="jumpRouter('/',0)">泓睿科技</p>
               <!-- <span @click="jumpRouter('/program/wisdom')">人車安全智慧雲</span>
               <span @click="jumpRouter('/program/yipo')">易泊停車誘導及預約</span>
               <span @click="jumpRouter('/program/mirror')">電子後視鏡</span> -->
-                <router-link to="/" :key="$route.fullPath"><span @click="save(0)">藍牙5.2</span></router-link>
-              <span @click="jumpRouter('/',1)">Wi-Fi 6</span>
-              <span @click="jumpRouter('/',1)">NB-IoT網絡</span>
+              <span @click="jumpRouter('/',0)">藍牙5.2</span>
+              <span @click="jumpRouter('/',0)">Wi-Fi 6</span>
+              <span @click="jumpRouter('/',0)">NB-IoT網絡</span>
             </li>
             <li>
-              <p>解決方案</p>
-              <span @click="jumpRouter('/transit/wisdom',1)" >人車安全智慧雲</span>
+              <p @click="jumpRouter('/program',1)">解決方案</p>
+              <span @click="jumpRouter('/program',1)" >人車安全智慧雲</span>
               <span  @click="jumpRouter('/transit/yipo',1)">易泊停車誘導及預約</span>
               <span @click="jumpRouter('/transit/mirror',1)">電子後視鏡</span>
               <span @click="jumpRouter('/transit/warning',1)">行人過街預警</span>
@@ -26,23 +26,23 @@
                  <!-- <span @click="jumpRouter('/transit/integrated')">項目案例</span> -->
             </li>
              <li>
-              <p>項目案例</p>
+              <p @click="jumpRouter('/integrated',2)">項目案例</p>
               <span @click="jumpRouter('/integrated',2)" >服務種類</span>
               <span @click="jumpRouter('/integrated',2)">服務流程</span>
               <span @click="jumpRouter('/integrated',2)">服務項目</span>
             </li>
             <li>
-              <p>關於泓睿</p>
+              <p @click="jumpRouter('/about',3)">關於泓睿</p>
               <span @click="jumpRouter('/about',3)">公司介紹</span>
             </li>
              <li>
-              <p>加入泓睿</p>
+              <p @click="jumpRouter('/join',4)">加入泓睿</p>
               <span @click="jumpRouter('/join',4)">駐場工程師</span>
               <span @click="jumpRouter('/join',4)">大數據駐場運維</span>
               <span @click="jumpRouter('/join',4)">產品經理</span>
               <span @click="jumpRouter('/join',4)">Java高級工程師</span>
               <span @click="jumpRouter('/join',4)">C#軟件工程師</span>
-              <span>>>></span>
+              <span @click="jumpRouter('/join',4)">>>></span>
             </li>
             <li>
               <p>聯繫我們</p>
@@ -76,17 +76,9 @@ export default {
           sessionStorage.clear();
           sessionStorage.setItem('navIndex',index);
           
-    },
-    save(index) {
-      sessionStorage.clear();
-      sessionStorage.setItem('navIndex',index);
-    }
+    },   
   },
-  activated :{
-    create(){
-     location.reload();
-    }
-  }
+  
 
 };
 </script>
@@ -121,6 +113,8 @@ export default {
           color: #d4edff;
           padding: 10px 0;
           width: 95px;
+          cursor:pointer;
+          padding-top: 10px;
         }
         span {
           color: #f7f7f7;
