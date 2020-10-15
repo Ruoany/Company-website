@@ -198,18 +198,20 @@ export default {
      },
       change8() {
          this.path4 =  require("@/assets/img/1-11.png")
-     },
-
-
-     initDate() {   
-         window.location.reload();
-
-     }
-      
+     },     
   },
-	mounted() {
 
-	      $(function () {
+  mounted(){
+    $(document).ready(function () {
+
+     if(location.href.indexOf("#reloaded")==-1){
+        location.href=location.href+"#reloaded";
+        window.location.reload();
+    }
+ });
+
+
+  $(function () {
   $('.shutter').shutter({
 	shutterW: 100+'%', // 容器宽度
 	shutterH: 1215, // 容器高度
@@ -219,13 +221,8 @@ export default {
 	fullPage: true // 是否全屏展示
   });
 });
-    
-  },
+  }
 
-   beforeCreate() {
-     this.initDate();
-   }
-  
 }
 </script>
 

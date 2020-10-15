@@ -68,17 +68,20 @@
 export default {
   name: "Footer",
   data() {
-    return {};
+    return {
+      flag:true,
+    };
   },
   methods: {
     jumpRouter(path,index){
+       sessionStorage.clear();
+        sessionStorage.setItem('navIndex',index);
           this.$router.push(path);
-          sessionStorage.clear();
-          sessionStorage.setItem('navIndex',index);
           
     },   
   },
-  
+   
+   
 
 };
 </script>

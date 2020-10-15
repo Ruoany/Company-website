@@ -645,13 +645,18 @@ export default {
       this.activeName = "0"
     },
 
-       initDate() {   
-         this.$router.go(0)    
-   }
+      
   },
 
-  beforeDestroy() {
-     this.initDate();
+
+    mounted(){
+    $(document).ready(function () {
+
+     if(location.href.indexOf("#reloaded")==-1){
+        location.href=location.href+"#reloaded";
+        window.location.reload();
+    }
+ });
   }
 };
 </script>

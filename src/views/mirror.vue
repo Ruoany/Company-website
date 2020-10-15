@@ -309,6 +309,15 @@ export default {
        this.show9 = !this.show9,this.show5 = !this.show5
        document.getElementById("ba").style="background:#053085;color:#fff;"
     },
+  },
+    mounted(){
+    $(document).ready(function () {
+
+     if(location.href.indexOf("#reloaded")==-1){
+        location.href=location.href+"#reloaded";
+        window.location.reload();
+    }
+ });
   }
   
 }
