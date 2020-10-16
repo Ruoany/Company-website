@@ -43,8 +43,8 @@
       />
 
       <div style="width:952px;height:410px;position:relative;margin:0 auto;">
-        <p style="font-size:40px;text-align:center;position:relative;margin:-60px auto;margin-top:20px;">三、人車安全智慧雲方案特點</p>
-        <ol style="position:relative;margin-left:30px;font-size:18px;margin-top:80px;">
+        <p style="font-size:40px;text-align:center;position:relative;margin:-60px auto;margin-top:40px;">三、人車安全智慧雲方案特點</p>
+        <ol style="position:relative;margin-left:30px;font-size:18px;margin-top:100px;">
           <li>1.平臺的技術靈活、專業、高效、準確。</li>
           <li>2.平臺自主研發，能夠提供全方面的定制化開發，具有技術支持完備，回應及時，技術能力充足等優勢；</li>
           <li>3.平臺採用分散式運算架構，方便公司集中監管層面大量資料獲取、傳輸高效的要求，又能夠適應不同下屬車隊靈活使用的要求。</li>
@@ -53,11 +53,11 @@
         </ol>
 
         <p style="font-size:40px;text-align:center;margin:20px auto;height:50px;">四、人車安全智慧雲方優勢</p>
-        <p style="font-size:18px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;實現“一平臺操作、一張圖展示、一張表統計，一標準覆蓋”。</p>
+        <!-- <p style="font-size:18px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;實現“一平臺操作、一張圖展示、一張表統計，一標準覆蓋”。</p> -->
       </div>
 
       <div style="position:relative;margin-top:-90px;">
-        <div style="width:952px;display:flex;justify-content:space-around;margin:120px auto;">
+        <div style="width:1152px;display:flex;justify-content:space-around;margin:120px auto;">
           <img src="@/assets/img/2-10.png" />
           <img src="@/assets/img/2-12.png" />
           <img src="@/assets/img/2-11.png" />
@@ -65,7 +65,7 @@
         </div>
 
         <div
-          style="font-size:20px;width:952px;display:flex;justify-content:space-around;margin:-100px auto;"
+          style="font-size:20px;width:1152px;display:flex;justify-content:space-around;margin:-100px auto;"
         >
           <p>
             <b>一平臺操作</b>
@@ -82,7 +82,7 @@
         </div>
 
         <div
-          style="font-size:18px;width:952px;display:flex;justify-content:space-around;margin:100px auto;"
+          style="font-size:18px;width:1152px;display:flex;justify-content:space-around;margin:100px auto;"
         >
           <p
             style="width:220px;"

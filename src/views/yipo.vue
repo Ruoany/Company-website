@@ -53,8 +53,8 @@
                      </ol>
                   </div>
                   <div style="width:470px;height:254px;border:4px solid #000096;border-top:none;border-left:none;">
-                    <ol style="width:475px;margin:0 auto;font-size:16px;line-height:35px;margin-top:33px;">
-                      <li>1.Speed：快速建置方法，一夜之間完成室內外停車場改裝，安装；</li>
+                    <ol style="width:485px;margin:0 auto;font-size:16px;line-height:35px;margin-top:33px;">
+                      <li>1.Speed：快速建置方法，一夜之間完成室內外停車場改裝、安装；</li>
                       <li>2.Smart：環保且智能的硬體設備；</li>
                       <li>3.Service：提供智能設備以及系統的完全方案；</li>
                       <li>4.Small：最小建置及維護成本；</li>

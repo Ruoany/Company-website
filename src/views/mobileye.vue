@@ -209,7 +209,7 @@ export default {
       document.getElementById("k").style="animation-play-state: running;",
       document.getElementById("l").style="animation-play-state: running;",
       document.getElementById("m").style="animation-play-state: running;",
-      document.getElementById("g").style="visibility:hidden;";
+      // document.getElementById("g").style="visibility:hidden;";
       this.isShow3 = true;
     },
      start3() {
@@ -217,7 +217,7 @@ export default {
       document.getElementById("u").style="animation-play-state: running;",
       document.getElementById("v").style="animation-play-state: running;",
       document.getElementById("w").style="animation-play-state: running;"
-      document.getElementById("r").style="visibility:hidden;";
+      // document.getElementById("r").style="visibility:hidden;";
       this.isShow4 = true;
     },
 
@@ -226,7 +226,7 @@ export default {
       document.getElementById("o").style="animation-play-state: running;",
       document.getElementById("p").style="animation-play-state: running;",
       document.getElementById("q").style="animation-play-state: running;"
-      document.getElementById("s").style="visibility:hidden;";
+      // document.getElementById("s").style="visibility:hidden;";
     },
     
   },
