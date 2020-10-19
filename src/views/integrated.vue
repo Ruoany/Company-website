@@ -258,8 +258,8 @@
 				    <div v-show="isShow18" >
 						<div style="width:322px;height:231px;background:#0000ff;margin-top:-138px;opacity:0.5;">
 						</div>
-						<p style="color:#fff;z-index:2;position:absolute;margin-top:-235px;margin-left:117px;">IP+人車智慧雲>></p>
-						<p style="width:283px;color:#fff;z-index:2;position:absolute;margin-top:-215px;margin-left:20px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 道路運輸安全智慧雲平臺（Dedicated to the field of car safety driving），能夠通過即時上傳的多維度車輛數據，結合大規模的地理數據分析，利用科學的駕駛分析模型，找到司機駕車的優缺點，找到日常駕駛路段的事故黑點，找到真正需要人工介入干預的危險駕駛狀態，更好的在事故發生後進行科學準確的分析，找到原因。
+						<p style="color:#fff;z-index:2;position:absolute;margin-top:-215px;margin-left:117px;">IP+人車智慧雲>></p>
+						<p style="width:283px;color:#fff;z-index:2;position:absolute;margin-top:-185px;margin-left:20px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;能夠通過即時上傳的多維度車輛數據，結合大規模的地理數據分析，利用科學的駕駛分析模型，找到司機駕車的優缺點，找到日常駕駛路段的事故黑點，找到真正需要人工介入干預的危險駕駛狀態，更好的在事故發生後進行科學準確的分析，找到原因。
      系統能夠提高車隊管理系統的資訊處理效率，多維度分析的業務報表，幫助企業迅速找到問題，並提出有效的建議措施，大大提高人工效率。</p>
 			      </div>
 			   </div>

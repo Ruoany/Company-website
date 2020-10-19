@@ -53,9 +53,9 @@
                 </div>
 
                 <div>
-                  <img  src="@/assets/img/1-2.png" style="z-index:-1;position:relative;margin-top:0px;margin-left:910px;" />
-                   <img  src="@/assets/img/1-2.png" style="z-index:-1;position:relative;margin-top:-63px;margin-left:1230px;" />
-                    <img  src="@/assets/img/1-2.png" style="z-index:-1;position:relative;margin-top:-62px;margin-left:1550px;" />
+                  <img  src="@/assets/img/btnDownAni.gif" style="z-index:-1;position:relative;margin-top:0px;margin-left:910px;" />
+                   <img  src="@/assets/img/btnDownAni.gif" style="z-index:-1;position:relative;margin-top:-93px;margin-left:1230px;" />
+                    <img  src="@/assets/img/btnDownAni.gif" style="z-index:-1;position:relative;margin-top:-92px;margin-left:1550px;" />
                 </div>
 
                 <div style="position:relative;margin-top:-900px;">
