@@ -214,11 +214,11 @@ export default {
   $(function () {
   $('.shutter').shutter({
 	shutterW: 100+'%', // 容器宽度
-	shutterH: 1215, // 容器高度
+	shutterH: 600, // 容器高度
 	isAutoPlay: true, // 是否自动播放
 	playInterval: 3000, // 自动播放时间
 	curDisplay: 3, // 当前显示页
-	fullPage: true // 是否全屏展示
+	fullPage: false // 是否全屏展示
   });
 });
   }

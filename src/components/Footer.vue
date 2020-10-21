@@ -1,6 +1,7 @@
 <template>
     
    <div>
+      <hr style="margin-top:-1px;" />
         <div  class="footer-content">
 
                 
@@ -17,7 +18,7 @@
             </li>
             <li>
               <p @click="jumpRouter('/program',1)">解決方案</p>
-              <span @click="jumpRouter('/program',1)" >人車安全智慧雲</span>
+              <span @click="jumpRouter('/transit/wisdom',1)" >人車安全智慧雲</span>
               <span  @click="jumpRouter('/transit/yipo',1)">易泊停車誘導及預約</span>
               <span @click="jumpRouter('/transit/mirror',1)">電子後視鏡</span>
               <span @click="jumpRouter('/transit/warning',1)">行人過街預警</span>
@@ -94,7 +95,7 @@ export default {
     /* padding-left: 220px; */
     display: flex;
     justify-content: space-between;
-    background: #000096 fixed;
+    background: #fff fixed;
     height: 345px;
     
   }
@@ -113,14 +114,14 @@ export default {
       }
         p {
           font-size: 20px;
-          color: #d4edff;
+          color: #000;
           padding: 10px 0;
           width: 95px;
           cursor:pointer;
           padding-top: 10px;
         }
         span {
-          color: #f7f7f7;
+          color: #999;
           font-weight: 300;
           padding: 3px 0;
           font-size: 14px;
@@ -138,6 +139,12 @@ export default {
       
 
  } 
+
+ span:hover{
+   color: #006cff;
+   text-decoration:underline;
+ }
+
       
   
 @media screen and (max-width: 997px) {
