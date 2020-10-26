@@ -7,7 +7,7 @@
       <!-- 导航logo -->
       <div class="header-nav-logo">
         <img src="@/assets/img/logo.png" @click="jumpHome()" />
-        <span class="name">澳門泓睿科技</span>
+        <span class="name">澳門泓睿</span>
         <span class="englishname">Inplexmacau</span>
       </div>
       <!-- 导航内容 -->
@@ -175,7 +175,7 @@ export default {
   font-size: 18px;
   position:absolute;
   top: 29px;
-  left: 115px;
+  left: 120px;
   right: 0;
   bottom: 0;
   color: #fff;
