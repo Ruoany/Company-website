@@ -99,7 +99,7 @@
                    </div>
 
                    <div v-show="isShow7">
-                       <div style="position:absolute;bottom:-380px;left:450px;width:180px;height:180px;border:5px solid #007bff;border-top:0;">
+                       <div style="position:absolute;bottom:-400px;left:450px;width:180px;height:180px;border:5px solid #007bff;border-top:0;">
                              <div style="border-top:5px solid #007bff;width:30px"></div>
                              <div style="border-top:5px solid #007bff;width:30px;margin-left:140px;margin-top:-5px;"></div>
                               <div style="margin-top:-10px;margin-left:45px;font-size:16px;color:#007bff"><p>01.音频分享</p></div>
@@ -122,7 +122,7 @@
               </div>
 
               <div v-show="isShow9">
-                       <div style="position:absolute;bottom:-380px;left:950px;width:180px;height:180px;border:5px solid #007bff;border-top:0;">
+                       <div style="position:absolute;bottom:-400px;left:950px;width:180px;height:180px;border:5px solid #007bff;border-top:0;">
                              <div style="border-top:5px solid #007bff;width:30px"></div>
                              <div style="border-top:5px solid #007bff;width:30px;margin-left:140px;margin-top:-5px;"></div>
                               <div style="margin-top:-10px;margin-left:45px;font-size:16px;color:#007bff"><p>02.音频接收</p></div>
@@ -145,7 +145,7 @@
               </div>
 
               <div v-show="isShow11">
-                       <div style="position:absolute;bottom:-380px;left:1450px;width:180px;height:180px;border:5px solid #007bff;border-top:0;">
+                       <div style="position:absolute;bottom:-400px;left:1450px;width:180px;height:180px;border:5px solid #007bff;border-top:0;">
                              <div style="border-top:5px solid #007bff;width:30px"></div>
                              <div style="border-top:5px solid #007bff;width:30px;margin-left:140px;margin-top:-5px;"></div>
                               <div style="margin-top:-10px;margin-left:45px;font-size:16px;color:#007bff"><p>03.辅助接收</p></div>
@@ -168,7 +168,7 @@
               </div>
 
               <div v-show="isShow13">
-                       <div style="position:absolute;bottom:-380px;left:1950px;width:180px;height:180px;border:5px solid #007bff;border-top:0;">
+                       <div style="position:absolute;bottom:-400px;left:1950px;width:180px;height:180px;border:5px solid #007bff;border-top:0;">
                              <div style="border-top:5px solid #007bff;width:10px"></div>
                              <div style="border-top:5px solid #007bff;width:10px;margin-left:160px;margin-top:-5px;"></div>
                               <div style="margin-top:-10px;margin-left:20px;font-size:16px;color:#007bff"><p>04.多语言实时翻译</p></div>
@@ -250,12 +250,110 @@
 
 
           <div id="bd">
-              <p style="font-size:30px;">传感器</p>
-              <div style="display:flex">
-                <p>温度</p> 
-                <p>无线温度</p>
-                <p>变频功率</p> 
-              </div>     
+               <div>
+                  <p style="font-size:30px;position:relative;top:30px;margin-left:570px;"><b>传感器</b></p>
+               </div>
+                  <div style="float:right;font-size:24px;display:flex;justify-content:space-around;width:500px;position:relative;margin-top:-5px;left:-1275px;">
+                      <p @click="change25()">温度</p>
+                      <p @click="change26()">无线温度</p>
+                      <p @click="change27()">变频功率</p>
+                  </div>
+               <hr style="width:1200px;border:0px;border-bottom:2px solid #ccc;margin-left:570px;margin-top:45px;" />
+                
+              <hr v-show="show1" style="position:relative;width:60px;border:0px;border-bottom:2px solid #007bff;margin-left:820px;margin-top:-2px;z-index:2;" />
+          
+              <hr v-show="show2" style="position:relative;width:110px;border:0px;border-bottom:2px solid #007bff;margin-left:955px;margin-top:-2px;z-index:2;" />
+
+              <hr v-show="show3" style="position:relative;width:110px;border:0px;border-bottom:2px solid #007bff;margin-left:1140px;margin-top:-2px;z-index:2;" />
+          
+              <div style="width:250px;height:300px;background:#fff;position:relaitve;margin-left:570px;margin-top:15px;z-index:-1;">
+                  <div v-show="show4">
+                   <div id="ca" @click="change20()">
+                      <img :src="path11" width="40px" height="40px" style="position:relative;left:33px;top:29px;" />
+                      <p style="font-size:20px;position:relative;left:82px;top:-5px;">室温管温传感器</p>
+                   </div>
+                   <div id="cb" @click="change21()">
+                      <img :src="path12" width="40px" height="40px" style="position:relative;left:33px;top:29px;" />
+                      <p style="font-size:20px;position:relative;left:82px;top:-5px;">排气温度传感器</p>
+                   </div>
+                   <div id="cc" @click="change22()">
+                      <img :src="path13" width="40px" height="40px" style="position:relative;left:33px;top:29px;" />
+                      <p style="font-size:20px;position:relative;left:82px;top:-5px;">模块温度传感器</p>
+                   </div>
+                  </div>
+                   
+                   <div v-show="show5">
+                      <div style="height:100px;background:#fff;">
+                        <img src="@/assets/img/1-30.png" width="40px" height="40px" style="position:relative;left:33px;top:29px;" />
+                        <p style="font-size:20px;position:relative;left:82px;top:-5px;">无线温度</p>
+                      </div>  
+                       <div style="height:100px;background:#f5f5f5"></div>  
+                      <div style="height:100px;background:#f5f5f5"></div>   
+                   </div>
+
+                   <div v-show="show6">
+                      <div style="height:100px;background:#fff;">
+                        <img src="@/assets/img/1-31.png" width="40px" height="40px" style="position:relative;left:33px;top:29px;" />
+                        <p style="font-size:20px;position:relative;left:82px;top:-5px;">变频功率</p>
+                      </div> 
+                      <div style="height:100px;background:#f5f5f5"></div>  
+                      <div style="height:100px;background:#f5f5f5"></div>  
+                   </div>
+
+              </div>
+
+              <div style="width:950px;height:300px;background:#fff;position:relaitve;margin-left:820px;margin-top:-300px;box-shadow: rgba(0,0,0,0.46) -5px 0px 20px -5px;">
+                    <div v-show="show7">
+                     <span style="font-size:80px;color:#ddd;">“</span>
+                     <span style="font-size:16px;position:relative;top:-30px;"><b>室温管温传感器</b></span>
+                     <p style="width:664px;margin-left:40px;margin-top:-40px;line-height:26px;font-size:16px;color:#666666">室温传感器用于测量室内和室外的环境温度，管温传感器用于测量蒸发器和冷凝器的管壁温度。室温传感器和管温传感器的形状不同，但温度特性基本一致。按温度特性划分，美的使用的室温管温传感器有二种类型:1.常数B值为4100K±3%，基准电阻为25℃对应电阻10KΩ±3%。在0℃和55℃对应电阻公差约为±7%;而0℃以下及55℃以上，对于不同的供应商，电阻公差会有一定的差别。温度越高，阻值越小;温度越低，阻值越大。离25℃越远，对应电阻公差范围越大。</p>
+                     <span style="font-size:80px;color:#ddd;position:relative;margin-left:660px;top:-45px;">”</span>
+                     <img src="@/assets/img/1-34.gif" style="float:right;margin-top:-200px;margin-right:25px;" />
+                     <p style="margin-top:-130px;margin-left:750px;">示例图片：</p>
+                    </div>
+
+                    <div v-show="show8">
+                     <span style="font-size:80px;color:#ddd;">“</span>
+                     <span style="font-size:16px;position:relative;top:-30px;"><b>排气温度传感器</b></span>
+                     <p style="width:664px;margin-left:40px;margin-top:-40px;line-height:26px;font-size:16px;color:#666666">排气温度传感器用于测量压缩机顶部的排气温度，常数B值为3950K±3%,基准电阻为90℃对应电阻5KΩ±3%。</p>
+                     <span style="font-size:80px;color:#ddd;position:relative;margin-left:660px;top:-45px;">”</span>
+                     <img src="@/assets/img/1-34.gif" style="float:right;margin-top:-96px;margin-right:25px;" />
+                     <p style="position:relative;top:-26px;margin-left:750px;">示例图片：</p>
+                    </div>
+
+                    <div v-show="show9">
+                     <span style="font-size:80px;color:#ddd;">“</span>
+                     <span style="font-size:16px;position:relative;top:-30px;"><b>模块温度传感器</b></span>
+                     <p style="width:664px;margin-left:40px;margin-top:-40px;line-height:26px;font-size:16px;color:#666666">模块温度传感器用于测量变频模块(IGBT或IPM)的温度，用的感温头的型号是602F-3500F，基准电阻为25℃对应电阻6KΩ±1%。几个典型温度的对应阻值分别是:-10℃→(25.897~28.623)KΩ;0℃→(16.3248~17.7164)KΩ;50℃→(2.3262~2.5153)KΩ;90℃→<br/>(0.6671~0.7565)KΩ。
+温度传感器的种类很多，经常使用的有热电阻:PT100、PT1000、Cu50、Cu100;热电偶:B、E、J、K、S等。温度传感器不但种类繁多，而且组合形式多样，应根据不同的场所选用合适的产品。
+</p>
+                     <span style="font-size:80px;color:#ddd;position:relative;margin-left:660px;top:-45px;">”</span>
+                     <img src="@/assets/img/1-34.gif" style="float:right;margin-top:-200px;margin-right:25px;" />
+                     <p style="margin-top:-130px;margin-left:750px;">示例图片：</p>
+                    </div>
+
+                     <div v-show="show10">
+                     <span style="font-size:80px;color:#ddd;">“</span>
+                     <span style="font-size:16px;position:relative;top:-30px;"><b>无线温度</b></span>
+                     <p style="width:664px;margin-left:40px;margin-top:-40px;line-height:26px;font-size:16px;color:#666666">无线温度传感器将控制对象的温度参数变成电信号,并对接收终端发送无线信号，对系统实行检测、调节和控制。可直接安装在一般工业热电阻、热电偶的接线盒内，与现场传感元件构成一体化结构。通常和无线中继、接收终端、通信串口、电子计算机等配套使用，这样不仅节省了补偿导线和电缆，而且减少了信号传递失真和干扰，从而获的了高精度的测量结果。
+无线温度传感器广泛应用于化工、冶金、石油、电力、水处理、制药、食品等自动化行业。例如:高压电缆上的温度采集;水下等恶劣环境的温度采集;运动物体上的温度采集;不易连线通过的空间传输传感器数据;单纯为降低布线成本选用的数据采集方案;没有交流电源的工作场合的数据测量;便携式非固定场所数据测量。
+</p>
+                     <span style="font-size:80px;color:#ddd;position:relative;margin-left:660px;top:-45px;">”</span>
+                     <img src="@/assets/img/1-34.gif" style="float:right;margin-top:-252px;margin-right:25px;" />
+                     <p style="margin-top:-182px;margin-left:750px;">示例图片：</p>
+                    </div>
+
+                     <div v-show="show11">
+                     <span style="font-size:80px;color:#ddd;">“</span>
+                     <span style="font-size:16px;position:relative;top:-30px;"><b>变频功率</b></span>
+                     <p style="width:664px;margin-left:40px;margin-top:-40px;line-height:26px;font-size:16px;color:#666666">变频功率传感器通过对输入的电压、电流信号进行交流采样，再将采样值通过电缆、光纤等传输系统与数字量输入二次仪表相连，数字量输入二次仪表对电压、电流的采样值进行运算，可以获取电压有效值、电流有效值、基波电压、基波电流、谐波电压、谐波电流、有功功率、基波功率、谐波功率等参数。</p>
+                     <span style="font-size:80px;color:#ddd;position:relative;margin-left:660px;top:-45px;">”</span>
+                     <img src="@/assets/img/1-34.gif" style="float:right;margin-top:-148px;margin-right:25px;" />
+                     <p style="position:relative;top:-78px;margin-left:750px;">示例图片：</p>
+                    </div>
+              </div>
+
+
           </div>
 
 
@@ -294,6 +392,26 @@ export default {
 
      isShow12:true,
      isShow13:false,
+
+
+    show1:true,
+    show2:false,
+    show3:false,
+    show4:true,
+    show5:false,
+    show6:false,
+    show7:true,
+    show8:false,
+    show9:false,
+    show10:false,
+    show11:false,
+
+
+    path11: require("@/assets/img/1-27.png"),
+    path12: require("@/assets/img/1-25.png"),
+    path13: require("@/assets/img/1-26.png"),
+
+
 
 
 		}
@@ -360,6 +478,98 @@ export default {
         this.isShow12 = !this.isShow12;
         this.isShow13 = !this.isShow13;
     },
+
+    change20(){
+       this.path11 = require("@/assets/img/1-27.png"),
+       this.path12 = require("@/assets/img/1-25.png"),
+       this.path13 = require("@/assets/img/1-26.png"),
+       this.show7 = true;
+       this.show8 = false;
+       this.show9 = false;
+       document.getElementById("ca").style="background:#fff";
+       document.getElementById("cb").style="background:#f5f5f5";
+       document.getElementById("cc").style="background:#f5f5f5";
+    },
+     change21(){
+       this.path11 = require("@/assets/img/1-24.png"),
+       this.path12 = require("@/assets/img/1-28.png"),
+       this.path13 = require("@/assets/img/1-26.png"),
+       this.show7 = false;
+       this.show8 = true;
+       this.show9 = false;
+       document.getElementById("ca").style="background:#f5f5f5";
+       document.getElementById("cb").style="background:#fff";
+       document.getElementById("cc").style="background:#f5f5f5";
+       
+    },
+     change22(){
+       this.path11 = require("@/assets/img/1-24.png"), 
+       this.path12 = require("@/assets/img/1-25.png"), 
+       this.path13 = require("@/assets/img/1-27.png"),
+       this.show7 = false;
+       this.show8 = false;
+       this.show9 = true;
+       document.getElementById("ca").style="background:#f5f5f5";
+       document.getElementById("cb").style="background:#f5f5f5";
+       document.getElementById("cc").style="background:#fff";
+    },
+
+
+
+
+
+  change25(){
+     this.show1 = true;
+     this.show2 = false;
+     this.show3 = false;
+     this.show4 = true;
+     this.show5 = false;
+     this.show6 = false;
+
+     this.show7 = true;
+     this.show8 = false;
+     this.show9 = false;
+     this.show10 = false;
+     this.show11 = false;
+
+     document.getElementById("ca") .style="background:#fff";
+     document.getElementById("cb") .style="background:#f5f5f5";
+     document.getElementById("cc") .style="background:#f5f5f5";
+
+       this.path11 = require("@/assets/img/1-27.png"),
+       this.path12 = require("@/assets/img/1-25.png"),
+       this.path13 = require("@/assets/img/1-26.png")
+  },
+   change26(){
+     this.show1 = false;
+     this.show2 = true;
+     this.show3 = false;
+     this.show4 = false;
+     this.show5 = true;
+     this.show6 = false;
+     
+     this.show7 = false;
+     this.show8 = false;
+     this.show9 = false;
+     this.show10 = true;
+     this.show11 = false;
+  },
+   change27(){
+     this.show1 = false;
+     this.show2 = false;
+     this.show3 = true;
+     this.show4 = false;
+     this.show5 = false;
+     this.show6 = true;
+
+     this.show7 = false;
+     this.show8 = false;
+     this.show9 = false;
+     this.show10 = false;
+     this.show11 = true;
+  },
+
+
 
   },
 
@@ -550,6 +760,18 @@ export default {
    
 }
 
+
+#ca{
+  height:100px;background:#fff;
+}
+
+#cb{
+   height:100px;background:#f5f5f5;
+}
+
+#cc{
+  height:100px;background:#f5f5f5;
+}
 
 
 </style>

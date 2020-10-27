@@ -197,14 +197,19 @@
 
 
             <div style="display:flex;width:970px;margin:0 auto;margin-top:-260px;justify-content:space-around;">
-               <div><img src="@/assets/img/2-3-9.png" /></div>
+               <div style="display:flex;margin-left:-40px;">
+                 <img src="@/assets/img/2-3-11.png"  id="bb"/>
+                 <img src="@/assets/img/2-3-12.png"  id="bc"/>
+                 <img src="@/assets/img/2-3-13.png"  id="bd"/>
+
+                 </div>
 
                <div style="margin-top:40px;margin-left:30px;line-height:60px;">
                   <div>
-                    <p style="font-size:24px;color:#ff0000">0~0.8m红色盲区警示(行人)</p>
-                     <p style="font-size:24px;color:#ffa500">0.8~1.2m橙色盲区警示(行人)</p>
-                      <p style="font-size:24px;color:#008000">1.2~1.5m绿色接近警示(行人)</p>
-                       <p style="font-size:24px;color:#efef00">0.8~1.2m黄色警示(侧方障碍物)</p>
+                    <p style="font-size:24px;color:#ff0000" @mouseenter="change20()" @mouseleave="change21()">0~0.8m红色盲区警示(行人)</p>
+                     <p style="font-size:24px;color:#ffa500" @mouseenter="change22()" @mouseleave="change23()">0.8~1.2m橙色盲区警示(行人)</p>
+                      <p style="font-size:24px;color:#008000" @mouseenter="change24()" @mouseleave="change25()">1.2~1.5m绿色接近警示(行人)</p>
+                       <p style="font-size:24px;color:#efef00" @mouseenter="change26()" @mouseleave="change27()">0.8~1.2m黄色警示(侧方障碍物)</p>
 
                   </div>
                    <div style="font-size:18px;width:400px;margin-top:110px;">多传感器融合，图像、色彩、声音提醒，
@@ -307,8 +312,40 @@ export default {
     },
      change14(){
        this.show9 = !this.show9,this.show5 = !this.show5
-       document.getElementById("ba").style="background:#053085;color:#fff;"
+       
     },
+
+    change20(){
+      document.getElementById("bb").style="transform: scale(1.1);transition: all 2s;"
+    },
+    change21(){
+      document.getElementById("bb").style="transform: scale(1);transition: all 2s;"
+    },
+
+    change22(){
+      document.getElementById("bc").style="transform: scale(1.1);transition: all 2s;"
+    },
+    change23(){
+      document.getElementById("bc").style="transform: scale(1);transition: all 2s;"
+    },
+
+    change24(){
+      document.getElementById("bd").style="transform: scale(1.1);transition: all 2s;"
+    },
+    change25(){
+      document.getElementById("bd").style="transform: scale(1);transition: all 2s;"
+    },
+    change26(){
+      document.getElementById("bb").style="transform: scale(1.1);transition: all 2s;"
+      document.getElementById("bc").style="transform: scale(1.1);transition: all 2s;"
+      document.getElementById("bd").style="transform: scale(1.1);transition: all 2s;"
+    },
+    change27(){
+      document.getElementById("bb").style="transform: scale(1);transition: all 2s;"
+      document.getElementById("bc").style="transform: scale(1);transition: all 2s;"
+      document.getElementById("bd").style="transform: scale(1);transition: all 2s;"
+    }
+
   },
     mounted(){
     $(document).ready(function () {
@@ -561,6 +598,8 @@ overflow-y:hidden;
    background: #053085;
    color:#fff ;
 }
+
+
 
    
 </style>
