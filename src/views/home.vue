@@ -77,7 +77,7 @@
                   <div v-show="isShow3" style="width:300px;height:300px;background:#fff;position:absolute;top:900px;margin-left:1440px;opacity:0.7;box-shadow: rgba(0,0,0,0.46) 2px 2px 2px 2px;">
                      
                   </div>
-                   <p v-show="isShow3" style="color:#333333;font-size:16px;position:absolute;margin-top:909px;margin-left:1488px;width:231px;line-height:30px;word-break: break-word;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;为了实现下一代BluetoothAudio而定义了LE同步信道，包括连接模式下的同步音频流传输信道以及广播模式下的同步音频流传输信道。为实现LE同步信道，在BLEController中定义了新的通讯协议层——IsochronousAdaptationLayer（ISOAL，同步适配层）。</p>
+                   <p v-show="isShow3" style="color:#333333;font-size:16px;position:absolute;margin-top:909px;margin-left:1480px;width:231px;line-height:30px;word-break: break-word;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;为了实现下一代BluetoothAudio而定义了LE同步信道，包括连接模式下的同步音频流传输信道以及广播模式下的同步音频流传输信道。为实现LE同步信道，在BLEController中定义了新的通讯协议层——IsochronousAdaptationLayer（ISOAL，同步适配层）。</p>
 
                     
 
@@ -99,12 +99,12 @@
                    </div>
 
                    <div v-show="isShow7">
-                       <div style="position:absolute;bottom:-400px;left:450px;width:180px;height:180px;border:5px solid #007bff;border-top:0;">
+                       <div style="position:absolute;bottom:-430px;left:450px;width:180px;height:180px;border:5px solid #007bff;border-top:0;">
                              <div style="border-top:5px solid #007bff;width:30px"></div>
                              <div style="border-top:5px solid #007bff;width:30px;margin-left:140px;margin-top:-5px;"></div>
                               <div style="margin-top:-10px;margin-left:45px;font-size:16px;color:#007bff"><p>01.音频分享</p></div>
 
-                              <p style="width:130px;margin:0 auto;color:#007bff;font-size:12px;line-height:18px;margin-top:10px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;比如你有一首非常喜欢的音乐要分享给周围的人，不用再通过某软件分享链接，通过手机音乐直接播放音乐，让周围的人连接到你的分享频道即可。</p>
+                              <p style="width:130px;margin:0 auto;color:#007bff;font-size:12px;line-height:18px;margin-top:10px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;比如你有一首非常喜欢的音乐要分享给周围的人，不用再通过某软件分享链接，通过手机音乐直接播放音乐，让周围的人连接到你的分享频道即可。</p>
                        </div>
                    </div>
             
@@ -118,16 +118,16 @@
 
               <div v-show="isShow8">
                 <img src="@/assets/img/1-19.png" width="50px" height="50px" style="position:absolute;margin-top:1160px;margin-left:1020px;"/>
-                <p style="position:absolute;font-size:16px;width:85px;margin-left:1000px;margin-top:1240px;">02.音频接收</p>
+                <p style="position:absolute;font-size:16px;width:90px;margin-left:1000px;margin-top:1240px;">02.音频接收</p>
               </div>
 
               <div v-show="isShow9">
-                       <div style="position:absolute;bottom:-400px;left:950px;width:180px;height:180px;border:5px solid #007bff;border-top:0;">
+                       <div style="position:absolute;bottom:-430px;left:950px;width:180px;height:180px;border:5px solid #007bff;border-top:0;">
                              <div style="border-top:5px solid #007bff;width:30px"></div>
                              <div style="border-top:5px solid #007bff;width:30px;margin-left:140px;margin-top:-5px;"></div>
                               <div style="margin-top:-10px;margin-left:45px;font-size:16px;color:#007bff"><p>02.音频接收</p></div>
 
-                              <p style="width:130px;margin:0 auto;color:#007bff;font-size:12px;line-height:18px;margin-top:10px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;比如你有一首非常喜欢的音乐要分享给周围的人，不用再通过某软件分享链接，通过手机音乐直接播放音乐，让周围的人连接到你的分享频道即可。</p>
+                              <p style="width:130px;margin:0 auto;color:#007bff;font-size:12px;line-height:18px;margin-top:10px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;比如你有一首非常喜欢的音乐要分享给周围的人，不用再通过某软件分享链接，通过手机音乐直接播放音乐，让周围的人连接到你的分享频道即可。</p>
                        </div>
               </div>
              
@@ -141,16 +141,16 @@
 
               <div v-show="isShow10">
                 <img src="@/assets/img/1-20.png" width="50px" height="50px" style="position:absolute;margin-top:1010px;margin-left:1520px;"/>
-                <p style="position:absolute;font-size:16px;width:85px;margin-left:1500px;margin-top:1090px;">03.辅助接收</p>
+                <p style="position:absolute;font-size:16px;width:90px;margin-left:1500px;margin-top:1090px;">03.辅助接收</p>
               </div>
 
               <div v-show="isShow11">
-                       <div style="position:absolute;bottom:-400px;left:1450px;width:180px;height:180px;border:5px solid #007bff;border-top:0;">
+                       <div style="position:absolute;bottom:-430px;left:1450px;width:180px;height:180px;border:5px solid #007bff;border-top:0;">
                              <div style="border-top:5px solid #007bff;width:30px"></div>
                              <div style="border-top:5px solid #007bff;width:30px;margin-left:140px;margin-top:-5px;"></div>
                               <div style="margin-top:-10px;margin-left:45px;font-size:16px;color:#007bff"><p>03.辅助接收</p></div>
 
-                              <p style="width:130px;margin:0 auto;color:#007bff;font-size:12px;line-height:18px;margin-top:10px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;比如你有一首非常喜欢的音乐要分享给周围的人，不用再通过某软件分享链接，通过手机音乐直接播放音乐，让周围的人连接到你的分享频道即可。</p>
+                              <p style="width:130px;margin:0 auto;color:#007bff;font-size:12px;line-height:18px;margin-top:10px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;比如你有一首非常喜欢的音乐要分享给周围的人，不用再通过某软件分享链接，通过手机音乐直接播放音乐，让周围的人连接到你的分享频道即可。</p>
                        </div>
               </div>
              
@@ -168,12 +168,12 @@
               </div>
 
               <div v-show="isShow13">
-                       <div style="position:absolute;bottom:-400px;left:1950px;width:180px;height:180px;border:5px solid #007bff;border-top:0;">
+                       <div style="position:absolute;bottom:-430px;left:1950px;width:180px;height:180px;border:5px solid #007bff;border-top:0;">
                              <div style="border-top:5px solid #007bff;width:10px"></div>
                              <div style="border-top:5px solid #007bff;width:10px;margin-left:160px;margin-top:-5px;"></div>
                               <div style="margin-top:-10px;margin-left:20px;font-size:16px;color:#007bff"><p>04.多语言实时翻译</p></div>
 
-                              <p style="width:130px;margin:0 auto;color:#007bff;font-size:12px;line-height:18px;margin-top:10px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;比如你有一首非常喜欢的音乐要分享给周围的人，不用再通过某软件分享链接，通过手机音乐直接播放音乐，让周围的人连接到你的分享频道即可。</p>
+                              <p style="width:130px;margin:0 auto;color:#007bff;font-size:12px;line-height:18px;margin-top:10px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;比如你有一首非常喜欢的音乐要分享给周围的人，不用再通过某软件分享链接，通过手机音乐直接播放音乐，让周围的人连接到你的分享频道即可。</p>
                        </div>
               </div>
              
@@ -254,9 +254,9 @@
                   <p style="font-size:30px;position:relative;top:30px;margin-left:570px;"><b>传感器</b></p>
                </div>
                   <div style="float:right;font-size:24px;display:flex;justify-content:space-around;width:500px;position:relative;margin-top:-5px;left:-1275px;">
-                      <p @click="change25()">温度</p>
-                      <p @click="change26()">无线温度</p>
-                      <p @click="change27()">变频功率</p>
+                      <p @click="change25()" style="cursor:pointer;">温度</p>
+                      <p @click="change26()" style="cursor:pointer;">无线温度</p>
+                      <p @click="change27()" style="cursor:pointer;">变频功率</p>
                   </div>
                <hr style="width:1200px;border:0px;border-bottom:2px solid #ccc;margin-left:570px;margin-top:45px;" />
                 
@@ -306,8 +306,8 @@
                     <div v-show="show7">
                      <span style="font-size:80px;color:#ddd;">“</span>
                      <span style="font-size:16px;position:relative;top:-30px;"><b>室温管温传感器</b></span>
-                     <p style="width:664px;margin-left:40px;margin-top:-40px;line-height:26px;font-size:16px;color:#666666">室温传感器用于测量室内和室外的环境温度，管温传感器用于测量蒸发器和冷凝器的管壁温度。室温传感器和管温传感器的形状不同，但温度特性基本一致。按温度特性划分，美的使用的室温管温传感器有二种类型:1.常数B值为4100K±3%，基准电阻为25℃对应电阻10KΩ±3%。在0℃和55℃对应电阻公差约为±7%;而0℃以下及55℃以上，对于不同的供应商，电阻公差会有一定的差别。温度越高，阻值越小;温度越低，阻值越大。离25℃越远，对应电阻公差范围越大。</p>
-                     <span style="font-size:80px;color:#ddd;position:relative;margin-left:660px;top:-45px;">”</span>
+                     <p style="width:664px;margin-left:50px;margin-top:-40px;line-height:26px;font-size:16px;color:#666666">室温传感器用于测量室内和室外的环境温度，管温传感器用于测量蒸发器和冷凝器的管壁温度。室温传感器和管温传感器的形状不同，但温度特性基本一致。按温度特性划分，美的使用的室温管温传感器有二种类型:1.常数B值为4100K±3%，基准电阻为25℃对应电阻10KΩ±3%。在0℃和55℃对应电阻公差约为±7%;而0℃以下及55℃以上，对于不同的供应商，电阻公差会有一定的差别。温度越高，阻值越小;温度越低，阻值越大。离25℃越远，对应电阻公差范围越大。</p>
+                     <span style="font-size:80px;color:#ddd;position:relative;margin-left:680px;top:-45px;">”</span>
                      <img src="@/assets/img/1-34.gif" style="float:right;margin-top:-200px;margin-right:25px;" />
                      <p style="margin-top:-130px;margin-left:750px;">示例图片：</p>
                     </div>
@@ -315,19 +315,19 @@
                     <div v-show="show8">
                      <span style="font-size:80px;color:#ddd;">“</span>
                      <span style="font-size:16px;position:relative;top:-30px;"><b>排气温度传感器</b></span>
-                     <p style="width:664px;margin-left:40px;margin-top:-40px;line-height:26px;font-size:16px;color:#666666">排气温度传感器用于测量压缩机顶部的排气温度，常数B值为3950K±3%,基准电阻为90℃对应电阻5KΩ±3%。</p>
-                     <span style="font-size:80px;color:#ddd;position:relative;margin-left:660px;top:-45px;">”</span>
+                     <p style="width:664px;margin-left:50px;margin-top:-40px;line-height:26px;font-size:16px;color:#666666">排气温度传感器用于测量压缩机顶部的排气温度，常数B值为3950K±3%,基准电阻为90℃对应电阻5KΩ±3%。</p>
+                     <span style="font-size:80px;color:#ddd;position:relative;margin-left:680px;top:-45px;">”</span>
                      <img src="@/assets/img/1-34.gif" style="float:right;margin-top:-96px;margin-right:25px;" />
-                     <p style="position:relative;top:-26px;margin-left:750px;">示例图片：</p>
+                     <p style="position:relative;top:-10px;margin-left:750px;">示例图片：</p>
                     </div>
 
                     <div v-show="show9">
                      <span style="font-size:80px;color:#ddd;">“</span>
                      <span style="font-size:16px;position:relative;top:-30px;"><b>模块温度传感器</b></span>
-                     <p style="width:664px;margin-left:40px;margin-top:-40px;line-height:26px;font-size:16px;color:#666666">模块温度传感器用于测量变频模块(IGBT或IPM)的温度，用的感温头的型号是602F-3500F，基准电阻为25℃对应电阻6KΩ±1%。几个典型温度的对应阻值分别是:-10℃→(25.897~28.623)KΩ;0℃→(16.3248~17.7164)KΩ;50℃→(2.3262~2.5153)KΩ;90℃→<br/>(0.6671~0.7565)KΩ。
+                     <p style="width:664px;margin-left:50px;margin-top:-40px;line-height:26px;font-size:16px;color:#666666">模块温度传感器用于测量变频模块(IGBT或IPM)的温度，用的感温头的型号是602F-3500F，基准电阻为25℃对应电阻6KΩ±1%。几个典型温度的对应阻值分别是:-10℃→(25.897~28.623)KΩ;0℃→(16.3248~17.7164)KΩ;50℃→(2.3262~2.5153)KΩ;90℃→<br/>(0.6671~0.7565)KΩ。
 温度传感器的种类很多，经常使用的有热电阻:PT100、PT1000、Cu50、Cu100;热电偶:B、E、J、K、S等。温度传感器不但种类繁多，而且组合形式多样，应根据不同的场所选用合适的产品。
 </p>
-                     <span style="font-size:80px;color:#ddd;position:relative;margin-left:660px;top:-45px;">”</span>
+                     <span style="font-size:80px;color:#ddd;position:relative;margin-left:680px;top:-45px;">”</span>
                      <img src="@/assets/img/1-34.gif" style="float:right;margin-top:-200px;margin-right:25px;" />
                      <p style="margin-top:-130px;margin-left:750px;">示例图片：</p>
                     </div>
@@ -335,21 +335,21 @@
                      <div v-show="show10">
                      <span style="font-size:80px;color:#ddd;">“</span>
                      <span style="font-size:16px;position:relative;top:-30px;"><b>无线温度</b></span>
-                     <p style="width:664px;margin-left:40px;margin-top:-40px;line-height:26px;font-size:16px;color:#666666">无线温度传感器将控制对象的温度参数变成电信号,并对接收终端发送无线信号，对系统实行检测、调节和控制。可直接安装在一般工业热电阻、热电偶的接线盒内，与现场传感元件构成一体化结构。通常和无线中继、接收终端、通信串口、电子计算机等配套使用，这样不仅节省了补偿导线和电缆，而且减少了信号传递失真和干扰，从而获的了高精度的测量结果。
+                     <p style="width:664px;margin-left:50px;margin-top:-40px;line-height:26px;font-size:16px;color:#666666">无线温度传感器将控制对象的温度参数变成电信号,并对接收终端发送无线信号，对系统实行检测、调节和控制。可直接安装在一般工业热电阻、热电偶的接线盒内，与现场传感元件构成一体化结构。通常和无线中继、接收终端、通信串口、电子计算机等配套使用，这样不仅节省了补偿导线和电缆，而且减少了信号传递失真和干扰，从而获的了高精度的测量结果。
 无线温度传感器广泛应用于化工、冶金、石油、电力、水处理、制药、食品等自动化行业。例如:高压电缆上的温度采集;水下等恶劣环境的温度采集;运动物体上的温度采集;不易连线通过的空间传输传感器数据;单纯为降低布线成本选用的数据采集方案;没有交流电源的工作场合的数据测量;便携式非固定场所数据测量。
 </p>
-                     <span style="font-size:80px;color:#ddd;position:relative;margin-left:660px;top:-45px;">”</span>
+                     <span style="font-size:80px;color:#ddd;position:relative;margin-left:680px;top:-45px;">”</span>
                      <img src="@/assets/img/1-34.gif" style="float:right;margin-top:-252px;margin-right:25px;" />
-                     <p style="margin-top:-182px;margin-left:750px;">示例图片：</p>
+                     <p style="margin-top:-166px;margin-left:750px;">示例图片：</p>
                     </div>
 
                      <div v-show="show11">
                      <span style="font-size:80px;color:#ddd;">“</span>
                      <span style="font-size:16px;position:relative;top:-30px;"><b>变频功率</b></span>
-                     <p style="width:664px;margin-left:40px;margin-top:-40px;line-height:26px;font-size:16px;color:#666666">变频功率传感器通过对输入的电压、电流信号进行交流采样，再将采样值通过电缆、光纤等传输系统与数字量输入二次仪表相连，数字量输入二次仪表对电压、电流的采样值进行运算，可以获取电压有效值、电流有效值、基波电压、基波电流、谐波电压、谐波电流、有功功率、基波功率、谐波功率等参数。</p>
-                     <span style="font-size:80px;color:#ddd;position:relative;margin-left:660px;top:-45px;">”</span>
+                     <p style="width:664px;margin-left:50px;margin-top:-40px;line-height:26px;font-size:16px;color:#666666">变频功率传感器通过对输入的电压、电流信号进行交流采样，再将采样值通过电缆、光纤等传输系统与数字量输入二次仪表相连，数字量输入二次仪表对电压、电流的采样值进行运算，可以获取电压有效值、电流有效值、基波电压、基波电流、谐波电压、谐波电流、有功功率、基波功率、谐波功率等参数。</p>
+                     <span style="font-size:80px;color:#ddd;position:relative;margin-left:680px;top:-45px;">”</span>
                      <img src="@/assets/img/1-34.gif" style="float:right;margin-top:-148px;margin-right:25px;" />
-                     <p style="position:relative;top:-78px;margin-left:750px;">示例图片：</p>
+                     <p style="position:relative;top:-62px;margin-left:750px;">示例图片：</p>
                     </div>
               </div>
 

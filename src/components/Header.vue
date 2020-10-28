@@ -224,7 +224,7 @@ export default {
   height: 2px;
   opacity: 0;
   transition: all 0.6s ease;
-  background-color: #004098;
+  background-color: #2254f5;
 }
 /* 导航栏 每个导航下面的 a 链接的右侧小三角 */
 #header .header-nav .header-nav-wrapper > li > a > span {
@@ -233,7 +233,7 @@ export default {
 }
 /* 导航栏 每个导航下面的 a 链接 鼠标滑上去的样式 */
 #header .header-nav .header-nav-wrapper > li > a:hover {
-  color: #004098;
+  color: #2254f5;
   text-decoration: none;
 }
 /* 导航栏 每个导航下面的 a 链接 鼠标滑上去下划线的样式 */
@@ -248,9 +248,13 @@ export default {
 }
 /* 导航栏 每个导航下面的 a 链接 鼠标点击后的样式 */
 #header .header-nav .header-nav-wrapper > li.active > a {
-  color: #004098;
+  color:#2254f5;
   text-decoration: none;
-  border-bottom: 2px solid #004098;
+  border-bottom: 3px solid #2254f5;
+  background: #fff;
+  position: relative;
+  padding-top: 40px;
+  padding-bottom: 30px;
 }
 /* 导航栏 每个导航下面的二级导航容器
 #header .header-nav .header-nav-wrapper > li > dl {

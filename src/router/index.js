@@ -4,8 +4,14 @@ Vue.use(Router)
 
 export default new Router({
   // mode: 'history',
-  routes: [{
-      path: '/',
+  routes: [
+    {
+       path: '/',
+       redirect: '/home'
+    },
+    {
+      path: '/home',
+      // redirect: '/',
       component: () => import('@/views/home.vue')
     },
     {

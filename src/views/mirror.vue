@@ -47,10 +47,10 @@
 
     <div>
       <div style="display:flex;flex-desction;justify-content:space-around;width:1200px;margin:0px auto;margin-top:280px;">
-                <div id="aa"  >
+                <div id="aa"  @mouseenter="change15()" @mouseleave="change16()">
                   <div id="ab">
                     <div id="ac">
-                      <span>
+                      <span id="za">
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;（一）
                         <br />技術水準超前
                       </span>
@@ -63,7 +63,7 @@
                  <div id="ad" @mouseenter="change1()" @mouseleave="change2()">
                   <div id="ae">
                     <div id="af">
-                      <span>
+                      <span id="zb">
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;（二）
                         <br/>最大限度提高
                        <br/>  &nbsp;&nbsp;&nbsp;&nbsp;安全性的
@@ -77,7 +77,7 @@
                 <div id="ag" @mouseenter="change3()" @mouseleave="change4()">
                   <div id="ah">
                     <div id="ai">
-                      <span>
+                      <span id="zc">
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;（三）
                         <br/> &nbsp;&nbsp;貨真價實的
                         <br/> &nbsp;&nbsp;元器件投入
@@ -91,8 +91,8 @@
                 <div id="aj" @mouseenter="change5()" @mouseleave="change6()">
                   <div id="ak">
                     <div id="al">
-                      <span>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;（四）
+                      <span id="zd">
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(四）
                        <br/> 超高的性價比
                       </span>
                     </div>
@@ -103,7 +103,7 @@
           <div>
          <p id="k" v-show="show1">
            <span style="position:relative;margin-left:230px;">（一）技術水準超前</span><br/>
-         &nbsp;&nbsp;&nbsp;&nbsp;視頻成像採用3D流媒體數字技術以及車規級晶片，採集、處理、成像流暢；
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;視頻成像採用3D流媒體數字技術以及車規級晶片，採集、處理、成像流暢；
          給駕駛員提供強大的既視感，車距真實,顯示準確，並可配合雷達聲像報警。
         </p>
          <p id="k" v-show="show2">
@@ -256,28 +256,120 @@ export default {
           this.$router.push(path);
     },
     change1(){
-      this.show2 = !this.show2, this.show1 = ! this.show1,
-      document.getElementById("ac").style="background:#fff;color:black"
+      this.show1 = false,
+      this.show2 = true,
+      this.show3 = false,
+      this.show4 = false,
+
+      document.getElementById("af").style="background:#007bff;",
+      document.getElementById("ac").style="background:#fff;",
+      document.getElementById("ai").style="background:#fff;",
+      document.getElementById("al").style="background:#fff;",
+      document.getElementById("zb").style="color:#fff",
+      document.getElementById("za").style="color:black",
+      document.getElementById("zc").style="color:black",
+      document.getElementById("zd").style="color:black"
     },
    change2(){
-      this.show2 = ! this.show2, this.show1 = ! this.show1,
-      document.getElementById("ac").style="background:#053085;;color:#fff"
+      this.show1 = false,
+      this.show2 = true,
+      this.show3 = false,
+      this.show4 = false,
+       document.getElementById("ac").style="background:#fff;",
+      document.getElementById("af").style="background:#007bff",
+      document.getElementById("ai").style="background:#fff;",
+      document.getElementById("al").style="background:#fff;",
+      document.getElementById("zb").style="color:#fff",
+      document.getElementById("za").style="color:black",
+      document.getElementById("zc").style="color:black",
+      document.getElementById("zd").style="color:black"
     },
+      
     change3(){
-      this.show3 = !this.show3,this.show1 = !this.show1,
-      document.getElementById("ac").style="background:#fff;color:black"
+      this.show1 = false,
+      this.show2 = false,
+      this.show3 = true,
+      this.show4 = false,
+      document.getElementById("ai").style="background:#007bff;",
+      document.getElementById("ac").style="background:#fff;",
+      document.getElementById("af").style="background:#fff;",
+      document.getElementById("al").style="background:#fff;",
+      document.getElementById("zc").style="color:#fff",
+      document.getElementById("za").style="color:black",
+      document.getElementById("zb").style="color:black",
+      document.getElementById("zd").style="color:black"
     },
     change4(){
-       this.show3 = !this.show3,this.show1 = !this.show1
-       document.getElementById("ac").style="background:#053085;;color:#fff"
+      this.show1 = false,
+      this.show2 = false,
+      this.show3 = true,
+      this.show4 = false,
+      document.getElementById("ac").style="background:#fff;color:black",
+      document.getElementById("af").style="background:#fff;color:black",
+      document.getElementById("ai").style="background:#007bff",
+      document.getElementById("al").style="background:#fff;color:black",
+      document.getElementById("zc").style="color:#fff",
+      document.getElementById("za").style="color:black",
+      document.getElementById("zb").style="color:black",
+      document.getElementById("zd").style="color:black"
     },
     change5(){
-      this.show4 = !this.show4,this.show1 = !this.show1,
-      document.getElementById("ac").style="background:#fff;color:black"
+      this.show1 = false,
+      this.show2 = false,
+      this.show3 = false,
+      this.show4 = true,
+      document.getElementById("al").style="background:#007bff;color:black",
+      document.getElementById("ac").style="background:#fff;color:black",
+      document.getElementById("af").style="background:#fff;color:black",
+      document.getElementById("ai").style="background:#fff;color:black",
+      document.getElementById("zd").style="color:#fff",
+      document.getElementById("za").style="color:black",
+      document.getElementById("zb").style="color:black",
+      document.getElementById("zc").style="color:black"
     },
     change6(){
-      this.show4 = !this.show4,this.show1 = !this.show1
-      document.getElementById("ac").style="background:#053085;;color:#fff"
+      this.show1 = false,
+      this.show2 = false,
+      this.show3 = false,
+      this.show4 = true,
+      document.getElementById("ac").style="background:#fff;color:black",
+      document.getElementById("af").style="background:#fff;color:black",
+      document.getElementById("ai").style="background:#fff",
+      document.getElementById("al").style="background:#007bff;",
+      document.getElementById("zd").style="color:#fff",
+      document.getElementById("za").style="color:black",
+      document.getElementById("zb").style="color:black",
+      document.getElementById("zc").style="color:black"
+    },
+
+    change15(){
+      this.show1 = true,
+      this.show2 = false,
+      this.show3 = false,
+      this.show4 = false,
+      document.getElementById("ac").style="background:#007bff;color:black",
+      document.getElementById("af").style="background:#fff;color:black",
+      document.getElementById("ai").style="background:#fff;color:black",
+      document.getElementById("al").style="background:#fff;color:black",
+      document.getElementById("za").style="color:#fff",
+      document.getElementById("zb").style="color:black",
+      document.getElementById("zc").style="color:black",
+      document.getElementById("zd").style="color:black"
+    },
+    change16(){
+      this.show1 = true,
+      this.show2 = false,
+      this.show3 = false,
+      this.show4 = false,
+      document.getElementById("ac").style="background:#007bff;color:black",
+      document.getElementById("af").style="background:#fff;color:black",
+      document.getElementById("ai").style="background:#fff;color:black",
+      document.getElementById("al").style="background:#fff;color:black",
+      document.getElementById("za").style="color:#fff",
+      document.getElementById("zb").style="color:black",
+      document.getElementById("zc").style="color:black",
+      document.getElementById("zd").style="color:black"
+      
     },
 
 
@@ -403,7 +495,7 @@ overflow-y:hidden;
   border-radius: 115px;
   width: 230px;
   height: 230px;
-  border: 2px dashed #053085;
+  border: 2px dashed #007bff;
 }
 
 /* #ab :hover {
@@ -423,8 +515,8 @@ overflow-y:hidden;
   position: relative;
   left: 22px;
   top: 22px;
-  border: 2px solid #053085;
-  background: #053085;
+  border: 2px solid #007bff;
+  background: #007bff;
   color: #fff;
 }
 
@@ -449,10 +541,10 @@ overflow-y:hidden;
   border-radius: 115px;
   width: 230px;
   height: 230px;
-  border: 2px dashed #053085;
+  border: 2px dashed #007bff;
 }
 #ae :hover {
-       background: #053085;     
+       background: #007bff;     
 }
 #ae :hover span{
   color: #fff;
@@ -470,7 +562,7 @@ overflow-y:hidden;
   position: relative;
   left: 22px;
   top: 22px;
-  border: 2px solid #053085;
+  border: 2px solid #007bff;
 }
 
 #af span {
@@ -493,10 +585,10 @@ overflow-y:hidden;
   border-radius: 115px;
   width: 230px;
   height: 230px;
-  border: 2px dashed #053085;
+  border: 2px dashed #007bff;
 }
 #ah :hover {
-       background: #053085;
+       background: #007bff;
       
 }
 #ah :hover span{
@@ -512,7 +604,7 @@ overflow-y:hidden;
   position: relative;
   left: 22px;
   top: 22px;
-  border: 2px solid #053085;
+  border: 2px solid #007bff;
 }
 
 #ai span {
@@ -535,10 +627,10 @@ overflow-y:hidden;
   border-radius: 115px;
   width: 230px;
   height: 230px;
-  border: 2px dashed #053085;
+  border: 2px dashed #007bff;
 }
 #ak :hover {
-       background: #053085;
+       background: #007bff;
       
 }
 #ak :hover span{
@@ -554,7 +646,7 @@ overflow-y:hidden;
   position: relative;
   left: 22px;
   top: 22px;
-  border: 2px solid #053085;
+  border: 2px solid #007bff;
 }
 
 #al span {
@@ -588,15 +680,15 @@ overflow-y:hidden;
 
 
 .l :hover{
-   background: #053085;
+   background: #007bff;
 }
 .l :hover span{
   color: #fff;
 }
 
 #ba{
-   background: #053085;
-   color:#fff ;
+   /* background: #007bff; */
+   color:#007bff ;
 }
 
 
