@@ -357,6 +357,43 @@
           </div>
 
 
+          <div id="da">
+                <p style="font-size:50px;color:#fff;position:relative;top:25px;left:1245px;">數字化地圖服務</p>
+                <div style="position:relative;width:480px;height:300px;background:#007bff;top:-220px;left:720px;box-shadow: 0px 0px 6px 0px 
+		rgba(0, 0, 150, 0.58);">
+                     <div style="color:#fff;position:relative;top:46px;left:47px;line-height:35px;">
+                        <p style="font-size:20px;">借助AI驅動的道路勘測技術加快維護操作</p>   
+                        <p  id="db" style="font-size:16px;cursor:pointer;" @mouseenter="change30()" @mouseleave="change31()">1.道路資產調查：進行有效的資產管理和維護計劃</p>
+                        <hr v-show="show15" style="position:absolute;width:350px;border:0px;border-bottom:1px solid #fff;margin-left:-2px;margin-top:0px;" />
+                        <p id="dc" style="font-size:16px;cursor:pointer;" @mouseenter="change32()" @mouseleave="change33()">2.路面狀況評估：用於數據驅動的道路維護</p>
+                        <hr  v-show="show16" style="position:absolute;width:305px;border:0px;border-bottom:1px solid #fff;margin-left:-2px;margin-top:0px;" />
+                        <p id="dd" style="font-size:16px;cursor:pointer;" @mouseenter="change34()" @mouseleave="change35()">3.動態交通圖：用於基於證據的城市規劃</p>
+                        <hr  v-show="show17" style="position:absolute;width:290px;border:0px;border-bottom:1px solid #fff;margin-left:-2px;margin-top:0px;" />
+                     </div> 
+
+                     <img :src="path5" width="68px" height="168px" style="position:relative;margin-left:410px;"/>
+
+                     <img src="@/assets/img/1-40.png" style="position:relative;margin-top:-65px;"/>
+                      <img src="@/assets/img/1-41.png" style="position:relative;margin-top:-105px;left:253px;"/>
+
+                     
+                </div>
+
+                <img src="@/assets/img/1-36.png" style="position:relative;left:1250px;top:-275px;" />
+
+
+                <div style="position:relative;width:480px;height:300px;background:#007bff;top:-280px;left:1440px;box-shadow: 0px 0px 6px 0px 
+		rgba(0, 0, 150, 0.58);">
+                      <div style="position:relative;left:10px;top:59px;line-height:30px;">
+                        <p style="font-size:20px;color:#fff;width:450px;">大規模調查功能利用Mobileye的內置和改造的ADAS技術</p>
+                        <p style="font-size:16px;color:#fff;width:465px;margin:0 2px;">Mobileye的技術使用單個攝像頭掃描前方道路，識別潛在危險並警告駕駛員。我們系統中的關鍵要素是其模仿人類如何理解道路景觀的能力。利用相同的技術，Mobileye的EyeQ芯片和算法已經過培訓，可以識別，標記和分類任何道路資產，因為配備的車輛（乘用車和車隊車輛）按常規路線行駛。</p>
+                       <img src="@/assets/img/1-42.png" style="position:relative;top:-24px;left:400px;" />
+                     </div>
+                </div>
+
+          </div>
+
+
 
       
 </div>
@@ -379,6 +416,8 @@ export default {
       path2: require("@/assets/img/1-6.png"),
       path3: require("@/assets/img/1-8.png"),
       path4: require("@/assets/img/1-11.png"),
+
+      path5: require("@/assets/img/1-37.png"),
 
      
      isShow6:true,
@@ -405,6 +444,10 @@ export default {
     show9:false,
     show10:false,
     show11:false,
+
+    show15:true,
+    show16:false,
+    show17:false,
 
 
     path11: require("@/assets/img/1-27.png"),
@@ -568,6 +611,50 @@ export default {
      this.show10 = false;
      this.show11 = true;
   },
+
+  change30(){
+      this.show15 = true;
+      this.show16 = false;
+      this.show17 = false;
+
+      this.path5 = require("@/assets/img/1-37.png")
+  },
+  change31(){
+      this.show15 = true;
+      this.show16 = false;
+      this.show17 = false;
+
+      this.path5 = require("@/assets/img/1-37.png")
+  },
+
+  change32(){
+      this.show15 = false;
+      this.show16 = true;
+      this.show17 = false;
+
+      this.path5 = require("@/assets/img/1-38.png")
+  },
+  change33(){
+      this.show15 = false;
+      this.show16 = true;
+      this.show17 = false;
+
+      this.path5 = require("@/assets/img/1-38.png")
+  },
+  change34(){
+      this.show15 = false;
+      this.show16 = false;
+      this.show17 = true;
+
+      this.path5 = require("@/assets/img/1-39.png")
+  },
+  change35(){
+      this.show15 = false;
+      this.show16 = false;
+      this.show17 = true;
+
+      this.path5 = require("@/assets/img/1-39.png")
+  }
 
 
 
@@ -773,5 +860,28 @@ export default {
   height:100px;background:#f5f5f5;
 }
 
+#da{
+  background: url(../assets/img/1-35.png) center no-repeat;
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+  margin-top: 260px;
+  margin-bottom: 260px;
+}
+
+#db:hover{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+
+#dc:hover{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+
+#dd:hover{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
 
 </style>

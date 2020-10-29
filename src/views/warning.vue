@@ -9,7 +9,7 @@
 
      <div id="b">
         <el-button type="primary" plain style="width:100px;height:40px;position:relative;margin-left:2360px;font-size:20px;margin-top:20px;"  @click="jumpRouter('/program')">點擊返回</el-button>
-             <div style="width:954px;margin:0 auto;margin-top:0px;line-height:36px;font-size:20px;">
+             <div style="width:954px;margin:0 auto;margin-top:0px;line-height:36px;font-size:20px;color:#fff;">
                 <p><b>一、系統介紹</b></p>
                 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;行人過街系統通過為人行道交通信號燈加裝複合視頻檢測器，集成電子警察執法功能，對違章行人進行聲、光、視覺警示提醒和違章抓拍，提示過往的機動車停車讓行，並將數據匯聚到後台進行數據分析和人臉比對等，實現完整、全面、立體的交通泛感知能力。</p>
                 <p><b>二、功能介紹</b></p>
@@ -107,6 +107,8 @@ overflow-y:hidden;
 
 #b{
   height: 1280px;
+  background: url(../assets/img/2-4-1.png) center no-repeat;
+  background-size: cover;
 }
 
 </style>

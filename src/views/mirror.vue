@@ -129,56 +129,70 @@
           <div style="display:flex;justify-content: space-around;;margin:-250px auto;width:1208px;">
             <div>
                <ul>
-                 <li id="ba">
-                   <div  style="width:480px;height:111px;" >
+                 <li  @mouseenter="change17()" @mouseleave="change18()" id="ca" >
+                   <div  style="width:560px;" >
                     <span style="float:left;">
-                       <div style=" border-radius: 35px;width: 40px; height: 40px; border: 2px solid #053085;background:#053085"><span style="color:#fff;font-size:30px;margin-left:8px;"><b>1</b></span></div>
+                       <div style=" border-radius: 35px;width: 40px; height: 40px; border: 2px solid #007bff;background:#007bff"><span style="color:#fff;font-size:30px;margin-left:8px;"><b>1</b></span></div>
                      </span>
-                    
+                          <div id="bf">
                             <span  style="font-size:20px"><b>&nbsp;&nbsp;&nbsp;發動車輛時</b></span><br />
                             <span  style="font-size:16px">&nbsp;&nbsp;&nbsp;&nbsp;系統自動360°環視車身一周，確保行駛起步安全；</span>
-                   
+                          </div>
                    </div>
                   </li>
-                  <li class="l" @mouseenter="change7()" @mouseleave="change8()">
-                    <div style="width:480px;height:111px;color:#000096" >
+                  <hr  style="position:absolute;width:560px;border:0px;border-bottom:2px solid #007bff;margin-left:0px;margin-top:0px;" />
+                  <li  @mouseenter="change7()" @mouseleave="change8()" id="cb">
+                    <div style="width:560px;color:#007bff;margin-top:10px;position:relative;" >
                      <span style="float:left;">
-                       <div style=" border-radius: 35px;width: 40px; height: 40px; border: 2px solid #053085;background:#053085"><span style="color:#fff;font-size:30px;margin-left:8px;"><b>2</b></span></div>
+                       <div style=" border-radius: 35px;width: 40px; height: 40px; border: 2px solid #007bff;background:#007bff"><span style="color:#fff;font-size:30px;margin-left:8px;"><b>2</b></span></div>
                      </span>
-                     <span style="font-size:20px"><b>&nbsp;&nbsp;&nbsp;當車速0~15km/h<span style="font-size:16px;">(車速條件可自訂義)</span></b></span><br />
-                     <span style="font-size:16px">&nbsp;&nbsp;&nbsp;&nbsp;系統自動切換顯示5分屏模式，融合前向雷達感測訊息；</span>
+                     <div id="bg">
+                        <span style="font-size:20px"><b>&nbsp;&nbsp;&nbsp;當車速0~15km/h<span style="font-size:16px;">(車速條件可自訂義)</span></b></span><br />
+                        <span style="font-size:16px">&nbsp;&nbsp;&nbsp;&nbsp;系統自動切換顯示5分屏模式，融合前向雷達感測訊息；</span>
+                     </div>
                    </div>
                   </li>
-                  <li class="l" @mouseenter="change9()" @mouseleave="change10()">
-                    <div style="width:480px;height:111px;color:#000096">
+                  <hr  style="position:absolute;width:560px;border:0px;border-bottom:2px solid #007bff;margin-left:0px;margin-top:0px;" />
+                  <li  @mouseenter="change9()" @mouseleave="change10()" id="cc">
+                    <div style="width:560px;color:#007bff;margin-top:10px;" >
                      <span style="float:left;">
-                       <div style=" border-radius: 35px;width: 40px; height: 40px; border: 2px solid #053085;background:#053085"><span style="color:#fff;font-size:30px;margin-left:8px;"><b>3</b></span></div>
+                       <div style=" border-radius: 35px;width: 40px; height: 40px; border: 2px solid #007bff;background:#007bff"><span style="color:#fff;font-size:30px;margin-left:8px;"><b>3</b></span></div>
                      </span>
-                     <span style="font-size:20px"><b>&nbsp;&nbsp;&nbsp;當車速15~25km/h<span style="font-size:16px;">（車速條件可自訂義）</span></b></span><br/>
-                     <span style="font-size:16px;">&nbsp;&nbsp;&nbsp;&nbsp;系統自動切換至全景+電子後視鏡影像, 更廣視野範圍, 車身&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;周邊及後方影像一覽無餘；</span>
+                     <div id="bh">
+                        <span style="font-size:20px"><b>&nbsp;&nbsp;&nbsp;當車速15~25km/h<span style="font-size:16px;">（車速條件可自訂義）</span></b></span><br/>
+                        <span style="font-size:16px;">&nbsp;&nbsp;&nbsp;&nbsp;系統自動切換至全景+電子後視鏡影像, 更廣視野範圍,<br/>&nbsp;&nbsp;&nbsp;&nbsp;車身周邊及後方影像一覽無餘；</span>
+                     </div>
                    </div>
                   </li>
-                  <li class="l" @mouseenter="change11()" @mouseleave="change12()">
-                     <div style="width:480px;height:111px;color:#000096">
+                  <hr  style="position:absolute;width:560px;border:0px;border-bottom:2px solid #007bff;margin-left:0px;margin-top:-10px;" />
+                  <li  @mouseenter="change11()" @mouseleave="change12()" id="cd">
+                     <div style="width:560px;color:#007bff;margin-top:0px;" >
                      <span style="float:left;">
-                       <div style=" border-radius: 35px;width: 40px; height: 40px; border: 2px solid #053085;background:#053085"><span style="color:#fff;font-size:30px;margin-left:8px;"><b>4</b></span></div>
+                       <div style=" border-radius: 35px;width: 40px; height: 40px; border: 2px solid #007bff;background:#007bff"><span style="color:#fff;font-size:30px;margin-left:8px;"><b>4</b></span></div>
                      </span>
-                     <span style="font-size:20px"><b>&nbsp;&nbsp;&nbsp;當車速≥25km/h<span style="font-size:16px;">（車速條件可自訂義）</span></b></span><br/>
-                     <span style="font-size:16px">&nbsp;&nbsp;&nbsp;&nbsp;系統自動切換至全屏電子後視鏡影像, 更智慧化的畫面轉換,&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 利於觀察後方來車輔助變道；</span>
+                     <div id="bi">
+                        <span style="font-size:20px"><b>&nbsp;&nbsp;&nbsp;當車速≥25km/h<span style="font-size:16px;">（車速條件可自訂義）</span></b></span><br/>
+                        <span style="font-size:16px">&nbsp;&nbsp;&nbsp;&nbsp;系統自動切換至全屏電子後視鏡影像, 更智慧化的畫面轉換,<br/>&nbsp;&nbsp;&nbsp;&nbsp;利於觀察後方來車輔助變道；</span>
+                     </div>
                    </div>
                   </li>
-                  <li class="l" @mouseenter="change13()" @mouseleave="change14()">
-                     <div style="width:565px;height:111px;color:#000096">
+                  <hr  style="position:absolute;width:560px;border:0px;border-bottom:2px solid #007bff;margin-left:0px;margin-top:-10px;" />
+                  <li  @mouseenter="change13()" @mouseleave="change14()" id="ce">
+                     <div style="width:560px;color:#007bff;margin-top:0px;" >
                     <span style="float:left;">
-                       <div style=" border-radius: 35px;width: 40px; height: 40px; border: 2px solid #053085;background:#053085"><span style="color:#fff;font-size:30px;margin-left:8px;"><b>5</b></span></div>
+                       <div style=" border-radius: 35px;width: 40px; height: 40px; border: 2px solid #007bff;background:#007bff"><span style="color:#fff;font-size:30px;margin-left:8px;"><b>5</b></span></div>
                      </span>
-                     <span style="font-size:20px"><b>&nbsp;&nbsp;&nbsp;倒車時<span style="font-size:16px;">（車速條件可自訂義）</span></b></span><br/>
-                     <span style="font-size:16px;">&nbsp;&nbsp;&nbsp;&nbsp;系統自動切換右屏倒車影像，融合倒車雷達感測訊息，
-                                               圖像<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;與聲音直觀組合警示。不一樣的倒車體驗與全方位的圖像監測。
-                                                </span>
+                     <div id="bj">
+                        <span style="font-size:20px"><b>&nbsp;&nbsp;&nbsp;倒車時<span style="font-size:16px;">（車速條件可自訂義）</span></b></span><br/>
+                        <span style="font-size:16px;">&nbsp;&nbsp;&nbsp;&nbsp;系統自動切換右屏倒車影像，融合倒車雷達感測訊息，
+                                                  圖像<br/>&nbsp;&nbsp;&nbsp;&nbsp;與聲音直觀組合警示。不一樣的倒車體驗與全方位的圖像監測。
+                                                    </span>
+
+                     </div>
                                                                  
                     </div>
                   </li>
+                  <hr  style="position:absolute;width:560px;border:0px;border-bottom:2px solid #007bff;margin-left:0px;margin-top:-10px;" />
                </ul>
             </div>
 
@@ -197,7 +211,7 @@
 
 
             <div style="display:flex;width:970px;margin:0 auto;margin-top:-260px;justify-content:space-around;">
-               <div style="display:flex;margin-left:-40px;">
+               <div style="display:flex;margin-left:-40px;width:450px;justify-content:space-around;">
                  <img src="@/assets/img/2-3-11.png"  id="bb"/>
                  <img src="@/assets/img/2-3-12.png"  id="bc"/>
                  <img src="@/assets/img/2-3-13.png"  id="bd"/>
@@ -206,10 +220,14 @@
 
                <div style="margin-top:40px;margin-left:30px;line-height:60px;">
                   <div>
-                    <p style="font-size:24px;color:#ff0000" @mouseenter="change20()" @mouseleave="change21()">0~0.8m红色盲区警示(行人)</p>
-                     <p style="font-size:24px;color:#ffa500" @mouseenter="change22()" @mouseleave="change23()">0.8~1.2m橙色盲区警示(行人)</p>
-                      <p style="font-size:24px;color:#008000" @mouseenter="change24()" @mouseleave="change25()">1.2~1.5m绿色接近警示(行人)</p>
-                       <p style="font-size:24px;color:#efef00" @mouseenter="change26()" @mouseleave="change27()">0.8~1.2m黄色警示(侧方障碍物)</p>
+                    <p style="cursor:pointer;font-size:24px;color:#ff0000" @mouseenter="change20()" @mouseleave="change21()">0~0.8m红色盲区警示(行人)</p>
+                    <hr v-show="show10" style="position:absolute;width:295px;border:0px;border-bottom:2px solid #ff0000;margin-left:0px;margin-top:-10px;" />
+                     <p style="cursor:pointer;font-size:24px;color:#ffa500" @mouseenter="change22()" @mouseleave="change23()">0.8~1.2m橙色盲区警示(行人)</p>
+                       <hr v-show="show11" style="position:absolute;width:310px;border:0px;border-bottom:2px solid #ffa500;margin-left:0px;margin-top:-10px;" />
+                      <p style="cursor:pointer;font-size:24px;color:#008000" @mouseenter="change24()" @mouseleave="change25()">1.2~1.5m绿色接近警示(行人)</p>
+                       <hr v-show="show12" style="position:absolute;width:305px;border:0px;border-bottom:2px solid #008000;margin-left:0px;margin-top:-10px;" />
+                       <p style="cursor:pointer;font-size:24px;color:#efef00" @mouseenter="change26()" @mouseleave="change27()">0.8~1.2m黄色警示(侧方障碍物)</p>
+                        <hr v-show="show13" style="position:absolute;width:335px;border:0px;border-bottom:2px solid #efef00;margin-left:0px;margin-top:-10px;" />
 
                   </div>
                    <div style="font-size:18px;width:400px;margin-top:110px;">多传感器融合，图像、色彩、声音提醒，
@@ -249,6 +267,13 @@ export default {
       show7:false,
       show8:false,
       show9:false,
+
+
+      show10:false,
+      show11:false,
+      show12:false,
+      show13:false,
+
     };
   },
   methods: {
@@ -374,65 +399,216 @@ export default {
 
 
     change7(){
-      this.show6 = !this.show6,this.show5 = !this.show5,
-      document.getElementById("ba").style="background:#fff;color:#053085;"
+      this.show5 = false,
+      this.show6 = true,
+      this.show7 = false,
+      this.show8 = false,
+      this.show9 = false,
+      document.getElementById("ca").style="background:#fff;",
+      document.getElementById("cb").style="background:#007bff;";
+      document.getElementById("cc").style="background:#fff;",
+      document.getElementById("cd").style="background:#fff;",
+      document.getElementById("ce").style="background:#fff;",
+      document.getElementById("bf").style="color:#007bff;",
+      document.getElementById("bg").style="color:#fff;",
+      document.getElementById("bh").style="color:#007bff;",
+      document.getElementById("bi").style="color:#007bff;",
+      document.getElementById("bj").style="color:#007bff;"
       
     },
     change8(){
-      this.show6 = !this.show6,this.show5 = !this.show5,
-      document.getElementById("ba").style="background:#053085;color:#fff;"
+      this.show5 = false,
+      this.show6 = true,
+      this.show7 = false,
+      this.show8 = false,
+      this.show9 = false,
+     document.getElementById("ca").style="background:#fff;",
+      document.getElementById("cb").style="background:#007bff;",
+      document.getElementById("cc").style="background:#fff;",
+      document.getElementById("cd").style="background:#fff;",
+      document.getElementById("ce").style="background:#fff;",
+      document.getElementById("bf").style="color:#007bff",
+      document.getElementById("bg").style="color:#fff;",
+      document.getElementById("bh").style="color:#007bff;",
+      document.getElementById("bi").style="color:#007bff;",
+      document.getElementById("bj").style="color:#007bff;"
     },
     change9(){
-      this.show7 = !this.show7,this.show5 = !this.show5,
-       document.getElementById("ba").style="background:#fff;color:#053085;"
+      this.show5 = false,
+      this.show6 = false,
+      this.show7 = true,
+      this.show8 = false,
+      this.show9 = false,
+      document.getElementById("ca").style="background:#fff;",
+      document.getElementById("cb").style="background:#fff;",
+      document.getElementById("cc").style="background:#007bff;",
+      document.getElementById("cd").style="background:#fff;",
+      document.getElementById("ce").style="background:#fff;",
+      document.getElementById("bf").style="color:#007bff",
+      document.getElementById("bg").style="color:#007bff;",
+      document.getElementById("bh").style="color:#fff;",
+      document.getElementById("bi").style="color:#007bff;",
+      document.getElementById("bj").style="color:#007bff;"
     },
     change10(){
-       this.show7 = !this.show7,this.show5 = !this.show5,
-       document.getElementById("ba").style="background:#053085;color:#fff;"
+       this.show5 = false,
+      this.show6 = false,
+      this.show7 = true,
+      this.show8 = false,
+      this.show9 = false,
+      document.getElementById("ca").style="background:#fff;",
+      document.getElementById("cb").style="background:#fff;",
+      document.getElementById("cc").style="background:#007bff;",
+      document.getElementById("cd").style="background:#fff;",
+      document.getElementById("ce").style="background:#fff;",
+      document.getElementById("bf").style="color:#007bff",
+      document.getElementById("bg").style="color:#007bff;",
+      document.getElementById("bh").style="color:#fff;",
+      document.getElementById("bi").style="color:#007bff;",
+      document.getElementById("bj").style="color:#007bff;"
     },
     change11() {
-      this.show8 = !this.show8,this.show5 = !this.show5,
-      document.getElementById("ba").style="background:#fff;color:#053085;"
+      this.show5 = false,
+      this.show6 = false,
+      this.show7 = false,
+      this.show8 = true,
+      this.show9 = false,
+      document.getElementById("ca").style="background:#fff;",
+      document.getElementById("cb").style="background:#fff;",
+      document.getElementById("cc").style="background:#fff;",
+      document.getElementById("cd").style="background:#007bff;",
+      document.getElementById("ce").style="background:#fff;",
+      document.getElementById("bf").style="color:#007bff",
+      document.getElementById("bg").style="color:#007bff;",
+      document.getElementById("bh").style="color:#007bff;",
+      document.getElementById("bi").style="color:#fff;",
+      document.getElementById("bj").style="color:#007bff;"
     },
      change12(){
-       this.show8 = !this.show8,this.show5 = !this.show5
-       document.getElementById("ba").style="background:#053085;color:#fff;"
+       this.show5 = false,
+      this.show6 = false,
+      this.show7 = false,
+      this.show8 = true,
+      this.show9 = false,
+       document.getElementById("ca").style="background:#fff;",
+      document.getElementById("cb").style="background:#fff;",
+      document.getElementById("cc").style="background:#fff;",
+      document.getElementById("cd").style="background:#007bff;",
+      document.getElementById("ce").style="background:#fff;",
+      document.getElementById("bf").style="color:#007bff",
+      document.getElementById("bg").style="color:#007bff;",
+      document.getElementById("bh").style="color:#007bff;",
+      document.getElementById("bi").style="color:#fff;",
+      document.getElementById("bj").style="color:#007bff;"
     },
      change13() {
-      this.show9 = !this.show9,this.show5 = !this.show5
-      document.getElementById("ba").style="background:#fff;color:#053085;"
+      this.show5 = false,
+      this.show6 = false,
+      this.show7 = false,
+      this.show8 = false,
+      this.show9 = true,
+      document.getElementById("ca").style="background:#fff;",
+      document.getElementById("cb").style="background:#fff;",
+      document.getElementById("cc").style="background:#fff;",
+      document.getElementById("cd").style="background:#fff;",
+      document.getElementById("ce").style="background:#007bff;",
+      document.getElementById("bf").style="color:#007bff",
+      document.getElementById("bg").style="color:#007bff;",
+      document.getElementById("bh").style="color:#007bff;",
+      document.getElementById("bi").style="color:#007bff;",
+      document.getElementById("bj").style="color:#fff;"
     },
      change14(){
-       this.show9 = !this.show9,this.show5 = !this.show5
+       this.show5 = false,
+      this.show6 = false,
+      this.show7 = false,
+      this.show8 = false,
+      this.show9 = true,
+      document.getElementById("ca").style="background:#fff;",
+      document.getElementById("cb").style="background:#fff;",
+      document.getElementById("cc").style="background:#fff;",
+      document.getElementById("cd").style="background:#fff;",
+      document.getElementById("ce").style="background:#007bff;",
+      document.getElementById("bf").style="color:#007bff",
+      document.getElementById("bg").style="color:#007bff;",
+      document.getElementById("bh").style="color:#007bff;",
+      document.getElementById("bi").style="color:#007bff;",
+      document.getElementById("bj").style="color:#fff;"
        
     },
 
+    change17() {
+      this.show5 = true,
+      this.show6 = false,
+      this.show7 = false,
+      this.show8 = false,
+      this.show9 = false,
+      document.getElementById("ca").style="background:#007bff;",
+      document.getElementById("cb").style="background:#fff;",
+      document.getElementById("cc").style="background:#fff;",
+      document.getElementById("cd").style="background:#fff;",
+      document.getElementById("ce").style="background:#fff;",
+      document.getElementById("bf").style="color:#fff",
+      document.getElementById("bg").style="color:#007bff;",
+      document.getElementById("bh").style="color:#007bff;",
+      document.getElementById("bi").style="color:#007bff;",
+      document.getElementById("bj").style="color:#007bff;"
+
+    },
+    change18(){
+      this.show5 = true,
+      this.show6 = false,
+      this.show7 = false,
+      this.show8 = false,
+      this.show9 = false,
+      document.getElementById("ca").style="background:#007bff;",
+      document.getElementById("cb").style="background:#fff;",
+      document.getElementById("cc").style="background:#fff;",
+      document.getElementById("cd").style="background:#fff;",
+      document.getElementById("ce").style="background:#fff;",
+      document.getElementById("bf").style="color:#fff;",
+      document.getElementById("bg").style="color:#007bff;",
+      document.getElementById("bh").style="color:#007bff;",
+      document.getElementById("bi").style="color:#007bff;",
+      document.getElementById("bj").style="color:#007bff;"
+    },
+
+
+
     change20(){
+      this.show10 = true;
       document.getElementById("bb").style="transform: scale(1.1);transition: all 2s;"
     },
     change21(){
+       this.show10 = false;
       document.getElementById("bb").style="transform: scale(1);transition: all 2s;"
     },
 
     change22(){
+      this.show11 = true;
       document.getElementById("bc").style="transform: scale(1.1);transition: all 2s;"
     },
     change23(){
+      this.show11 = false;
       document.getElementById("bc").style="transform: scale(1);transition: all 2s;"
     },
 
     change24(){
+      this.show12 = true;
       document.getElementById("bd").style="transform: scale(1.1);transition: all 2s;"
     },
     change25(){
+      this.show12 = false;
       document.getElementById("bd").style="transform: scale(1);transition: all 2s;"
     },
     change26(){
+       this.show13 = true;
       document.getElementById("bb").style="transform: scale(1.1);transition: all 2s;"
       document.getElementById("bc").style="transform: scale(1.1);transition: all 2s;"
       document.getElementById("bd").style="transform: scale(1.1);transition: all 2s;"
     },
     change27(){
+       this.show13 = false;
       document.getElementById("bb").style="transform: scale(1);transition: all 2s;"
       document.getElementById("bc").style="transform: scale(1);transition: all 2s;"
       document.getElementById("bd").style="transform: scale(1);transition: all 2s;"
@@ -679,16 +855,9 @@ overflow-y:hidden;
 }
 
 
-.l :hover{
+#ca{
    background: #007bff;
-}
-.l :hover span{
-  color: #fff;
-}
-
-#ba{
-   /* background: #007bff; */
-   color:#007bff ;
+   color:#fff ;
 }
 
 

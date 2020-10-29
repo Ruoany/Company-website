@@ -172,9 +172,9 @@ export default {
 }
 /* 导航栏logo图片右側文字*/
 #header .header-nav .header-nav-logo .name {
-  font-size: 18px;
+  font-size: 20px;
   position:absolute;
-  top: 29px;
+  top: 33px;
   left: 120px;
   right: 0;
   bottom: 0;
@@ -183,9 +183,9 @@ export default {
 }
 /* 导航栏logo图片右側文字*/
 #header .header-nav .header-nav-logo .englishname {
-  font-size: 14px;
+  font-size: 16px;
   position: absolute;
-  top: 54px;
+  top: 58px;
   left: 120px;
   right: 0;
   bottom: 0;

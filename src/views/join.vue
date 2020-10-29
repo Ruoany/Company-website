@@ -14,9 +14,9 @@
 
       <div id="e">
         <el-collapse v-model="activeName" accordion>
-          <el-collapse-item name="1" @mouseenter.native="change1()" @mouseleave.native="change10()">
-            <template slot="title">
-              <span style="font-size:20px;position:relative;left:120px;">駐場工程師</span>
+          <el-collapse-item name="1" @mouseenter.native="change1()" @mouseleave.native="change10()" >
+            <template slot="title" >
+              <span  style="font-size:20px;position:relative;left:120px;">駐場工程師</span>
               <span style="font-size:20px;position:relative;left:550px;">中國澳門</span>
             </template>
             <div

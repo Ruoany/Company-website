@@ -70,7 +70,7 @@
               <hr v-show="show20" style="position:absolute;width:240px;border:0px;border-bottom:2px solid #007bff;margin-left:-2px;margin-top:100px;z-index:2;" />
               <span @mouseenter="show21 =  !show21" @mouseleave="show21 = !show21">傳真：+853 2852 8112</span>
               <hr v-show="show21" style="position:absolute;width:150px;border:0px;border-bottom:2px solid #007bff;margin-left:-2px;margin-top:132px;z-index:2;" />
-              <span @mouseenter="show22 =  !show22" @mouseleave="show22 = !show22">郵箱：contactus@inplexmacau.com</span>
+              <span @mouseenter="show22 =  !show22" @mouseleave="show22 = !show22"><a href="https://qiye.aliyun.com/alimail/auth/login" style="color:#999;text-decoration: none;">郵箱：contactus@inplexmacau.com</a></span>
               <hr v-show="show22" style="position:absolute;width:240px;border:0px;border-bottom:2px solid #007bff;margin-left:-2px;margin-top:162px;z-index:2;" />
               <span @mouseenter="show23 =  !show23" @mouseleave="show23 = !show23">地址：澳門俾利喇街149 號 A-B地下</span>
               <hr v-show="show23" style="position:absolute;width:220px;border:0px;border-bottom:2px solid #007bff;margin-left:-2px;margin-top:192px;z-index:2;" />

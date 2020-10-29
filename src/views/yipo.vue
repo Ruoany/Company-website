@@ -31,18 +31,18 @@
             
             <div style="width:1410px;height:314px;margin:0 auto;margin-top:8px;margin-left:520px;">
                 <div style="width:1410px;height:60px;display:flex;">
-                  <div style="width:550px;height:60px;border:4px solid #000096;" id="aa">
+                  <div style="width:550px;height:60px;border:4px solid #007bff;" id="aa">
                      <p style="font-size:20px;color:#000096;width:200px;margin:15px auto;"><b>（三）系统功能</b></p>
                   </div>
-                  <div style="width:550px;height:60px;border:4px solid #000096;border-left:none;" id="ab">
+                  <div style="width:550px;height:60px;border:4px solid #007bff;border-left:none;" id="ab">
                     <p style="font-size:20px;color:#000096;width:215px;margin:15px auto;"><b>（四）易泊方案提供5S</b></p>
                   </div>
-                  <div style="width:550px;height:60px;border:4px solid #000096;border-left:none;" id="ac">
+                  <div style="width:550px;height:60px;border:4px solid #007bff;border-left:none;" id="ac">
                     <p style="font-size:20px;color:#000096;width:200px;margin:15px auto;"><b>（五）易泊停車的優勢</b></p>
                   </div>
                 </div>
                 <div style="height:254px;display:flex;">
-                    <div style="width:470px;height:254px;border:4px solid #000096;border-top:none;">
+                    <div style="width:470px;height:254px;border:4px solid #007bff;border-top:none;">
                      <ol style="width:201px;margin:0 auto;margin-top:33px;font-size:16px;line-height:30px;">
                        <li>1.車位狀況顯示功能</li>
                        <li>2.車位尋找導航功能</li>
@@ -52,7 +52,7 @@
                        <li>6.巨觀/微觀的停車畫面協助</li>
                      </ol>
                   </div>
-                  <div style="width:470px;height:254px;border:4px solid #000096;border-top:none;border-left:none;">
+                  <div style="width:470px;height:254px;border:4px solid #007bff;border-top:none;border-left:none;">
                     <ol style="width:485px;margin:0 auto;font-size:16px;line-height:35px;margin-top:33px;">
                       <li>1.Speed：快速建置方法，一夜之間完成室內外停車場改裝、安装；</li>
                       <li>2.Smart：環保且智能的硬體設備；</li>
@@ -61,7 +61,7 @@
                       <li>5.Superior：多層次的智能停車商圈服務。</li>
                     </ol>
                   </div>
-                  <div style="width:470px;height:254px;border:4px solid #000096;border-top:none;border-left:none;">
+                  <div style="width:470px;height:254px;border:4px solid #007bff;border-top:none;border-left:none;">
                      <ol style="width:130px;font-size:16px;margin:0 auto;line-height:30px;margin-top:47px;">                  
                        <li>1.精準車位訊息；</li>
                        <li>2.使用預約機制；</li>
@@ -139,21 +139,21 @@ overflow-y:hidden;
 }
 
 #aa:hover{
-  background: #000096;
+  background:#007bff;
 }
 #aa:hover b{
   color: #fff;
 }
 
 #ab:hover{
-  background: #000096;
+  background:#007bff;
 }
 #ab:hover b{
   color: #fff;
 }
 
 #ac:hover{
-  background: #000096;
+  background:#007bff;
 }
 #ac:hover b{
   color: #fff;

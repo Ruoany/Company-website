@@ -9,8 +9,8 @@
             
   <div class="a" >
     <el-button type="primary" plain style="width:100px;height:40px;position:relative;margin-left:2360px;font-size:20px;margin-top:20px;" @click="jumpRouter('/program')">點擊返回</el-button>
-         <p style="position:relative;width:364px;font-size:40px;margin:0 auto;margin-top:100px;color:#fff;">Mobileye 數據服務 </p>
-         <p style="position:relative;width:378px;font-size:16px;margin:0 auto;margin-top:20px;color:#fff;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;借助AI驅動的道路勘測技術加快維護操作</p>
+         <!-- <p style="position:relative;width:364px;font-size:40px;margin:0 auto;margin-top:100px;color:#fff;">Mobileye 數據服務 </p>
+         <p style="position:relative;width:378px;font-size:16px;margin:0 auto;margin-top:20px;color:#fff;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;借助AI驅動的道路勘測技術加快維護操作</p> -->
   
         
             <ol style="display:flex;width:1200px;margin:0 auto;position:relative;margin-top:56px;justify-content:space-around;">
@@ -50,7 +50,7 @@
 
         
           
-             <div style=" border-radius: 150px;width: 300px;height: 300px;border: 2px solid #053085;background:#053085;position:relative;margin-top:-2390px;margin-left:720px;" @mouseenter="isShow1 && start1()">
+             <div style=" border-radius: 150px;width: 300px;height: 300px;border: 2px solid #007bff;background:#007bff;position:relative;margin-top:-2390px;margin-left:720px;" @mouseenter="isShow1 && start1()">
                 <div style="color:#fff;position:relative;margin-left:0px;margin-top:90px;text-align:center;line-height:39px;">
                  <p style="font-size:30px"><b>公共工程部門</b></p>
                  <p style="font-size:20px">公用事業公司</p>
@@ -73,7 +73,7 @@
 
 
          
-              <div style=" border-radius: 150px;width: 300px;height: 300px;border: 2px solid #053085;background:#053085;position:relative;margin-top:-180px;margin-left:1620px;" @mouseenter="isShow2 && start2()">
+              <div style=" border-radius: 150px;width: 300px;height: 300px;border: 2px solid #007bff;background:#007bff;position:relative;margin-top:-180px;margin-left:1620px;" @mouseenter="isShow2 && start2()">
                 <div style="color:#fff;position:relative;margin-left:0px;margin-top:80px;text-align:center;line-height:39px;">
                  <p style="font-size:30px"><b>交通部門</b></p>
                  <p style="font-size:20px">道路運營商和</p>
@@ -95,7 +95,7 @@
              <img  src="@/assets/img/2-6-23.png" id="w"/>
              
         
-            <div style=" border-radius: 150px;width: 300px;height: 300px;border: 2px solid #053085;background:#053085;position:relative;margin-top:20px;margin-left:580px;" @mouseenter="isShow3 && start3()">
+            <div style=" border-radius: 150px;width: 300px;height: 300px;border: 2px solid #007bff;background:#007bff;position:relative;margin-top:20px;margin-left:580px;" @mouseenter="isShow3 && start3()">
                 <div style="color:#fff;position:relative;margin-left:0px;margin-top:80px;text-align:center;line-height:39px;">
                  <p style="font-size:30px"><b>地方政府</b></p>
                  <p style="font-size:20px">交通運輸和</p>
@@ -106,7 +106,7 @@
 
             
 
-           <div style=" border-radius: 150px;width: 300px;height: 300px;border: 2px solid #053085;background:#053085;position:relative;margin-top:-170px;margin-left:1640px;"  @mouseenter="isShow4 && start4()">
+           <div style=" border-radius: 150px;width: 300px;height: 300px;border: 2px solid #007bff;background:#007bff;position:relative;margin-top:-170px;margin-left:1640px;"  @mouseenter="isShow4 && start4()">
                 <div style="color:#fff;position:relative;margin-left:0px;margin-top:80px;text-align:center;line-height:39px;">
                  <p style="font-size:30px"><b>動態GIS數據</b></p>
                  <p style="font-size:20px">可實現高效且</p>
@@ -370,7 +370,7 @@ overflow-y:hidden;
   
     background: url(../assets/img/2-6-1.png) no-repeat center;
     width: 100%;
-    height: 3639px;
+    height: 3200px;
      background-size:100% 100%;
     overflow: hidden;
     
